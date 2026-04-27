@@ -81,9 +81,7 @@
   }
   .aboutUsInner {
     padding-top: 40px;
-    padding-right: 53px;
     padding-bottom: 38px;
-    padding-left: var(--padding-20);
     box-sizing: border-box;
   }
   .rectangleParent {
@@ -91,7 +89,6 @@
   }
   .frameParent {
     gap: var(--gap-20);
-    max-width: 100%;
   }
   .frameGroup {
     gap: 38px;

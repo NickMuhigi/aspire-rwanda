@@ -199,8 +199,6 @@
   .cardsContainerWrapper {
     padding-bottom: 29px;
     padding-top: 32px;
-    padding-left: 20px;
-    padding-right: 43px;
     background-color: #f3f4f2;
     box-sizing: border-box;
     position: relative;
@@ -231,8 +229,6 @@
     gap: 33px;
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 71px;
-    padding-right: 49px;
   }
   .innerLearning,
   .innerCommunity {
