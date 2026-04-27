@@ -4,7 +4,7 @@ import { ReactNode } from "react";
 import type { Viewport } from "next";
 
 export const metadata = {
-  title: `Aspire Rwanda`,
+  title: `Aspire Rwanda: Homepage`,
 };
 
 export const viewport: Viewport = {

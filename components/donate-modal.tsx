@@ -61,48 +61,25 @@ export default function DonateModal({ onClose }: Props) {
           <p className={styles.headerLabel}>Support the Mission</p>
           <h2 className={styles.headerTitle}>ASPIRE RWANDA</h2>
           <p className={styles.headerSub}>
-            Your contribution directly empowers women, youth, and families across Rwanda.
+            Your contribution children and the youth across Rwanda.
           </p>
         </div>
 
         {/* Body */}
         <div className={styles.body}>
 
-          {/* Mobile Money */}
-          <div className={styles.section}>
-            <p className={styles.sectionLabel}>Mobile Money</p>
-            <div className={styles.momoCode}>
-              <div>
-                <div className={styles.momoCodeNumber}>7954608</div>
-                <div className={styles.momoCodeLabel}>MTN MoMo Code</div>
-              </div>
-              <CopyButton value="7954608" />
-            </div>
-          </div>
-
-          <div className={styles.divider}>OR BANK TRANSFER</div>
-
           {/* Bank details */}
           <div className={styles.section}>
             <p className={styles.sectionLabel}>Bank Details</p>
-            <Row label="Bank Name" value="BANK OF KIGALI" />
-            <Row label="Account Name" value="OUR PAST INITIATIVE" />
-            <Row label="Swift Code" value="BKIGRWRW" />
-            <Row label="Bank Address" value="PLOT 790 KN4 Av no.12" />
+            <Row label="Bank Name" value="Guaranty Trust Bank (Rwanda) Limited" />
+            <Row label="Bank Address" value="KN 3 AVE, 20 Nyarugenge/Kigali/Rwanda, P.O BOX 331" />
+            <Row label="Swift Code" value="GTBIRWRK" />
           </div>
 
           {/* RWF Account */}
           <div className={styles.accountCard}>
             <p className={styles.accountCardTitle}>RWF Account</p>
-            <Row label="Account No." value="100033930687" />
-            <Row label="IBAN" value="RW41040100033930687646" />
-          </div>
-
-          {/* USD Account */}
-          <div className={styles.accountCard}>
-            <p className={styles.accountCardTitle}>USD Account</p>
-            <Row label="Account No." value="100033930768" />
-            <Row label="IBAN" value="RW03040100033930768840" />
+            <Row label="Account No." value="2110078526" />
           </div>
 
           <p className={styles.footerNote}>
