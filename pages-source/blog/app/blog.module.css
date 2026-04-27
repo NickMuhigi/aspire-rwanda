@@ -32,7 +32,7 @@
 .blogInner {
   align-self: stretch;
   justify-content: center;
-  padding: var(--padding-0) var(--padding-20) var(--padding-0) 29px;
+  padding: 0 1.4vw 0 2.01vw;
   box-sizing: border-box;
   flex-shrink: 0;
 }
@@ -44,7 +44,8 @@
   max-width: 100%;
 }
 .updatesContainerParent {
-  width: 1181px;
+  width: 100%;
+  max-width: min(1181px, 82.01vw);
   flex-direction: column;
 }
 .updatesContainer {

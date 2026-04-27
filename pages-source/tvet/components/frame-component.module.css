@@ -1,7 +1,7 @@
 .tvetSponsorshipProgrammeInner {
   align-self: stretch;
   justify-content: center;
-  padding: var(--padding-0) var(--padding-43) 188px var(--padding-20);
+  padding: 0 3vw 188px 1.4vw;
   box-sizing: border-box;
   flex-shrink: 0;
   text-align: left;
@@ -17,7 +17,8 @@
   max-width: 100%;
 }
 .frameParent {
-  width: 1231px;
+  width: 100%;
+  max-width: min(1231px, 85.49vw);
   flex-direction: column;
   gap: var(--gap-11);
 }
@@ -96,13 +97,6 @@
   z-index: 1;
 }
 @media screen and (max-width: 1200px) {
-  .tvetSponsorshipProgrammeInner {
-    padding-right: 21px;
-    box-sizing: border-box;
-  }
-  .frameParent {
-    width: 100%;
-  }
 }
 @media screen and (max-width: 1050px) {
   .frameGroup {

@@ -7,12 +7,13 @@
 .aspireNurserySchoolInner {
   align-self: stretch;
   justify-content: center;
-  padding: 60px 37px var(--padding-60) var(--padding-20);
+  padding: 60px 2.57vw 60px 1.4vw;
   box-sizing: border-box;
   flex-shrink: 0;
 }
 .donateContentParent {
-  width: 1225px;
+  width: 100%;
+  max-width: min(1225px, 85.07vw);
   flex-wrap: nowrap;
   align-items: flex-start;
   align-content: flex-start;

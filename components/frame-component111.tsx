@@ -75,7 +75,7 @@ const FrameComponent111: NextPage<FrameComponent111Type> = ({
               </div>
             </div>
             <div className={styles.supportingDisadvantagedYouth}>
-              Helping children and youth unlock their potential and build better futures.
+              Helping children and youth unlock their potential and build better future.
             </div>
           </div>
         </section>

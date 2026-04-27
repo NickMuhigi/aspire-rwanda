@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 66px 76px 79px 136px;
+  padding: 66px 5.28vw 79px 9.44vw;
   box-sizing: border-box;
   gap: var(--gap-32);
   text-align: left;
@@ -92,7 +92,8 @@
 .rectangleGroup {
   border: 1px solid var(--color-white);
   box-sizing: border-box;
-  width: 1218px;
+  width: 100%;
+  max-width: min(1218px, 84.58vw);
   display: flex;
   flex-direction: column;
   align-items: flex-start;

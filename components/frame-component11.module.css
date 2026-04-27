@@ -9,7 +9,7 @@
   align-self: stretch;
   justify-content: center;
   margin-top: -18px;
-  padding: 0 514px 143px 20px;
+  padding: 0 35.7vw 143px 1.4vw;
   box-sizing: border-box;
   flex-shrink: 0;
   text-align: left;
@@ -117,12 +117,6 @@
 }
 .learnMoreButton:hover .learnMoreArrow {
   transform: translateX(4px);
-}
-@media screen and (max-width: 1350px) {
-  .mainHeroWrapper {
-    padding-right: 257px;
-    box-sizing: border-box;
-  }
 }
 @media screen and (max-width: 800px) {
   .mainHeroWrapper {

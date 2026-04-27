@@ -1,7 +1,7 @@
 .aboutUsInner {
   align-self: stretch;
   justify-content: center;
-  padding: 12px 102px 84px var(--padding-20);
+  padding: 12px 7.08vw 84px 1.4vw;
   box-sizing: border-box;
   flex-shrink: 0;
 }
@@ -13,7 +13,8 @@
   max-width: 100%;
 }
 .frameParent {
-  width: 1178px;
+  width: 100%;
+  max-width: min(1178px, 81.81vw);
   gap: 128px;
 }
 .openingDoorsThroughEducatioParent {
@@ -87,10 +88,6 @@
   flex-shrink: 0;
 }
 @media screen and (max-width: 1200px) {
-  .aboutUsInner {
-    padding-right: 51px;
-    box-sizing: border-box;
-  }
   .frameParent {
     gap: var(--gap-64);
   }

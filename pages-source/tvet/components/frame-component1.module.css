@@ -3,7 +3,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: var(--padding-0) 278px 59px var(--padding-20);
+  padding: 0 19.31vw 59px 1.4vw;
   box-sizing: border-box;
   max-width: 100%;
   flex-shrink: 0;
@@ -103,10 +103,6 @@
   color: #34c759;
 }
 @media screen and (max-width: 1200px) {
-  .tvetSponsorshipProgrammeInner {
-    padding-right: 139px;
-    box-sizing: border-box;
-  }
 }
 @media screen and (max-width: 750px) {
   .tvetSponsorshipProgrammeInner {

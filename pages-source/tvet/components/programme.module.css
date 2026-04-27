@@ -17,7 +17,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  padding: var(--padding-11) 116px var(--padding-18) 93px;
+  padding: var(--padding-11) 8.06vw var(--padding-18) 6.46vw;
   box-sizing: border-box;
   position: sticky;
   isolation: isolate;

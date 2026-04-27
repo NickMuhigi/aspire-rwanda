@@ -1,6 +1,6 @@
 .contactDivider {
-  width: 1251px;
-  max-width: 100%;
+  width: 100%;
+  max-width: min(1251px, 86.88vw);
   margin: 0;
   border: none;
   border-bottom: 1px solid #555555;
@@ -105,7 +105,7 @@
   font-size: 60px;
   color: var(--color-teal);
   font-family: var(--font-graphik-xcond-trial);
-  padding-left: 40px;
+  padding-left: 2.78vw;
 }
 .impactOverAll,
 .impactOverAllChild {
@@ -204,12 +204,12 @@
   flex-shrink: 0;
 }
 .contactContentInner {
-  width: 1251px;
+  width: 100%;
+  max-width: min(1251px, 86.88vw);
   display: flex;
   align-items: flex-start;
-  padding: var(--padding-0) var(--padding-20) 9px var(--padding-0);
+  padding: 0 1.4vw 9px 0;
   box-sizing: border-box;
-  max-width: 100%;
 }
 .frameChild {
   align-self: stretch;

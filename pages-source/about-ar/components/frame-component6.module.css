@@ -8,8 +8,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: var(--padding-0) var(--padding-36) var(--padding-32)
-    var(--padding-20);
+  padding: 0 2.5vw 2.22vw 1.4vw;
   box-sizing: border-box;
   flex-shrink: 0;
   text-align: left;
@@ -18,7 +17,8 @@
   font-family: var(--font-graphik-xcond-trial);
 }
 .frameParent {
-  width: 1224px;
+  width: 100%;
+  max-width: min(1224px, 85vw);
   flex-direction: column;
   gap: 55px;
 }
@@ -90,7 +90,8 @@
   background-color: var(--color-gainsboro);
 }
 .presidentDetailsParent {
-  width: 1079px;
+  width: 100%;
+  max-width: min(1079px, 74.93vw);
   height: 75px;
   display: flex;
   align-items: flex-start;

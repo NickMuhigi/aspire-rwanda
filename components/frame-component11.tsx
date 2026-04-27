@@ -22,7 +22,7 @@ const FrameComponent11: NextPage<FrameComponent11Type> = ({
           </div>
           <h1 className={styles.buildingSkillsConfidence}>
             Building Skills, Confidence, & <br />
-            Futures for Rwanda’s Youth.
+            Future for Rwanda’s Youth.
           </h1>
         </div>
         <div className={styles.learnMoreParent}>

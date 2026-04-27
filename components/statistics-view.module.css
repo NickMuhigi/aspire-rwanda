@@ -7,7 +7,7 @@
 .statisticsView {
   align-self: stretch;
   justify-content: center;
-  padding: 0 35px 25px 20px;
+  padding: 0 2.43vw 25px 1.4vw;
   box-sizing: border-box;
   flex-shrink: 0;
   text-align: left;
@@ -16,7 +16,8 @@
   font-family: "Graphik XCond Trial";
 }
 .changeOverall {
-  width: 1233px;
+  width: 100%;
+  max-width: min(1233px, 85.63vw);
   flex-direction: column;
   gap: 47px;
 }

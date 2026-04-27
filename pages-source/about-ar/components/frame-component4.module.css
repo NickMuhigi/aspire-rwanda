@@ -4,7 +4,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  padding: 77px 115px 130px 93px;
+  padding: 77px 7.99vw 130px 6.46vw;
   box-sizing: border-box;
   gap: 101px;
 }
@@ -182,9 +182,6 @@
   .rectangleParent {
     gap: 50px;
     flex-wrap: wrap;
-    padding-left: 46px;
-    padding-right: 57px;
-    box-sizing: border-box;
   }
   .frameWrapper {
     flex: 1;

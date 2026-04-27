@@ -28,7 +28,7 @@
 .titleContentWrapper {
   align-self: stretch;
   justify-content: center;
-  padding: var(--padding-0) var(--padding-43) 188px var(--padding-20);
+  padding: 0 3vw 188px 1.4vw;
   box-sizing: border-box;
   flex-shrink: 0;
   text-align: left;
@@ -44,7 +44,8 @@
   max-width: 100%;
 }
 .titleContent {
-  width: 1231px;
+  width: 100%;
+  max-width: min(1231px, 85.49vw);
   flex-direction: column;
   gap: 11px;
 }
@@ -124,7 +125,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: var(--padding-0) 72px var(--padding-8) var(--padding-20);
+  padding: 0 5vw 8px 1.4vw;
   box-sizing: border-box;
   max-width: 100%;
   flex-shrink: 0;
@@ -135,9 +136,9 @@
 }
 .challengeFoundedParent {
   height: 574px;
-  width: 1174px;
+  width: 100%;
+  max-width: min(1174px, 81.53vw);
   position: relative;
-  max-width: 100%;
 }
 .challengeFounded {
   position: absolute;

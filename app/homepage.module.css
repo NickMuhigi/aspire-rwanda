@@ -56,7 +56,7 @@
 .tvetArea {
   align-self: stretch;
   justify-content: center;
-  padding: 0 49px 92px 20px;
+  padding: 0 3.4vw 92px 1.4vw;
   box-sizing: border-box;
   flex-shrink: 0;
   text-align: left;
@@ -65,10 +65,10 @@
   font-family: "Neue Montreal";
 }
 .tvetInner {
-  width: 1219px;
+  width: 100%;
+  max-width: min(1219px, 84.65vw);
   display: flex;
   justify-content: flex-end;
-  max-width: 100%;
 }
 .sponsorshipContainer {
   width: 521px;
@@ -167,12 +167,13 @@
   align-self: stretch;
   display: flex;
   justify-content: center;
-  padding: 0 49px 80px 20px;
+  padding: 0 3.4vw 80px 1.4vw;
   box-sizing: border-box;
   flex-shrink: 0;
 }
 .ourProjectsInner {
-  width: min(1219px, 100%);
+  width: 100%;
+  max-width: min(1219px, 84.65vw);
   display: flex;
   flex-direction: column;
   align-items: flex-start;

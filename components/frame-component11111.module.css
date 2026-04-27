@@ -7,7 +7,7 @@
 .projectHolderWrapper {
   align-self: stretch;
   justify-content: center;
-  padding: 0 49px 60px 20px;
+  padding: 0 3.4vw 60px 1.4vw;
   box-sizing: border-box;
   flex-shrink: 0;
   text-align: left;
@@ -16,7 +16,8 @@
   font-family: "Graphik XCond Trial";
 }
 .projectHolder {
-  width: min(1219px, 100%);
+  width: 100%;
+  max-width: min(1219px, 84.65vw);
   flex-direction: column;
   gap: 23px;
 }
@@ -235,12 +236,6 @@
   display: inline-block;
   max-width: 100%;
   transition: color 0.2s ease;
-}
-@media screen and (max-width: 1350px) {
-  .projectHolderWrapper {
-    padding-right: 24px;
-    box-sizing: border-box;
-  }
 }
 @media screen and (max-width: 1150px) {
   .growthProject {

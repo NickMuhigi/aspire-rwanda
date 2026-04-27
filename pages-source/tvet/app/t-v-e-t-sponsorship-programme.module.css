@@ -30,7 +30,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: var(--padding-0) 72px var(--padding-8) var(--padding-20);
+  padding: 0 5vw 8px 1.4vw;
   box-sizing: border-box;
   max-width: 100%;
   flex-shrink: 0;
@@ -41,9 +41,9 @@
 }
 .challengeFoundedParent {
   height: 574px;
-  width: 1174px;
+  width: 100%;
+  max-width: min(1174px, 81.53vw);
   position: relative;
-  max-width: 100%;
 }
 .challengeFounded {
   position: absolute;

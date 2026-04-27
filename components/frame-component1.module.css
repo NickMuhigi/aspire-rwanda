@@ -21,7 +21,7 @@
   align-items: flex-end;
   justify-content: space-between;
   width: 100%;
-  padding: 11px 116px 18px 93px;
+  padding: 11px 8.06vw 18px 6.46vw;
   box-sizing: border-box;
   position: fixed;
   top: 0;
@@ -808,13 +808,6 @@
 
 .mobileDonateCta:hover {
   background-color: #34c759;
-}
-
-@media screen and (max-width: 1350px) and (min-width: 1051px) {
-  .rectangleParent {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
 }
 
 @media screen and (max-width: 750px) {
