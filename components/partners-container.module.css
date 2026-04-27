@@ -1,0 +1,361 @@
+.partnersContainer {
+  align-self: stretch;
+  justify-content: center;
+  padding: 80px 44px 80px 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 30px;
+  color: #000;
+  font-family: "Graphik XCond Trial";
+}
+.partnersContainer,
+.partnersHeader,
+.partnersTitle {
+  display: flex;
+  align-items: flex-start;
+}
+.partnersHeader {
+  width: min(1224px, 100%);
+  flex-direction: column;
+  gap: 78px;
+  max-width: 100%;
+}
+.partnersTitle {
+  height: 48px;
+  border-radius: 7px;
+  border: 1px solid #026e78;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  padding: 0 11px;
+}
+.partners,
+.partnersTitleChild {
+  position: relative;
+  flex-shrink: 0;
+}
+.partnersTitleChild {
+  height: 48px;
+  width: 102px;
+  border-radius: 7px;
+  border: 1px solid #026e78;
+  box-sizing: border-box;
+  display: none;
+}
+.partners {
+  margin: 0;
+  width: auto;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: inherit;
+  display: block;
+  text-align: center;
+  line-height: 1;
+  z-index: 1;
+}
+.partnersContent,
+.partnersLogo {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.partnersContent {
+  align-self: stretch;
+  row-gap: 20px;
+  font-size: 50px;
+}
+.partnersLogo {
+  flex: 1;
+  flex-direction: column;
+  padding: 48px 0 0;
+  box-sizing: border-box;
+  min-width: 0;
+}
+.buildingLastingImpact {
+  margin: 0;
+  align-self: stretch;
+  height: auto;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 6;
+}
+.partnerLogos,
+.partnerLogosChild {
+  width: 549px;
+  position: relative;
+  border: 1px solid #34c759;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.partnerLogos {
+  min-height: 275px;
+  display: flex;
+  align-items: flex-start;
+  z-index: 1;
+  margin-left: -85px;
+}
+.partnerLogosChild {
+  align-self: stretch;
+  display: none;
+}
+.logoPair,
+.miscImages {
+  display: flex;
+  align-items: flex-start;
+}
+.miscImages {
+  flex: 1;
+  flex-direction: column;
+}
+.logoPair {
+  border: 0.5px solid #34c759;
+  padding: 19px 69px 28px;
+  z-index: 2;
+}
+.images2Icon,
+.logoPairChild {
+  position: relative;
+  flex-shrink: 0;
+}
+.logoPairChild {
+  height: 138px;
+  width: 183px;
+  border: 0.5px solid #34c759;
+  box-sizing: border-box;
+  display: none;
+}
+.images2Icon {
+  width: 44px;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 3;
+}
+.logoPair2 {
+  align-self: stretch;
+  border: 0.5px solid #34c759;
+  display: flex;
+  align-items: flex-start;
+  padding: 20px 46px 20px 48px;
+  z-index: 4;
+}
+.coat042Icon,
+.logoPairItem {
+  position: relative;
+  flex-shrink: 0;
+}
+.logoPairItem {
+  height: 137px;
+  width: 183px;
+  border: 0.5px solid #34c759;
+  box-sizing: border-box;
+  display: none;
+}
+.coat042Icon {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 5;
+}
+.rectangleParent {
+  align-self: stretch;
+  border: 0.5px solid #34c759;
+  display: flex;
+  align-items: flex-start;
+  padding: 19px 25px 25px;
+  z-index: 3;
+}
+.frameChild {
+  height: 138px;
+  width: 182px;
+  position: relative;
+  border: 0.5px solid #34c759;
+  box-sizing: border-box;
+  display: none;
+  flex-shrink: 0;
+}
+.usaidLogoPng2Icon {
+  width: 124px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 4;
+  flex-shrink: 0;
+}
+.giz2Parent {
+  width: 182px;
+  border: 0.5px solid #34c759;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  padding: 33px 44px 32px;
+  z-index: 5;
+}
+.frameItem,
+.giz2Icon {
+  position: relative;
+  flex-shrink: 0;
+}
+.giz2Icon {
+  width: 87px;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frameItem {
+  height: 137px;
+  width: 182px;
+  border: 0.5px solid #34c759;
+  box-sizing: border-box;
+  display: none;
+}
+.rectangleGroup {
+  border: 0.5px solid #34c759;
+  display: flex;
+  align-items: flex-start;
+  padding: 19px 43px 19px 44px;
+  z-index: 2;
+}
+.frameInner {
+  height: 138px;
+  width: 184px;
+  position: relative;
+  border: 0.5px solid #34c759;
+  box-sizing: border-box;
+  display: none;
+  flex-shrink: 0;
+}
+.saveTheChildren201762Icon {
+  width: 95px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.mastercardFeaturedImage1080Parent {
+  align-self: stretch;
+  border: 0.5px solid #34c759;
+  display: flex;
+  align-items: flex-start;
+  padding: 18px 10px 23px;
+  z-index: 4;
+}
+.mastercardFeaturedImage1080Icon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.rectangleDiv {
+  height: 137px;
+  width: 184px;
+  position: relative;
+  border: 0.5px solid #34c759;
+  box-sizing: border-box;
+  display: none;
+  flex-shrink: 0;
+}
+@media screen and (max-width: 1350px) {
+  .partnersContainer {
+    padding-right: 22px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .partnersContent {
+    flex-wrap: wrap;
+  }
+  .partnerLogos {
+    flex: 1;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .partnersContainer {
+    padding-top: 48px;
+    padding-bottom: 56px;
+    box-sizing: border-box;
+  }
+  .partnersHeader {
+    gap: 16px;
+  }
+  .partners {
+    font-size: 24px;
+  }
+  .partnersLogo {
+    min-width: 100%;
+    padding-top: 0;
+  }
+  .buildingLastingImpact {
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
+  .buildingLastingImpact {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .buildingLastingImpact br {
+    display: none;
+  }
+  .partnerLogos {
+    flex-wrap: wrap;
+    min-width: 100%;
+    min-height: 0;
+  }
+  .miscImages {
+    width: 100%;
+    flex-direction: row;
+  }
+  .logoPair,
+  .logoPair2,
+  .rectangleParent,
+  .giz2Parent,
+  .rectangleGroup,
+  .mastercardFeaturedImage1080Parent {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .partnersHeader {
+    gap: 19px;
+  }
+  .partners {
+    font-size: 22px;
+  }
+  .buildingLastingImpact {
+    font-size: 30px;
+  }
+  .partnersContainer {
+    padding: 0 12px 56px;
+  }
+  .partnersContent {
+    row-gap: 14px;
+  }
+  .logoPair,
+  .logoPair2,
+  .rectangleParent,
+  .giz2Parent,
+  .rectangleGroup,
+  .mastercardFeaturedImage1080Parent {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .partnerLogos {
+    grid-row-gap: 20px;
+    justify-content: center;
+    grid-template-columns: minmax(138px, 1fr);
+  }
+}

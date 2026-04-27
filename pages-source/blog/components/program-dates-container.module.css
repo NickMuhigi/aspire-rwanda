@@ -1,0 +1,74 @@
+.programDatesContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11);
+  text-align: left;
+  font-size: var(--fs-23);
+  color: var(--color-black);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.program {
+  width: var(--width-71);
+  position: relative;
+  line-height: var(--lh-30);
+  font-weight: 600;
+  display: inline-block;
+  z-index: 2;
+}
+.frameParent {
+  align-self: stretch;
+  height: var(--height-47);
+  position: relative;
+  font-size: var(--fs-25);
+}
+.allProgramsParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-20);
+}
+.allPrograms {
+  width: var(--width-112);
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 2;
+}
+.expandArrowWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-1) var(--padding-0) var(--padding-0);
+}
+.expandArrowIcon {
+  width: 100%;
+  height: var(--height-33);
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.frameChild {
+  position: absolute;
+  top: 46px;
+  left: 0;
+  border-top: var(--border-1);
+  box-sizing: border-box;
+  width: var(--width-304);
+  height: var(--height-1);
+  z-index: 2;
+}
+@media screen and (max-width: 450px) {
+  .program {
+    font-size: var(--fs-18);
+  }
+  .allPrograms {
+    font-size: var(--fs-20);
+  }
+}

@@ -1,0 +1,169 @@
+.aspireNurserySchoolInner {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) 278px 59px var(--padding-20);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 50px;
+  color: var(--color-black);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.featureItem,
+.featureItemParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.featureItemParent {
+  width: 970px;
+  gap: 53px;
+}
+.featureItem {
+  width: 827px;
+  gap: var(--gap-32);
+}
+.featureItemChild {
+  width: 38px;
+  height: var(--height-4);
+  position: relative;
+  background-color: var(--color-limegreen);
+}
+.deliveringQualityEarly {
+  margin: 0;
+  align-self: stretch;
+  height: var(--height-64);
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.ourNurserySchoolProvidesChWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-14);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--fs-20);
+  font-family: var(--font-neue-montreal);
+}
+.ourNurserySchool {
+  height: 240px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.donateNowTo,
+.supportWork {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+}
+.supportWork {
+  height: var(--height-34);
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-12);
+  max-width: 100%;
+}
+.donateNowTo {
+  width: 342px;
+  position: relative;
+  font-size: var(--fs-28);
+  text-decoration: underline;
+  font-weight: 600;
+  font-family: var(--font-graphik-xcond-trial);
+  color: var(--color-teal);
+  text-align: left;
+  display: inline-block;
+}
+.supportWorkInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-17) var(--padding-0) var(--padding-0);
+}
+.frameChild {
+  width: 100%;
+  height: var(--height-14_7);
+  position: relative;
+  transition: transform 0.28s ease;
+}
+.supportWork:hover .frameChild {
+  transform: translateX(4px);
+  filter: brightness(0) saturate(100%) invert(66%) sepia(84%) saturate(415%)
+    hue-rotate(69deg) brightness(95%) contrast(89%);
+}
+.supportWork:hover .donateNowTo {
+  color: #34c759;
+}
+@media screen and (max-width: 1200px) {
+  .aspireNurserySchoolInner {
+    padding-right: 139px;
+    box-sizing: border-box;
+  }
+  .featureItemParent {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .aspireNurserySchoolInner {
+    position: relative;
+    z-index: 1;
+    background-color: var(--color-whitesmoke);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 38px;
+    box-sizing: border-box;
+  }
+  .featureItemParent {
+    gap: var(--gap-26);
+    width: 100%;
+  }
+  .featureItem {
+    width: 100%;
+  }
+  .deliveringQualityEarly {
+    font-size: var(--fs-40);
+    height: auto;
+  }
+  .ourNurserySchool {
+    height: auto;
+  }
+  .supportWork {
+    height: auto;
+    align-items: center;
+  }
+  .supportWorkInner {
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aspireNurserySchoolInner {
+    padding-right: var(--padding-20);
+    padding-left: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .featureItem {
+    gap: var(--gap-16);
+  }
+  .deliveringQualityEarly {
+    font-size: var(--fs-30);
+  }
+  .ourNurserySchool {
+    font-size: var(--fs-16);
+    height: auto;
+  }
+  .donateNowTo {
+    font-size: var(--fs-22);
+    width: auto;
+  }
+}

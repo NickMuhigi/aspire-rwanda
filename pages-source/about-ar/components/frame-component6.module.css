@@ -1,0 +1,204 @@
+.aboutUsInner,
+.frameParent {
+  align-self: stretch;
+  max-width: 100%;
+}
+.aboutUsInner {
+  height: 594px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-36) var(--padding-32)
+    var(--padding-20);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--fs-25);
+  color: var(--color-black);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.frameParent {
+  width: 1224px;
+  flex-direction: column;
+  gap: 55px;
+}
+.frameParent,
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+}
+.frameWrapper {
+  height: 44px;
+  padding: var(--padding-0) var(--padding-1);
+  box-sizing: border-box;
+}
+.rectangleParent {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-7);
+  border: var(--border-1);
+  display: grid;
+  place-items: center;
+  padding: 0 17px;
+}
+.frameChild,
+.staff {
+  position: relative;
+  flex-shrink: 0;
+}
+.frameChild {
+  height: 48px;
+  width: 73px;
+  border-radius: var(--br-7);
+  border: var(--border-1);
+  box-sizing: border-box;
+  display: none;
+}
+.staff {
+  margin: 0;
+  width: auto;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: inherit;
+  display: block;
+  text-align: center;
+  line-height: 1;
+  z-index: 1;
+}
+.profileImagesParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-16);
+  font-size: var(--fs-30);
+}
+.profileImages,
+.profileImagesChild,
+.profileImagesParent {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+}
+.profileImages {
+  display: flex;
+  align-items: flex-start;
+  gap: 34px;
+}
+.profileImagesChild {
+  position: relative;
+  background-color: var(--color-gainsboro);
+}
+.presidentDetailsParent {
+  width: 1079px;
+  height: 75px;
+  display: flex;
+  align-items: flex-start;
+  gap: 179px;
+  max-width: 100%;
+}
+.presidentDetails {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.peaceRuzage,
+.presidentFounder {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+}
+.peaceRuzage {
+  width: 221px;
+  line-height: var(--lh-36);
+  font-weight: 600;
+  display: inline-block;
+}
+.presidentFounder {
+  font-weight: 400;
+  color: var(--color-teal);
+  z-index: 1;
+}
+.teacherFinanceDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.headTeacher,
+.oliveTuyishimire {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+}
+.oliveTuyishimire {
+  align-self: stretch;
+  line-height: var(--lh-36);
+  font-weight: 600;
+}
+.headTeacher {
+  width: 205px;
+  font-weight: 400;
+  color: var(--color-teal);
+  display: inline-block;
+  z-index: 1;
+}
+@media screen and (max-width: 1200px) {
+  .presidentDetailsParent {
+    gap: 89px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .staff {
+    font-size: 24px;
+  }
+  .frameParent {
+    gap: var(--gap-27);
+  }
+  .profileImages {
+    gap: var(--gap-17);
+  }
+  .presidentDetailsParent {
+    gap: 45px;
+  }
+  .peaceRuzage {
+    line-height: var(--lh-29);
+  }
+  .peaceRuzage,
+  .presidentFounder {
+    font-size: var(--fs-24);
+  }
+  .oliveTuyishimire {
+    line-height: var(--lh-29);
+  }
+  .headTeacher,
+  .oliveTuyishimire {
+    font-size: var(--fs-24);
+  }
+}
+@media screen and (max-width: 450px) {
+  .staff {
+    font-size: 22px;
+  }
+  .presidentDetailsParent {
+    gap: var(--gap-22);
+  }
+  .peaceRuzage {
+    line-height: var(--lh-22);
+  }
+  .peaceRuzage,
+  .presidentFounder {
+    font-size: var(--fs-18);
+  }
+  .oliveTuyishimire {
+    line-height: var(--lh-22);
+  }
+  .headTeacher,
+  .oliveTuyishimire {
+    font-size: var(--fs-18);
+  }
+}

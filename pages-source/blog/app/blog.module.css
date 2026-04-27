@@ -1,0 +1,93 @@
+.blog,
+.blogChild {
+  width: 100%;
+  overflow: hidden;
+}
+.blog {
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  isolation: isolate;
+  gap: 20px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 91px;
+  color: var(--color-white);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.blogChild {
+  height: 424px;
+  position: absolute;
+  margin: 0 !important;
+  top: 81px;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.blogInner {
+  align-self: stretch;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-20) var(--padding-0) 29px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.blogInner,
+.updatesContainer,
+.updatesContainerParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.updatesContainerParent {
+  width: 1181px;
+  flex-direction: column;
+}
+.updatesContainer {
+  padding: var(--padding-0) var(--padding-0) 0px;
+  box-sizing: border-box;
+}
+.latestUpdates {
+  width: 526px;
+  position: relative;
+  line-height: 117px;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 1;
+  margin-bottom: -32px;
+}
+@media screen and (max-width: 750px) {
+  .blog {
+    gap: 40px;
+  }
+  .blogChild {
+    height: 280px;
+  }
+  .latestUpdates {
+    font-size: 75px;
+  }
+  .blogInner {
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    z-index: 1;
+    margin-top: -2px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .blog {
+    gap: var(--gap-20);
+  }
+  .blogChild {
+    height: 200px;
+  }
+  .latestUpdates {
+    font-size: 58px;
+  }
+}

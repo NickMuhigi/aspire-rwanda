@@ -1,0 +1,335 @@
+.searchAreaContainer {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+  gap: 94px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-19);
+  color: var(--color-black);
+  font-family: var(--font-graphik-xcond-trial);
+  margin-top: 43px;
+}
+.searchColumn {
+  height: 529px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 404px;
+  max-width: 100%;
+}
+.searchFields,
+.searchFieldsChild {
+  align-self: stretch;
+  background-color: var(--color-white);
+}
+.searchFields {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) 43px;
+  box-sizing: border-box;
+  gap: 42.5px;
+  max-width: 100%;
+  z-index: 1;
+}
+.searchFieldsChild {
+  height: 487px;
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.searchBox,
+.searchBoxChild {
+  background-color: var(--color-teal);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.searchBox {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-24) 25px var(--padding-22);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.searchBoxChild {
+  height: var(--height-108);
+  width: 404px;
+  position: relative;
+  display: none;
+}
+.frameChild,
+.rectangleParent {
+  background-color: var(--color-white);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.rectangleParent {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-18) 27px var(--padding-15);
+  box-sizing: border-box;
+  gap: var(--gap-20);
+  z-index: 3;
+}
+.frameChild {
+  height: 62px;
+  width: 353px;
+  position: relative;
+  display: none;
+}
+.searchPrompt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-4) var(--padding-0) var(--padding-0);
+  flex-shrink: 0;
+}
+.searchHere,
+.searchIcon {
+  position: relative;
+  z-index: 4;
+}
+.searchHere {
+  width: var(--width-112);
+  font-weight: 600;
+  display: inline-block;
+  white-space: nowrap;
+}
+.searchIcon {
+  height: var(--height-29);
+  width: var(--width-28);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.programListWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 53px var(--padding-0) var(--padding-48);
+  flex-shrink: 0;
+  font-size: var(--fs-23);
+}
+.programList {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-18);
+}
+.programList,
+.submitAreaWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.submitAreaWrapper {
+  flex-shrink: 0;
+  padding-left: 48px;
+}
+.submitButton {
+  cursor: pointer;
+  border: 0;
+  width: 201px;
+  height: 62px;
+  padding: 0 24px;
+  position: relative;
+  isolation: isolate;
+  background: url("/Subtract3.svg") no-repeat center / 100% 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  box-sizing: border-box;
+  transition: background-image 0.08s linear;
+}
+.submitButton:hover {
+  background-image: url("/Subtract3-green.svg");
+}
+.submit {
+  margin: 0;
+  position: relative;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 500;
+  font-family: "Graphik XCond Trial";
+  color: #fff;
+  z-index: 1;
+}
+.submitArrow {
+  width: 22px;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.28s ease;
+}
+.submitButton:hover .submitArrow {
+  transform: translateX(4px);
+}
+.frameParent,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent {
+  flex: 1;
+  gap: var(--gap-25);
+  min-width: 444px;
+  max-width: 100%;
+  font-size: var(--fs-25);
+  color: var(--color-teal);
+}
+.rectangleGroup {
+  flex-direction: column;
+  gap: 38.3px;
+}
+.frameItem {
+  width: var(--width-318);
+  height: var(--height-171);
+  position: relative;
+  border-radius: var(--br-5);
+  flex-shrink: 0;
+  overflow: hidden;
+  object-fit: cover;
+}
+.postListing {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-7) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: var(--min-w-221);
+  max-width: 100%;
+}
+.postItems {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 38.3px;
+}
+.postContent,
+.postHeader,
+.postItems {
+  display: flex;
+  align-items: flex-start;
+}
+.postContent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-8);
+  min-height: 171px;
+}
+.postHeader {
+  width: var(--width-119);
+  height: var(--height-30);
+  padding: var(--padding-0) var(--padding-3);
+  box-sizing: border-box;
+}
+.thApril2026 {
+  position: relative;
+}
+.postDetails {
+  align-self: stretch;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) 14.7px;
+  text-decoration: none;
+  box-sizing: border-box;
+  gap: var(--gap-8);
+  font-size: var(--fs-28);
+  color: var(--color-black);
+  cursor: pointer;
+}
+.insideTheNursery {
+  height: auto;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  transition: color 0.2s ease;
+}
+.postDetails:hover .insideTheNursery {
+  color: #34C759;
+}
+.postDetails:hover .postDetailsChild {
+  filter: brightness(0) saturate(100%) invert(64%) sepia(44%) saturate(729%) hue-rotate(92deg) brightness(102%) contrast(97%);
+  transform: translateX(8px);
+}
+.postDetailsChild {
+  width: 140px;
+  height: 15px;
+  display: block;
+  margin-top: 12px;
+  transition: transform 0.28s ease, filter 0.2s ease;
+}
+.insideTheNursery2 {
+  height: var(--height-108);
+  position: relative;
+  font-size: var(--fs-28);
+  font-weight: 500;
+  color: var(--color-black);
+  display: inline-block;
+}
+@media screen and (max-width: 1225px) {
+  .searchAreaContainer {
+    gap: 47px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .searchAreaContainer {
+    flex-wrap: wrap;
+  }
+  .searchColumn {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 750px) {
+  .searchAreaContainer {
+    gap: 23px;
+  }
+  .searchColumn {
+    min-width: 100%;
+  }
+  .searchFields {
+    padding-bottom: var(--padding-28);
+    box-sizing: border-box;
+  }
+  .submit {
+    font-size: var(--fs-24);
+  }
+  .frameParent {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .rectangleGroup {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 450px) {
+  .searchFields {
+    gap: var(--gap-21);
+  }
+  .programListWrapper,
+  .submitAreaWrapper {
+    padding-left: var(--padding-20);
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .submit {
+    font-size: var(--fs-18);
+  }
+  .rectangleGroup {
+    gap: 23px;
+  }
+  .postItems {
+    gap: var(--gap-19);
+  }
+  .thApril2026 {
+    font-size: var(--fs-20);
+  }
+  .insideTheNursery,
+  .insideTheNursery2 {
+    font-size: var(--fs-22);
+  }
+}

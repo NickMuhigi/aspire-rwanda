@@ -1,0 +1,189 @@
+.innerHero,
+.mainHero,
+.mainHeroWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.mainHeroWrapper {
+  align-self: stretch;
+  justify-content: center;
+  margin-top: -18px;
+  padding: 0 514px 143px 20px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 30px;
+  color: #fff;
+  font-family: "Graphik XCond Trial";
+}
+.innerHero,
+.mainHero {
+  flex-direction: column;
+}
+.mainHero {
+  width: min(760px, 100%);
+  gap: 13px;
+}
+.innerHero {
+  gap: 25px;
+}
+.frameChild,
+.rectangleParent {
+  width: 492px;
+  backdrop-filter: blur(4px);
+  border-radius: 7px;
+  border: 2px solid #34c759;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  padding: 4px 9px 6px;
+  min-height: 52px;
+  z-index: 1;
+}
+.frameChild {
+  height: 52px;
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.buildingSkillsConfidence,
+.theYouthOf {
+  margin: 0;
+  position: relative;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  backdrop-filter: blur(4px);
+}
+.theYouthOf {
+  width: min(464px, 100%);
+  font-size: inherit;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+  z-index: 2;
+  flex-shrink: 0;
+}
+.buildingSkillsConfidence {
+  height: 191px;
+  font-size: 76px;
+  z-index: 1;
+}
+.learnMoreParent {
+  display: flex;
+  align-items: flex-start;
+  padding: 16px 0 0;
+  position: relative;
+  z-index: 2;
+}
+.learnMoreButton {
+  cursor: pointer;
+  border: 0;
+  text-decoration: none;
+  width: 201px;
+  height: 62px;
+  box-sizing: border-box;
+  padding: 0 24px;
+  background-color: #34c759;
+  background: url("/Subtract3-green.svg") no-repeat center / 100% 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  position: relative;
+  z-index: 2;
+  transition: background-color 0.08s linear, background-image 0.08s linear;
+}
+.learnMoreButton:hover {
+  background-image: url("/Subtract3.svg");
+}
+.learnMore {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Graphik XCond Trial";
+  color: #fff;
+  white-space: nowrap;
+  line-height: 1;
+}
+.learnMoreArrow {
+  width: 22px;
+  height: auto;
+  filter: brightness(0) invert(1) drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  transition: transform 0.28s ease;
+}
+.learnMoreButton:hover .learnMoreArrow {
+  transform: translateX(4px);
+}
+@media screen and (max-width: 1350px) {
+  .mainHeroWrapper {
+    padding-right: 257px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .mainHeroWrapper {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    margin-top: -30px;
+    min-height: calc(100svh - 79px);
+    align-items: center;
+  }
+  .rectangleParent {
+    display: none;
+  }
+  .buildingSkillsConfidence {
+    font-size: 61px;
+    height: auto;
+  }
+  .buildingSkillsConfidence br {
+    display: none;
+  }
+  .learnMoreParent {
+    padding-top: 40px;
+  }
+  .learnMoreButton {
+    width: 244px;
+    height: 74px;
+    padding: 0 28px;
+    gap: 16px;
+  }
+  .learnMoreArrow {
+    width: 24px;
+  }
+  .learnMore {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mainHeroWrapper {
+    padding-right: 16px;
+    padding-left: 16px;
+    box-sizing: border-box;
+    min-height: calc(100svh - 75px);
+  }
+  .theYouthOf {
+    font-size: 18px;
+  }
+  .buildingSkillsConfidence {
+    font-size: 46px;
+  }
+  .learnMore {
+    font-size: 22px;
+  }
+  .learnMoreButton {
+    width: 244px;
+    height: 74px;
+    padding: 0 24px;
+    gap: 14px;
+  }
+  .learnMoreArrow {
+    width: 22px;
+  }
+}

@@ -1,0 +1,246 @@
+.aspireNurserySchoolInner,
+.donateContentParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.aspireNurserySchoolInner {
+  align-self: stretch;
+  justify-content: center;
+  padding: 60px 37px var(--padding-60) var(--padding-20);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.donateContentParent {
+  width: 1225px;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 27px;
+}
+.donateContent {
+  width: 222px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.donateHeader,
+.donateHeaderChild {
+  height: var(--height-48);
+  border-radius: var(--br-7);
+  border: var(--border-1);
+  box-sizing: border-box;
+}
+.donateHeader {
+  cursor: text;
+  pointer-events: auto;
+  padding: 0 12px;
+  background-color: transparent;
+  display: grid;
+  place-items: center;
+}
+.donateHeader:hover {
+  background-color: transparent;
+}
+.donate,
+.helpGiveEveryChildAStrongParent {
+  text-align: left;
+  color: var(--color-black);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.donate {
+  margin: 0;
+  position: relative;
+  width: auto;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 400;
+  display: inline-block;
+  text-align: center;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.donateHeaderChild {
+  width: 105px;
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.helpGiveEveryChildAStrongParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 31px;
+  min-width: 356px;
+  max-width: 100%;
+  font-size: var(--fs-40);
+}
+.helpGiveEvery {
+  margin: 0;
+  width: 463px;
+  height: 152px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.donationDescription {
+  width: 463px;
+  height: 77px;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-11);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--fs-18);
+  font-family: var(--font-neue-montreal);
+}
+.yourDonationSupports {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.donateButton {
+  width: 201px;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) 16.9px;
+  box-sizing: border-box;
+  font-size: var(--fs-24);
+  color: var(--color-white);
+}
+.frameChild,
+.rectangleParent {
+  background-color: var(--color-teal);
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  width: 201px;
+  height: 62px;
+  padding: 0 24px;
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+  background: url("/Subtract3.svg") no-repeat center / 100% 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  transition: background-color 0.08s linear, background-image 0.08s linear;
+}
+.frameChild {
+  display: none;
+}
+.donate2 {
+  margin: 0;
+  position: relative;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 500;
+  font-family: "Graphik XCond Trial";
+  color: #fff;
+  display: block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.donateArrow2 {
+  width: 22px;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.28s ease;
+}
+.rectangleParent:hover {
+  background-image: url("/Subtract3-green.svg");
+}
+.rectangleParent:hover .donateArrow2 {
+  transform: translateX(4px);
+}
+.programsList {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 13px;
+  max-width: 100%;
+  font-size: var(--fs-19);
+  font-family: var(--font-neue-montreal);
+}
+.earlyChildhoodEducation {
+  align-self: stretch;
+  position: relative;
+}
+.programsDetails {
+  width: var(--width-468);
+  height: var(--height-1);
+  position: relative;
+  border-top: var(--border-11);
+  box-sizing: border-box;
+  transform: rotate(0.1deg);
+  max-width: 100%;
+}
+.programsSeparator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-3) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex: 0 0 402px;
+}
+.programsFooterIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-2);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+@media screen and (max-width: 750px) {
+  .donateContentParent {
+    flex-wrap: wrap;
+  }
+  .aspireNurserySchoolInner {
+    padding-top: 36px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 39px;
+    box-sizing: border-box;
+  }
+  .helpGiveEveryChildAStrongParent {
+    gap: var(--gap-15);
+    min-width: 100%;
+  }
+  .helpGiveEvery {
+    font-size: var(--fs-32);
+    width: 100%;
+    height: auto;
+  }
+  .donationDescription {
+    width: 100%;
+    height: auto;
+  }
+  .programsList {
+    font-size: var(--fs-16);
+  }
+}
+@media screen and (max-width: 450px) {
+  .helpGiveEveryChildAStrongParent {
+    min-width: 100%;
+  }
+  .helpGiveEvery {
+    font-size: var(--fs-24);
+  }
+  .donate2 {
+    font-size: 22px;
+  }
+}

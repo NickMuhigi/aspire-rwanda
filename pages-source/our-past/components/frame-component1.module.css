@@ -1,0 +1,227 @@
+.heroContentWrapper {
+  width: min(1417px, 100%);
+  margin: 0 auto;
+  transform: translateX(-10px);
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-20);
+  box-sizing: border-box;
+}
+.heroContainerWrapper,
+.heroContent,
+.heroContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.heroContent {
+  width: 1231px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 66px;
+}
+.heroContainerWrapper {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 34px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 376px;
+  text-align: left;
+  font-size: 50px;
+  color: var(--color-black);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.heroContainer,
+.layingStrongFoundationsThroParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.heroContainer {
+  width: min(617px, 100%);
+  gap: 52px;
+}
+.layingStrongFoundationsThroParent {
+  gap: var(--gap-22);
+}
+.layingStrongFoundations {
+  width: 100%;
+  height: auto;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.ourJourneyBegan {
+  width: 100%;
+  position: relative;
+  font-size: var(--fs-20);
+  font-family: var(--font-neue-montreal);
+}
+.exploreParent {
+  cursor: pointer;
+  border: 0;
+  text-decoration: none;
+  width: 201px;
+  height: 62px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 0 24px;
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+  background: url("/Subtract3.svg") no-repeat center / 100% 100%;
+  transition: background-color 0.08s linear, background-image 0.08s linear;
+  font-size: 22px;
+  color: var(--color-white);
+}
+.exploreParent:hover {
+  background-image: url("/Subtract3-green.svg");
+}
+.explore {
+  margin: 0;
+  position: relative;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 500;
+  font-family: "Graphik XCond Trial";
+  display: block;
+  color: var(--color-white);
+  flex-shrink: 0;
+  z-index: 1;
+}
+.exploreArrow {
+  width: 22px;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.28s ease;
+}
+.exploreParent:hover .exploreArrow {
+  transform: translateX(4px);
+}
+.frameParent,
+.rectangleParent {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent {
+  gap: var(--gap-17);
+  min-width: 381px;
+  max-width: 100%;
+}
+.rectangleParent {
+  height: 599px;
+  flex-direction: column;
+  gap: 25px;
+}
+.frameChild,
+.frameItem {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frameChild {
+  flex: 1;
+  max-height: 100%;
+}
+.frameItem {
+  height: 135px;
+  flex-shrink: 0;
+}
+.rectangleGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-20);
+}
+.frameInner,
+.imageOverlays {
+  align-self: stretch;
+  position: relative;
+}
+.frameInner {
+  height: 263px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.imageOverlays {
+  height: var(--height-339);
+}
+.overlayOne {
+  position: absolute;
+  top: 23px;
+  left: 22px;
+  background-color: var(--color-teal);
+  width: 256px;
+  height: 316px;
+}
+.overlayTwoIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 263px;
+  height: 320px;
+  object-fit: cover;
+  z-index: 1;
+}
+@media screen and (max-width: 1050px) {
+  .layingStrongFoundations {
+    font-size: var(--fs-40);
+  }
+}
+@media screen and (max-width: 750px) {
+  .heroContentWrapper {
+    transform: none;
+  }
+  .heroContent {
+    gap: 33px;
+  }
+  .heroContainerWrapper {
+    padding-top: 0;
+    margin-top: -8px;
+  }
+  .heroContainer {
+    gap: var(--gap-26);
+  }
+  .frameParent {
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  .rectangleGroup {
+    flex: 1;
+  }
+  .overlayOne {
+    width: calc(100% - 22px);
+  }
+  .overlayTwoIcon {
+    width: calc(100% - 15px);
+  }
+}
+@media screen and (max-width: 450px) {
+  .heroContent {
+    gap: var(--gap-16);
+  }
+  .heroContainerWrapper {
+    min-width: 100%;
+  }
+  .layingStrongFoundations {
+    font-size: var(--fs-30);
+  }
+  .ourJourneyBegan {
+    font-size: var(--fs-16);
+  }
+  .explore {
+    font-size: 22px;
+  }
+  .frameParent {
+    min-width: 100%;
+  }
+}

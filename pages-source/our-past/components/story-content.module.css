@@ -1,0 +1,221 @@
+.storyContent,
+.storyContentChild {
+  background-color: var(--color-teal);
+  max-width: 100%;
+}
+.storyContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--fs-25);
+  color: var(--color-white);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.storyInner {
+  width: min(1417px, 100%);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 47px var(--padding-93) 52px;
+  box-sizing: border-box;
+  gap: 33px;
+  max-width: 100%;
+}
+.storyContentChild {
+  width: var(--width-1440);
+  height: 677px;
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.storyTitle {
+  height: var(--height-40);
+  border-radius: var(--br-7);
+  border: var(--border-1);
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-3) var(--padding-26) var(--padding-4) 27px;
+  white-space: nowrap;
+  z-index: 2;
+  flex-shrink: 0;
+}
+.ourStory,
+.storyTitleChild {
+  position: relative;
+  flex-shrink: 0;
+}
+.storyTitleChild {
+  height: var(--height-40);
+  width: 127px;
+  border-radius: var(--br-7);
+  border: var(--border-1);
+  box-sizing: border-box;
+  display: none;
+}
+.ourStory {
+  margin: 0;
+  width: var(--width-72);
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 3;
+}
+.storyDetails {
+  width: min(1217px, 100%);
+  display: flex;
+  align-items: flex-end;
+  gap: 63px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.storyImages {
+  height: 505px;
+  position: relative;
+  min-width: 535px;
+  max-width: 100%;
+}
+.storyImagesChild {
+  position: absolute;
+  top: 18px;
+  left: 37px;
+  background-color: var(--color-limegreen);
+  width: 498px;
+  height: 487px;
+  z-index: 2;
+}
+.storyImagesItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 517px;
+  height: 486px;
+  object-fit: cover;
+  z-index: 3;
+}
+.fromAPatioToAMovementOfParent,
+.storyDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.storyDescription {
+  flex: 1;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) 33px;
+  box-sizing: border-box;
+  min-width: 402px;
+  text-align: left;
+  font-size: 50px;
+  color: var(--color-white);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.fromAPatioToAMovementOfParent {
+  align-self: stretch;
+  gap: var(--gap-14);
+}
+.fromAPatio {
+  margin: 0;
+  width: 617px;
+  position: relative;
+  font-size: inherit;
+  line-height: var(--lh-64);
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 2;
+}
+.aspireRwandaWasFoundedFromWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-2);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--fs-20);
+  font-family: var(--font-neue-montreal);
+}
+.aspireRwandaWas {
+  height: 360px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+@media screen and (max-width: 1200px) {
+  .storyInner {
+    padding-left: var(--padding-46);
+    padding-right: var(--padding-46);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .storyDetails {
+    flex-wrap: wrap;
+  }
+  .storyImages {
+    flex: 1;
+  }
+  .fromAPatio {
+    font-size: var(--fs-40);
+  }
+}
+@media screen and (max-width: 750px) {
+  .storyInner {
+    gap: var(--gap-16);
+    padding: 31px 16px 34px;
+    box-sizing: border-box;
+  }
+  .storyDetails {
+    gap: 31px;
+  }
+  .storyDescription,
+  .storyImages {
+    min-width: 100%;
+  }
+  .storyImages {
+    height: 280px;
+    overflow: hidden;
+  }
+  .storyImagesItem {
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
+    top: 0;
+    left: 0;
+  }
+  .storyImagesChild {
+    top: 16px;
+    left: 16px;
+    width: 100%;
+    height: 100%;
+  }
+  .storyDescription {
+    min-width: 100%;
+    padding-bottom: 0;
+  }
+  .aspireRwandaWas {
+    height: auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .storyDetails {
+    gap: var(--gap-16);
+  }
+  .fromAPatio {
+    font-size: var(--fs-30);
+  }
+  .aspireRwandaWas {
+    font-size: var(--fs-16);
+  }
+}

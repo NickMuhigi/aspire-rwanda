@@ -1,0 +1,143 @@
+.inputPair,
+.messageContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.messageContainer {
+  width: 100%;
+  max-width: 1251px;
+  height: auto;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-20) 13.2px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--fs-25);
+  color: var(--color-gray);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.inputPair {
+  align-self: stretch;
+  width: var(--width-661);
+  max-width: 100%;
+  flex-direction: column;
+  gap: var(--gap-26);
+}
+.phoneContainer,
+.phoneContainerChild {
+  height: var(--height-52);
+  border: var(--border-1);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.phoneContainer {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-10) var(--padding-49) var(--padding-6);
+}
+.phoneContainerChild {
+  width: var(--width-661);
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.phoneNumber {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-graphik-xcond-trial);
+  font-size: var(--fs-25);
+  background-color: transparent;
+  height: var(--height-32);
+  position: relative;
+  color: var(--color-gray);
+  text-align: left;
+  display: inline-block;
+  padding: var(--padding-01);
+  z-index: 1;
+  flex-shrink: 0;
+}
+.subjectMessage,
+.subjectMessageParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.subjectMessageParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-14);
+  max-width: 100%;
+}
+.subjectMessage {
+  height: var(--height-53);
+  padding: 9px var(--padding-49) var(--padding-8);
+}
+.subjectMessage,
+.subjectMessage2,
+.subjectMessageChild {
+  border: var(--border-1);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.subjectMessageChild {
+  height: var(--height-53);
+  width: var(--width-661);
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.messageTextarea {
+  width: 100%;
+  min-height: 120px;
+  border: var(--border-1);
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-graphik-xcond-trial);
+  font-size: var(--fs-25);
+  background-color: transparent;
+  color: var(--color-gray);
+  text-align: left;
+  padding: 21px var(--padding-49);
+  box-sizing: border-box;
+  resize: vertical;
+  border-radius: 4px;
+  margin-top: var(--gap-14);
+}
+@media screen and (max-width: 750px) {
+  .messageContainer {
+    justify-content: flex-start;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+  .inputPair {
+    width: 100%;
+    flex: none;
+  }
+  .phoneContainer {
+    width: 100%;
+    min-width: 100%;
+    height: 52px;
+    min-height: 52px;
+    padding: 10px 49px 6px;
+    box-sizing: border-box;
+  }
+  .subjectMessage {
+    width: 100%;
+    height: 52px;
+    min-height: 52px;
+    padding: 10px 49px 6px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .message,
+  .phoneNumber {
+    font-size: var(--fs-20);
+  }
+  .messageTextarea {
+    font-size: var(--fs-20);
+  }
+}

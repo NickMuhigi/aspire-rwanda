@@ -1,0 +1,143 @@
+.contactForm {
+  width: 1251px;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-0) var(--padding-20) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  gap: var(--gap-20);
+  text-align: left;
+  font-size: var(--fs-20);
+  color: var(--color-black);
+  font-family: var(--font-neue-montreal);
+}
+
+.officeInfo {
+  height: auto;
+  width: 277px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-1);
+  flex-shrink: 0;
+}
+
+.ourHeadOffice {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  position: relative;
+}
+
+.addressKg685St {
+  position: relative;
+}
+
+.nameContainer {
+  align-self: stretch;
+  width: var(--width-661);
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-5) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.nameFields {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--gap-24);
+  max-width: 100%;
+}
+
+.nameRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 33px;
+  align-self: stretch;
+}
+
+.inputField {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  border: var(--border-1);
+  padding: var(--padding-11) var(--padding-49) var(--padding-5);
+  box-sizing: border-box;
+}
+
+.fieldInput {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-graphik-xcond-trial);
+  font-size: var(--fs-25);
+  background-color: transparent;
+  height: var(--height-32);
+  position: relative;
+  color: var(--color-gray);
+  text-align: left;
+  display: inline-block;
+  padding: var(--padding-01);
+  z-index: 1;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 1050px) {
+  .contactForm {
+    flex-wrap: wrap;
+  }
+  .nameContainer {
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .contactForm {
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+    padding: 0;
+  }
+  .officeInfo {
+    width: 100%;
+  }
+  .nameContainer {
+    width: 100%;
+    padding: 0;
+    flex: none;
+  }
+  .nameFields {
+    width: 100%;
+    gap: 14px;
+  }
+  .nameRow {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .inputField {
+    flex: none;
+    width: 100%;
+    height: 52px;
+    min-height: 52px;
+    padding: 10px 49px 6px;
+    align-items: center;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .addressKg685St,
+  .ourHeadOffice {
+    font-size: var(--fs-16);
+  }
+  .fieldInput {
+    font-size: var(--fs-20);
+  }
+}

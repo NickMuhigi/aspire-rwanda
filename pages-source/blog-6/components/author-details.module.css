@@ -1,0 +1,115 @@
+.authorDetails,
+.detailsContainer {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.authorDetails {
+  align-self: stretch;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-47) 27.7px var(--padding-20);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--fs-16);
+  color: var(--color-black);
+  font-family: var(--font-neue-montreal);
+}
+.detailsContainer {
+  width: 1231px;
+  flex-direction: column;
+  gap: 39px;
+}
+.authorImage {
+  align-self: stretch;
+  height: var(--height-1);
+  position: relative;
+  background-color: #555555;
+  margin-top: 20px;
+}
+.authorContainer,
+.authorInfo {
+  display: flex;
+  align-items: flex-start;
+}
+.authorInfo {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 306px;
+  max-width: 100%;
+}
+.authorContainer {
+  width: 175px;
+  flex-direction: column;
+}
+.author {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  min-width: var(--min-w-60);
+  flex-shrink: 0;
+}
+.msOliveTuyishimireWrapper {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0);
+}
+.msOliveTuyishimire {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.weBelieveThatTheEarliestYWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-1) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 486px;
+  max-width: 100%;
+  font-size: var(--fs-18);
+}
+.weBelieveThat {
+  position: relative;
+}
+@media screen and (max-width: 1200px) {
+  .authorDetails {
+    padding-right: 23px;
+    box-sizing: border-box;
+  }
+  .authorInfo {
+    gap: 153px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .detailsContainer {
+    gap: var(--gap-19);
+  }
+  .authorInfo {
+    gap: 76px;
+  }
+  .weBelieveThatTheEarliestYWrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .authorInfo {
+    gap: 38px;
+  }
+  .author,
+  .msOliveTuyishimire {
+    font-size: var(--fs-16);
+  }
+  .weBelieveThat {
+    font-size: var(--fs-18);
+  }
+}

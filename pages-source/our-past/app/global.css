@@ -1,0 +1,130 @@
+:root {
+  /* Common Style Variables */
+
+  /* Color */
+  --color-black: #000;
+  --color-darkcyan: #29949e;
+  --color-lightgray: #d1d1d1;
+  --color-limegreen: #34c759;
+  --color-mediumseagreen: #2da058;
+  --color-teal: #026e78;
+  --color-white: #fff;
+  --color-whitesmoke: #f3f4f2;
+
+  /* Gap */
+  --gap-2: 2px;
+  --gap-14: 14px;
+  --gap-16: 16px;
+  --gap-17: 17px;
+  --gap-18: 18px;
+  --gap-20: 20px;
+  --gap-21: 21px;
+  --gap-22: 22px;
+  --gap-23: 23px;
+  --gap-24: 24px;
+  --gap-26: 26px;
+  --gap-40: 40px;
+
+  /* Padding */
+  --padding-0: 0px;
+  --padding-01: 0;
+  --padding-1: 1px;
+  --padding-2: 2px;
+  --padding-3: 3px;
+  --padding-4: 4px;
+  --padding-5: 5px;
+  --padding-6: 6px;
+  --padding-11: 11px;
+  --padding-12: 12px;
+  --padding-14: 14px;
+  --padding-17: 17px;
+  --padding-18: 18px;
+  --padding-20: 20px;
+  --padding-21: 21px;
+  --padding-26: 26px;
+  --padding-28: 28px;
+  --padding-46: 46px;
+  --padding-80: 80px;
+  --padding-87: 87px;
+  --padding-88: 88px;
+  --padding-93: 93px;
+
+  /* BorderRadius */
+  --br-7: 7px;
+
+  /* Font */
+  --font-graphik-xcond-trial: Graphik XCond Trial;
+  --font-neue-montreal: Neue Montreal;
+
+  /* FontSize */
+  --fs-15: 15px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-19: 19px;
+  --fs-20: 20px;
+  --fs-21: 21px;
+  --fs-22: 22px;
+  --fs-24: 24px;
+  --fs-25: 25px;
+  --fs-26: 26px;
+  --fs-30: 30px;
+  --fs-40: 40px;
+
+  /* Borders */
+  --border-1: 1px solid var(--color-limegreen);
+
+  /* Shadows */
+  --shadow-drop: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  /* WidthHeights */
+  --height-1: 1px;
+  --height-16: 16px;
+  --height-18: 18px;
+  --height-19: 19px;
+  --height-20: 20px;
+  --height-32: 32px;
+  --height-40: 40px;
+  --height-48: 48px;
+  --height-96: 96px;
+  --height-324: 324px;
+  --height-339: 339px;
+  --min-w-26: 26px;
+  --width-1: 1px;
+  --width-18: 18px;
+  --width-19: 19px;
+  --width-20: 20px;
+  --width-22: 22px;
+  --width-26: 26px;
+  --width-32: 32px;
+  --width-48: 48px;
+  --width-60: 60px;
+  --width-72: 72px;
+  --width-422: 422px;
+  --width-439: 439px;
+  --width-444: 444px;
+  --width-1055: 1055px;
+  --width-1440: 1440px;
+
+  /* LineHeights */
+  --lh-19: 19px;
+  --lh-24: 24px;
+  --lh-30: 30px;
+  --lh-64: 64px;
+
+  --left-0: 0px;
+  --left-3: 3px;
+  --left-5: 5px;
+  --left-12: 12px;
+  --left-22: 22px;
+  --top-0: 0px;
+  --top-3: 3px;
+  --top-4: 4px;
+  --top-11: 11px;
+  --top-18: 18px;
+}
+
+/* Prevent horizontal overflow on all devices */
+body { overflow-x: hidden; }
+html { max-width: 100%; }
+img, svg, video, iframe { max-width: 100%; }
+

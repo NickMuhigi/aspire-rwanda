@@ -1,0 +1,256 @@
+.changeOverall,
+.statisticsView {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.statisticsView {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 35px 25px 20px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 30px;
+  color: #000;
+  font-family: "Graphik XCond Trial";
+}
+.changeOverall {
+  width: 1233px;
+  flex-direction: column;
+  gap: 47px;
+}
+.impactOverAll,
+.impactOverAllChild {
+  height: 48px;
+  border-radius: 7px;
+  border: 1px solid #026e78;
+  box-sizing: border-box;
+}
+.impactOverAll {
+  display: grid;
+  place-items: center;
+  padding: 0 10px;
+}
+.impactOverAllChild {
+  width: 104px;
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.statistics {
+  margin: 0;
+  width: auto;
+  position: relative;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: inherit;
+  display: block;
+  text-align: center;
+  line-height: 1;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.measuresLabel {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 89.9px;
+}
+.measuresLabel,
+.measuringMetrics,
+.successFactor {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.measuringMetrics {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 52px;
+  text-align: left;
+  font-size: 56px;
+  color: #000;
+  font-family: "Graphik XCond Trial";
+}
+.successFactor {
+  align-items: flex-start;
+  gap: 238px;
+}
+.measuringChangeThe {
+  margin: 0;
+  height: auto;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.resultsMetric {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 6px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 27px;
+}
+.eachSuccessStory {
+  width: 563px;
+  height: auto;
+  position: relative;
+  font-weight: 500;
+  white-space: pre-wrap;
+  display: inline-block;
+  max-width: 100%;
+}
+.donateParent,
+.donationsBox {
+  display: flex;
+  align-items: flex-start;
+}
+.donationsBox {
+  width: 925px;
+  justify-content: flex-end;
+  padding: 0 362px;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 27px;
+  color: #fff;
+}
+.donateParent {
+  cursor: pointer;
+  border: 0;
+  width: 201px;
+  height: 62px;
+  padding: 0 24px;
+  position: relative;
+  isolation: isolate;
+  background: url("/Subtract3.svg") no-repeat center / 100% 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  box-sizing: border-box;
+  transition: background-color 0.08s linear, background-image 0.08s linear;
+}
+.donateParent:hover {
+  background-image: url("/Subtract3-green.svg");
+}
+.donate {
+  margin: 0;
+  position: relative;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 500;
+  font-family: "Graphik XCond Trial";
+  color: #fff;
+  z-index: 1;
+}
+.donateArrow {
+  width: 22px;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.28s ease;
+}
+.donateParent:hover .donateArrow {
+  transform: translateX(4px);
+}
+.trainedWomenArea {
+  height: auto;
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  text-align: left;
+  font-size: 66px;
+  color: #000;
+  font-family: "Graphik XCond Trial";
+}
+@media screen and (max-width: 1350px) {
+  .successFactor {
+    gap: 119px;
+  }
+  .trainedWomenArea {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .successFactor {
+    flex-wrap: wrap;
+  }
+  .measuringChangeThe {
+    flex: 1;
+  }
+  .donationsBox {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 800px) {
+  .changeOverall {
+    gap: 23px;
+  }
+  .statistics {
+    font-size: 24px;
+  }
+  .measuresLabel {
+    gap: 45px;
+  }
+  .measuringMetrics {
+    gap: 59px;
+  }
+  .successFactor {
+    gap: 59px;
+  }
+  .measuringChangeThe {
+    font-size: 45px;
+    min-width: 100%;
+  }
+  .trainedWomenArea {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 27px;
+  }
+  .resultsMetric,
+  .eachSuccessStory,
+  .donationsBox {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .statistics {
+    font-size: 22px;
+  }
+  .measuringMetrics {
+    gap: 30px;
+  }
+  .measuresLabel {
+    gap: 22px;
+  }
+  .successFactor {
+    gap: 30px;
+  }
+  .measuringChangeThe {
+    font-size: 34px;
+  }
+  .resultsMetric {
+    min-width: 100%;
+  }
+  .eachSuccessStory {
+    font-size: 22px;
+  }
+  .donationsBox {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .donate {
+    font-size: 22px;
+  }
+}

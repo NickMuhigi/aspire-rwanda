@@ -1,0 +1,91 @@
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-25);
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--fs-25);
+  color: var(--color-teal);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.frameChild {
+  height: var(--height-171);
+  width: var(--width-318);
+  position: relative;
+  border-radius: var(--br-5);
+  object-fit: cover;
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-7) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: var(--min-w-221);
+  max-width: 100%;
+}
+.frameParent,
+.frameWrapper,
+.thApril2026Wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-8);
+  text-decoration: none;
+}
+.thApril2026Wrapper {
+  width: var(--width-119);
+  height: var(--height-30);
+  padding: var(--padding-0) var(--padding-3);
+  box-sizing: border-box;
+}
+.thApril2026 {
+  position: relative;
+}
+.insideTheNursery {
+  height: auto;
+  position: relative;
+  font-size: var(--fs-28);
+  font-weight: 500;
+  color: var(--color-black);
+  display: inline-block;
+  transition: color 0.2s ease;
+}
+.cardArrow {
+  width: 140px;
+  height: 15px;
+  display: block;
+  margin-top: 12px;
+  transition: transform 0.28s ease, filter 0.2s ease;
+}
+.frameParent {
+  cursor: pointer;
+}
+.frameParent:hover .insideTheNursery {
+  color: #34C759;
+}
+.frameParent:hover .cardArrow {
+  filter: brightness(0) saturate(100%) invert(64%) sepia(44%) saturate(729%) hue-rotate(92deg) brightness(102%) contrast(97%);
+  transform: translateX(8px);
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+  .frameChild {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 450px) {
+  .thApril2026 {
+    font-size: var(--fs-20);
+  }
+  .insideTheNursery {
+    font-size: var(--fs-22);
+  }
+}

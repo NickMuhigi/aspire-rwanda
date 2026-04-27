@@ -1,0 +1,28 @@
+import type { NextPage } from "next";
+import styles from "./frame-component1.module.css";
+
+export type FrameComponent1Type = {
+  className?: string;
+};
+
+const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
+  return (
+    <section className={[styles.blog1Inner, className].join(" ")}>
+      <div className={styles.postContainerParent}>
+        <div className={styles.postContainer}>
+          <div className={styles.aspireNurserySchoolParent}>
+            <h2 className={styles.aspireNurserySchool}>
+              Aspire Nursery School
+            </h2>
+          </div>
+        </div>
+        <div className={styles.insideTheNursery}>
+          Care That Goes Beyond the Classroom: Aspire Rwanda's Holistic Approach
+          to Early Childhood.
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default FrameComponent1;

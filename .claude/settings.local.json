@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:higherlifefoundation.org)",
+      "WebFetch(domain:www.rockefellerfoundation.org)",
+      "WebFetch(domain:www.savethechildren.net)",
+      "Bash(curl -s \"https://higherlifefoundation.org/about\")",
+      "Bash(curl -s \"https://www.savethechildren.net/about-us\")"
+    ]
+  }
+}

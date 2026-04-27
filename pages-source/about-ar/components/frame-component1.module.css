@@ -1,0 +1,250 @@
+.frameParent,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-60);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-25);
+  color: var(--color-black);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.rectangleParent {
+  height: 48px;
+  border-radius: var(--br-7);
+  border: var(--border-1);
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  padding: 0 15px;
+  white-space: nowrap;
+}
+.frameChild,
+.ourCoreValues {
+  position: relative;
+  flex-shrink: 0;
+}
+.frameChild {
+  height: 48px;
+  width: 151px;
+  border-radius: var(--br-7);
+  border: var(--border-1);
+  box-sizing: border-box;
+  display: none;
+}
+.ourCoreValues {
+  margin: 0;
+  width: auto;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: inherit;
+  display: block;
+  text-align: center;
+  line-height: 1;
+  z-index: 1;
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  align-items: flex-end;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: 56px;
+  max-width: 100%;
+  font-size: var(--fs-29);
+  color: var(--color-limegreen);
+}
+.frameContainer {
+  flex: 1;
+  gap: 77px;
+  max-width: calc(100% - 57px);
+}
+.frameItem,
+.rectangleGroup {
+  background-color: var(--color-teal);
+  max-width: 100%;
+}
+.rectangleGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 86px var(--padding-20) var(--padding-55) 69px;
+  box-sizing: border-box;
+  gap: 42px;
+  min-width: 397px;
+  z-index: 1;
+}
+.frameItem {
+  width: 611px;
+  height: 482px;
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.empoweringChildrenAnd,
+.ignitingPotential {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.ignitingPotential {
+  margin: 0;
+  width: 163px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.empoweringChildrenAnd {
+  width: 475px;
+  height: var(--height-263);
+  font-size: var(--fs-52);
+  font-weight: 600;
+  color: var(--color-white);
+  max-width: 100%;
+}
+.frameWrapper,
+.openingDoorsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameWrapper {
+  width: 487px;
+  padding: var(--padding-0) var(--padding-0) var(--padding-55);
+  box-sizing: border-box;
+  min-height: 396px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-29);
+  color: var(--color-limegreen);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.openingDoorsParent {
+  align-self: stretch;
+  gap: 42px;
+}
+.championingEquityBy,
+.openingDoors {
+  position: relative;
+  display: inline-block;
+}
+.openingDoors {
+  margin: 0;
+  width: 141px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.championingEquityBy {
+  height: var(--height-263);
+  font-size: var(--fs-52);
+  font-weight: 600;
+  color: var(--color-black);
+  flex-shrink: 0;
+}
+.frameInner {
+  height: var(--height-479_8);
+  width: var(--width-0_8);
+  position: relative;
+  border-right: var(--border-11);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1200px) {
+  .frameContainer {
+    gap: 38px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+  .frameWrapper {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ourCoreValues {
+    font-size: 24px;
+  }
+  .frameParent {
+    gap: var(--gap-30);
+  }
+  .frameGroup {
+    gap: var(--gap-28);
+  }
+  .frameInner {
+    display: none;
+  }
+  .frameContainer {
+    gap: var(--gap-24);
+    max-width: 100%;
+  }
+  .rectangleParent {
+    padding: 0 18px;
+  }
+  .rectangleGroup {
+    gap: var(--gap-20);
+    padding-left: 42px;
+    padding-top: var(--padding-56);
+    padding-bottom: var(--padding-36);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .empoweringChildrenAnd {
+    font-size: var(--fs-42);
+    height: auto;
+    width: 100%;
+  }
+  .frameWrapper {
+    min-width: 100%;
+    min-height: 0;
+    background-color: var(--color-white);
+    padding: var(--padding-56) var(--padding-20) var(--padding-36) 42px;
+    box-sizing: border-box;
+  }
+  .openingDoorsParent {
+    gap: var(--gap-20);
+  }
+  .championingEquityBy {
+    font-size: var(--fs-42);
+    height: auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourCoreValues {
+    font-size: 22px;
+  }
+  .ignitingPotential {
+    font-size: var(--fs-23);
+  }
+  .empoweringChildrenAnd {
+    font-size: var(--fs-31);
+    height: auto;
+    width: 100%;
+  }
+  .frameWrapper {
+    padding-left: var(--padding-20);
+    padding-bottom: var(--padding-36);
+    box-sizing: border-box;
+  }
+  .openingDoors {
+    font-size: var(--fs-23);
+  }
+  .championingEquityBy {
+    font-size: var(--fs-31);
+    height: auto;
+  }
+  .rectangleGroup {
+    padding-left: var(--padding-20);
+  }
+}

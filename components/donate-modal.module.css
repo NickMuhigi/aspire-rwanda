@@ -1,0 +1,275 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.modal {
+  background: #fff;
+  width: 100%;
+  max-width: 560px;
+  max-height: 90vh;
+  overflow-y: auto;
+  animation: slideUp 0.25s ease;
+  position: relative;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(24px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+/* ── Header ── */
+.header {
+  background-color: #026e78;
+  padding: 36px 40px 32px;
+  position: relative;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  border: 1.5px solid rgba(255,255,255,0.4);
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1;
+  transition: background 0.15s;
+}
+
+.closeBtn:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+.headerLabel {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Graphik XCond Trial";
+  color: #34c759;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+
+.headerTitle {
+  margin: 0 0 6px;
+  font-size: 34px;
+  font-weight: 600;
+  font-family: "Graphik XCond Trial";
+  color: #fff;
+  line-height: 1.1;
+}
+
+.headerSub {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Neue Montreal";
+  color: rgba(255,255,255,0.7);
+  line-height: 1.4;
+}
+
+/* ── Body ── */
+.body {
+  padding: 32px 40px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* ── Section ── */
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.sectionLabel {
+  font-size: 11px;
+  font-weight: 600;
+  font-family: "Graphik XCond Trial";
+  color: #026e78;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+/* ── Row ── */
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.rowLabel {
+  font-size: 13px;
+  font-family: "Neue Montreal";
+  color: #666;
+  white-space: nowrap;
+  flex-shrink: 0;
+  min-width: 120px;
+}
+
+.rowValue {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Graphik XCond Trial";
+  color: #111;
+  text-align: right;
+  flex: 1;
+  word-break: break-all;
+}
+
+/* ── Copy button ── */
+.copyBtn {
+  border: 1px solid #e0e0e0;
+  background: #f7f7f7;
+  cursor: pointer;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-family: "Graphik XCond Trial";
+  color: #026e78;
+  flex-shrink: 0;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+
+.copyBtn:hover {
+  background: #026e78;
+  color: #fff;
+  border-color: #026e78;
+}
+
+.copyBtn.copied {
+  background: #34c759;
+  color: #fff;
+  border-color: #34c759;
+}
+
+/* ── MoMo highlight ── */
+.momoCode {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f0faf4;
+  border: 1px solid #34c759;
+  padding: 14px 18px;
+  gap: 12px;
+}
+
+.momoCodeNumber {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Graphik XCond Trial";
+  color: #026e78;
+  letter-spacing: 0.05em;
+}
+
+.momoCodeLabel {
+  font-size: 12px;
+  font-family: "Neue Montreal";
+  color: #666;
+  margin-top: 2px;
+}
+
+/* ── Divider ── */
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #bbb;
+  font-size: 12px;
+  font-family: "Graphik XCond Trial";
+  letter-spacing: 0.1em;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #e5e5e5;
+}
+
+/* ── Account card ── */
+.accountCard {
+  border: 1px solid #e5e5e5;
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.accountCardTitle {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Graphik XCond Trial";
+  color: #026e78;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0 0 2px;
+}
+
+/* ── Footer note ── */
+.footerNote {
+  text-align: center;
+  font-size: 13px;
+  font-family: "Neue Montreal";
+  color: #999;
+  padding-top: 4px;
+  border-top: 1px solid #f0f0f0;
+}
+
+@media screen and (max-width: 480px) {
+  .overlay {
+    padding: 12px;
+    align-items: flex-end;
+  }
+  .modal {
+    max-height: 92vh;
+  }
+  .header {
+    padding: 24px 20px 20px;
+  }
+  .headerTitle {
+    font-size: 26px;
+  }
+  .body {
+    padding: 20px 16px 24px;
+    gap: 20px;
+  }
+  .row {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .rowLabel {
+    min-width: unset;
+  }
+  .momoCode {
+    padding: 12px 14px;
+    flex-wrap: wrap;
+  }
+  .momoCodeNumber {
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,305 @@
+.projectHolder,
+.projectHolderWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.projectHolderWrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 49px 60px 20px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 30px;
+  color: #000;
+  font-family: "Graphik XCond Trial";
+}
+.projectHolder {
+  width: min(1219px, 100%);
+  flex-direction: column;
+  gap: 23px;
+}
+.projectContent,
+.projectContentChild {
+  height: 48px;
+  border-radius: 7px;
+  border: 1px solid #026e78;
+  box-sizing: border-box;
+}
+.projectContent {
+  display: grid;
+  place-items: center;
+  padding: 0 12px;
+  white-space: nowrap;
+}
+.projectContentChild {
+  width: 139px;
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.ourProjects {
+  margin: 0;
+  width: auto;
+  position: relative;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: inherit;
+  display: block;
+  text-align: center;
+  line-height: 1;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.growthProject,
+.projectsCluster {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  max-width: 100%;
+}
+.projectsCluster {
+  flex-direction: column;
+}
+.growthProject {
+  justify-content: space-between;
+  text-align: left;
+  font-size: 56px;
+  color: #000;
+  font-family: "Graphik XCond Trial";
+}
+.pathwayDetail,
+.pathwayProject {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.pathwayProject {
+  justify-content: flex-end;
+  padding: 0 0 0;
+  box-sizing: border-box;
+  min-width: 524px;
+}
+.pathwayDetail {
+  align-self: stretch;
+  gap: 16px;
+}
+.growthImpactContainer {
+  margin: 0;
+  width: min(477px, 100%);
+  height: auto;
+  position: relative;
+  font-size: inherit;
+  display: inline-block;
+  max-width: 100%;
+  font-family: "Graphik XCond Trial";
+}
+.growth {
+  font-weight: 500;
+}
+.firstLine {
+  font-weight: 500;
+  white-space: nowrap;
+}
+.span {
+  font-family: "Graphik XCond Trial";
+}
+.rwandaProject {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 0 0 3px;
+  font-size: 22px;
+  font-family: "Neue Montreal";
+}
+.exploreAspireRwandas {
+  flex: 1;
+  position: relative;
+  margin-top: 0;
+}
+.growthProjectChild {
+  width: 521px;
+  position: relative;
+  border-radius: 4px;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.childcareSet {
+  width: min(1216px, 100%);
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 30px;
+  color: #fff;
+  font-family: "Graphik XCond Trial";
+}
+.childcareSet,
+.detailsHolder,
+.readMoreParent {
+  display: flex;
+  align-items: flex-start;
+}
+.detailsHolder {
+  width: 292px;
+  flex-direction: column;
+  padding: 0;
+  box-sizing: border-box;
+}
+.readMoreParent {
+  cursor: pointer;
+  border: 0;
+  text-decoration: none;
+  width: 201px;
+  height: 62px;
+  padding: 0 24px;
+  position: relative;
+  isolation: isolate;
+  background: url("/Subtract3.svg") no-repeat center / 100% 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  box-sizing: border-box;
+  transition: background-color 0.08s linear, background-image 0.08s linear;
+}
+.readMoreParent:hover {
+  background-image: url("/Subtract3-green.svg");
+}
+.readMore {
+  margin: 0;
+  position: relative;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Graphik XCond Trial";
+  color: #fff;
+  white-space: nowrap;
+  z-index: 1;
+  line-height: 1;
+}
+.readMoreArrow {
+  width: 22px;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.28s ease;
+}
+.readMoreParent:hover .readMoreArrow {
+  transform: translateX(4px);
+}
+.descriptionLabel {
+  width: min(521px, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 11px;
+  max-width: 100%;
+  font-size: 20px;
+  color: #026e78;
+  font-family: "Neue Montreal";
+  text-decoration: none;
+  cursor: pointer;
+}
+.descriptionLabel:hover .providingASafe {
+  color: #34c759;
+}
+.childcareEarly {
+  margin: 0;
+  width: 311px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  transition: color 0.2s ease;
+}
+.nurturingProject {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 0 0 2px;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 25px;
+  color: #000;
+  font-family: "Graphik XCond Trial";
+}
+.providingASafe {
+  height: auto;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  transition: color 0.2s ease;
+}
+@media screen and (max-width: 1350px) {
+  .projectHolderWrapper {
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .growthProject {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .growthProjectChild,
+  .pathwayProject {
+    flex: 1;
+    min-width: 0;
+  }
+  .childcareSet {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .projectHolderWrapper {
+    padding-bottom: 39px;
+    box-sizing: border-box;
+  }
+  .pathwayProject {
+    min-width: 100%;
+  }
+  .ourProjects {
+    font-size: 24px;
+  }
+  .growthImpactContainer {
+    font-size: 45px;
+    line-height: 1.1;
+  }
+  .readMore {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourProjects {
+    font-size: 22px;
+  }
+  .growthImpactContainer {
+    font-size: 34px;
+  }
+  .exploreAspireRwandas,
+  .readMore {
+    font-size: 18px;
+  }
+  .childcareEarly {
+    font-size: 16px;
+  }
+  .readMoreParent {
+    width: 244px;
+    height: 74px;
+    padding: 0 24px;
+    gap: 12px;
+  }
+  .readMoreArrow {
+    width: 18px;
+  }
+  .providingASafe {
+    font-size: 20px;
+  }
+}

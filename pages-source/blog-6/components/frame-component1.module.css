@@ -1,0 +1,107 @@
+.blog1Inner {
+  align-self: stretch;
+  justify-content: center;
+  padding: var(--padding-0) 306px 7.7px var(--padding-20);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--fs-25);
+  color: var(--color-teal);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.blog1Inner,
+.postContainer,
+.postContainerParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.postContainerParent {
+  width: 968px;
+  flex-direction: column;
+  gap: var(--gap-14);
+}
+.postContainer {
+  height: var(--height-30);
+  padding: var(--padding-0) var(--padding-5);
+  box-sizing: border-box;
+}
+.aspireNurserySchoolParent {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-16);
+}
+.aspireNurserySchool {
+  margin: 0;
+  width: 166px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  white-space: nowrap;
+}
+.postImageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-3) var(--padding-0) var(--padding-0);
+}
+.postImage {
+  width: var(--width-1);
+  height: 23px;
+  position: relative;
+  background-color: var(--color-black);
+}
+.insideTheNursery,
+.thApril2026 {
+  position: relative;
+  display: inline-block;
+}
+.thApril2026 {
+  margin: 0;
+  width: 113px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.insideTheNursery {
+  height: 265px;
+  font-size: 70px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+@media screen and (max-width: 1200px) {
+  .blog1Inner {
+    padding-right: 153px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .insideTheNursery {
+    font-size: 56px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .blog1Inner {
+    padding-right: 76px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .blog1Inner {
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .aspireNurserySchoolParent {
+    flex-wrap: wrap;
+  }
+  .aspireNurserySchool,
+  .thApril2026 {
+    font-size: var(--fs-20);
+  }
+  .insideTheNursery {
+    font-size: 42px;
+  }
+}

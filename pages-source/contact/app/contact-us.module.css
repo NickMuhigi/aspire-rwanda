@@ -1,0 +1,361 @@
+.contactDivider {
+  width: 1251px;
+  max-width: 100%;
+  margin: 0;
+  border: none;
+  border-bottom: 1px solid #555555;
+  align-self: flex-start;
+}
+/* --- Donate Button Styles (from homepage statistics-view.module.css) --- */
+.donateParent {
+  cursor: pointer;
+  border: 0;
+  width: 201px;
+  height: 62px;
+  padding: 0 24px;
+  position: relative;
+  isolation: isolate;
+  background: url("/Subtract3.svg") no-repeat center / 100% 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  box-sizing: border-box;
+  transition: background-color 0.08s linear, background-image 0.08s linear;
+}
+.donateParent:hover {
+  background-image: url("/Subtract3-green.svg");
+}
+.donate {
+  margin: 0;
+  position: relative;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 500;
+  font-family: "Graphik XCond Trial";
+  color: #fff;
+  z-index: 1;
+}
+.donateArrow {
+  width: 22px;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.28s ease;
+}
+.donateParent:hover .donateArrow {
+  transform: translateX(4px);
+}
+/* --- Homepage Button Styles (Copied) --- */
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 14px 54px;
+  background-color: #026e78;
+  display: flex;
+  align-items: flex-start;
+  z-index: 1;
+}
+.rectangleGroup:hover {
+  background-color: #34c759;
+}
+.donate2,
+.rectangleDiv {
+  position: relative;
+  flex-shrink: 0;
+}
+.rectangleDiv {
+  height: 52px;
+  width: 160px;
+  background-color: #026e78;
+  display: none;
+}
+.donate2 {
+  width: 55px;
+  font-size: 20px;
+  font-family: "Graphik XCond Trial";
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.contactUs {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.contactHeadingContainerParent {
+  width: 100%;
+  max-width: 1347px;
+  margin: 24px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 84px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 60px;
+  color: var(--color-teal);
+  font-family: var(--font-graphik-xcond-trial);
+  padding-left: 40px;
+}
+.impactOverAll,
+.impactOverAllChild {
+  height: 48px;
+  border-radius: 7px;
+  border: 1px solid #2DA058;
+  background: transparent;
+  box-sizing: border-box;
+}
+.impactOverAll {
+  display: grid;
+  place-items: center;
+  padding: 0 10px;
+}
+.impactOverAllChild {
+  width: 104px;
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.statistics {
+  margin: 0;
+  width: auto;
+  position: relative;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: inherit;
+  display: block;
+  text-align: center;
+  line-height: 1;
+  z-index: 1;
+  flex-shrink: 0;
+  color: #000000;
+}
+.contactHeadingContainer,
+.contactHeadingContainerChild {
+  height: 45px;
+  width: var(--width-118);
+  border-radius: 7px;
+  border: 1px solid var(--color-mediumseagreen-200);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.contactHeadingContainer {
+  cursor: pointer;
+  padding: var(--padding-6) var(--padding-14) var(--padding-5);
+  background-color: transparent;
+  display: flex;
+  align-items: flex-start;
+  white-space: nowrap;
+}
+.contactHeadingContainer:hover {
+  background-color: var(--color-mediumseagreen-300);
+  border: 1px solid var(--color-mediumseagreen-100);
+  box-sizing: border-box;
+}
+.contactHeadingContainerChild {
+  position: relative;
+  display: none;
+}
+.contactUs2 {
+  margin: 0;
+  width: 83px;
+  position: relative;
+  font-size: var(--fs-25);
+  font-weight: 400;
+  font-family: var(--font-graphik-xcond-trial);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.contactBlurbContainer,
+.contactContent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.contactContent {
+  flex-direction: column;
+  gap: 25px;
+  flex-shrink: 0;
+}
+.contactBlurbContainer {
+  padding: var(--padding-0) var(--padding-0) 24px 3px;
+  box-sizing: border-box;
+}
+.wedLoveTo {
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.contactContentInner {
+  width: 1251px;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-20) 9px var(--padding-0);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: #555555;
+  max-width: 100%;
+}
+.submitContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--fs-25);
+  color: var(--color-white);
+  margin-top: 2px;
+  margin-bottom: 48px;
+  padding: 0 0 0 570px; /* align button left with right-column form fields */
+}
+.send,
+.submitButton {
+  flex: 1;
+  position: relative;
+}
+.submitButton {
+  display: flex;
+  align-items: flex-start;
+  padding: 12.8px 46px var(--padding-18) 51px;
+  isolation: isolate;
+}
+.send {
+  margin: 0;
+  font-size: inherit;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.submitIconArea,
+.subtractIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.submitIconArea {
+  margin: 0 !important;
+  flex-shrink: 0;
+}
+.subtractIcon {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.submitIconAreaChild {
+  position: absolute;
+  top: 26.8px;
+  left: 117px;
+  width: 17px;
+  height: 14.7px;
+  z-index: 2;
+}
+@media screen and (max-width: 1050px) {
+  .wedLoveTo {
+    font-size: 48px;
+  }
+  .contactHeadingContainerParent {
+    padding-left: 24px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .contactUs {
+    gap: 29px;
+  }
+  .contactHeadingContainerParent {
+    gap: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .contactContent {
+    gap: 12px;
+  }
+  .contactContent {
+    width: 100%;
+    flex-shrink: 1;
+  }
+  .contactBlurbContainer {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .wedLoveTo {
+    font-size: 58px;
+    white-space: normal;
+    word-wrap: break-word;
+    width: 100%;
+  }
+  .wedLoveTo br {
+    display: none;
+  }
+  .impactOverAll {
+    padding: 0 12px;
+  }
+  .statistics {
+    font-size: 22px;
+  }
+  .submitContainer {
+    padding: 0;
+    justify-content: flex-start;
+    /* reset desktop padding-left */
+  }
+  .donateParent {
+    width: 100%;
+    height: 52px;
+    background: var(--color-teal);
+    background-image: none;
+    border-radius: 0;
+    clip-path: polygon(18px 0%, 100% 0%, 100% 100%, 0% 100%, 0% 18px);
+  }
+  .donateParent:hover {
+    background: #34c759;
+    background-image: none;
+  }
+  .donate {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactHeadingContainerParent {
+    gap: var(--gap-21);
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .wedLoveTo {
+    font-size: 44px;
+  }
+  .statistics {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,194 @@
+.aspireNurserySchoolInner {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-0) 27px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--fs-25);
+  color: var(--color-white);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.frameChild,
+.rectangleParent {
+  background-color: var(--color-teal);
+}
+.rectangleParent {
+  height: var(--height-677);
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.frameItem {
+  position: absolute;
+  top: 231px;
+  left: 147px;
+  border-radius: var(--br-3);
+  width: 508px;
+  height: 236px;
+  object-fit: cover;
+  z-index: 1;
+}
+.testimonialInfo {
+  position: absolute;
+  top: 154px;
+  left: 803px;
+  width: 558px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 41.5px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 42px;
+  color: var(--color-white);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.asAMother,
+.quoteLeftIcon {
+  position: relative;
+  z-index: 1;
+}
+.quoteLeftIcon {
+  width: var(--width-36);
+  height: 39px;
+  object-fit: cover;
+}
+.asAMother {
+  height: 215px;
+  font-weight: 600;
+  display: inline-block;
+}
+.testimonialAction {
+  cursor: pointer;
+  border: 0;
+  text-decoration: none;
+  width: 201px;
+  height: 62px;
+  padding: 0 24px;
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+  background: url("/Subtract3-green.svg") no-repeat center / 100% 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  transition: background-color 0.08s linear, background-image 0.08s linear;
+  font-size: 22px;
+}
+.testimonialAction:hover {
+  background-image: url("/Subtract3-red.svg");
+}
+.readMore {
+  margin: 0;
+  position: relative;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 500;
+  font-family: "Graphik XCond Trial";
+  color: #fff;
+  display: block;
+  z-index: 1;
+}
+.readMoreArrow {
+  width: 22px;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.28s ease;
+}
+.testimonialAction:hover .readMoreArrow {
+  transform: translateX(4px);
+}
+.rectangleGroup {
+  position: absolute;
+  top: 101px;
+  left: 147px;
+  border-radius: var(--br-7);
+  border: 1px solid #34c759;
+  box-sizing: border-box;
+  width: 156px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  padding: 0 12px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.rectangleDiv,
+.voicesOfImpact {
+  position: relative;
+  flex-shrink: 0;
+}
+.rectangleDiv {
+  height: 48px;
+  width: 156px;
+  border-radius: var(--br-7);
+  border: var(--border-1);
+  box-sizing: border-box;
+  display: none;
+}
+.voicesOfImpact {
+  margin: 0;
+  width: auto;
+  font-size: 26px;
+  line-height: 1;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  text-align: center;
+  z-index: 2;
+}
+@media screen and (max-width: 750px) {
+  .voicesOfImpact {
+    font-size: 24px;
+  }
+  .rectangleParent {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 16px;
+    gap: 24px;
+  }
+  .rectangleGroup {
+    position: static;
+    order: -1;
+  }
+  .frameItem {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+  .testimonialInfo {
+    position: static;
+    width: 100%;
+  }
+  .asAMother {
+    font-size: 34px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .voicesOfImpact {
+    font-size: 22px;
+  }
+  .asAMother {
+    font-size: var(--fs-25);
+  }
+  .readMore {
+    font-size: 22px;
+  }
+}

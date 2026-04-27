@@ -1,0 +1,303 @@
+.locationsContainer,
+.locationsContainerWrapper {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.locationsContainerWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 28px;
+  flex-shrink: 0;
+}
+.locationsContainer {
+  flex: 1;
+  background-color: #026e78;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 54px 125px 87px 93px;
+  gap: 110px;
+}
+.locationsContainerChild {
+  height: 677px;
+  width: 1440px;
+  position: relative;
+  background-color: #026e78;
+  display: none;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.locationsHeader {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  min-width: 0;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 28px;
+  color: #fff;
+  font-family: "Graphik XCond Trial";
+}
+.headerLocation,
+.headerLocationChild {
+  height: 48px;
+  border-radius: 7px;
+  border: 1px solid #34c759;
+  box-sizing: border-box;
+}
+.headerLocation {
+  display: grid;
+  place-items: center;
+  padding: 0 12px;
+  margin-left: 36px;
+  z-index: 1;
+}
+.headerLocationChild {
+  width: 107px;
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.locations {
+  margin: 0;
+  width: auto;
+  position: relative;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: inherit;
+  display: block;
+  text-align: center;
+  line-height: 1;
+  z-index: 2;
+  flex-shrink: 0;
+}
+.locationImage {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.geminiGeneratedImage8jwyao8Icon {
+  width: 530px;
+  position: relative;
+  max-height: 100%;
+  height: auto;
+  object-fit: cover;
+  max-width: 100%;
+  z-index: 1;
+  margin-left: 72px;
+}
+.innerChange,
+.innerChangeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.innerChangeWrapper {
+  width: min(465px, 100%);
+  justify-content: flex-start;
+  padding: 50px 0 3px;
+  margin-left: 0 !important;
+  transform: translateX(-64px) !important;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: justify;
+  font-size: 60px;
+  color: #fff;
+  font-family: "Graphik XCond Trial";
+}
+.innerChange {
+  align-self: stretch;
+  gap: 30px;
+}
+.plantingLastingChange {
+  margin: 0;
+  height: auto;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+  height: auto;
+  flex-direction: column;
+  padding: 0 0 1px;
+  box-sizing: border-box;
+  gap: 21px;
+  font-size: 30px;
+}
+.accordionItem {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  width: 100%;
+}
+.accordionRow {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  cursor: pointer;
+  max-width: 100%;
+}
+.locationWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px 0 0;
+}
+.locationDot {
+  width: 12px;
+  height: 12px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #e21111;
+  z-index: 1;
+}
+.gisoziLabel {
+  width: min(413px, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: calc(100% - 46px);
+}
+.subtractIcon {
+  position: relative;
+  z-index: 1;
+}
+.locationName {
+  margin: 0;
+  width: auto;
+  height: 36px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.subtractIcon {
+  width: 100%;
+  height: 16px;
+  object-fit: cover;
+}
+.skillsCaption {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 9px 7px 21px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 18px;
+  font-family: "Neue Montreal";
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.vocationalAndBusiness {
+  height: 44px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.nestedBreak {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 0 10px 0;
+}
+.kinyinyaWrap,
+.nestedBreak,
+.nestedBreakChild {
+  align-self: stretch;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.nestedBreakChild {
+  flex: 1;
+  position: relative;
+  border-top: 1px solid #fff;
+  z-index: 1;
+}
+.plusMathIcon {
+  width: 100%;
+  height: 19px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.locationDivider {
+  align-self: stretch;
+  height: 1px;
+  display: flex;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+@media screen and (max-width: 1350px) {
+  .locationsContainer {
+    flex-wrap: wrap;
+  }
+  .innerChangeWrapper {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 800px) {
+  .locations {
+    font-size: 24px;
+  }
+  .locationsContainer {
+    gap: 76px;
+    padding: 35px 62px 57px 46px;
+    box-sizing: border-box;
+  }
+  .innerChangeWrapper,
+  .locationsHeader {
+    min-width: 100%;
+    transform: none !important;
+  }
+  .headerLocation {
+    margin-left: 0;
+  }
+  .plantingLastingChange {
+    font-size: 48px;
+  }
+  .locationName {
+    font-size: 30px;
+  }
+  .geminiGeneratedImage8jwyao8Icon {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .locationsContainer {
+    gap: 38px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .locations {
+    font-size: 22px;
+  }
+  .plantingLastingChange {
+    font-size: 36px;
+  }
+  .locationName {
+    font-size: 24px;
+  }
+}

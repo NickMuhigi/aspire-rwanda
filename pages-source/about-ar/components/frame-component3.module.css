@@ -1,0 +1,183 @@
+.lineParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+  gap: 60.5px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-29);
+  color: var(--color-limegreen);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.frameChild {
+  height: var(--height-479_8);
+  width: var(--width-0_8);
+  position: relative;
+  border-right: var(--border-11);
+  box-sizing: border-box;
+}
+.frameWrapper,
+.growingBrillianceParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameWrapper {
+  width: 475px;
+  padding: var(--padding-0) var(--padding-0) var(--padding-56);
+  box-sizing: border-box;
+  min-height: 396px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-29);
+  color: var(--color-limegreen);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.growingBrillianceParent {
+  align-self: stretch;
+  gap: var(--gap-41);
+}
+.growingBrilliance {
+  margin: 0;
+  width: 174px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  white-space: nowrap;
+}
+.fosteringGrowthThrough {
+  height: var(--height-263);
+  position: relative;
+  font-size: var(--fs-52);
+  font-weight: 600;
+  color: var(--color-black);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameItem,
+.rectangleParent {
+  width: 629px;
+  background-color: var(--color-teal);
+  max-width: 100%;
+}
+.rectangleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 86px var(--padding-20) var(--padding-56) var(--padding-85);
+  box-sizing: border-box;
+  gap: var(--gap-41);
+  z-index: 1;
+}
+.frameItem {
+  height: 482px;
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.believingInCollaboration,
+.strongerTogether {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.strongerTogether {
+  margin: 0;
+  width: 173px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.believingInCollaboration {
+  width: 476px;
+  height: var(--height-263);
+  font-size: var(--fs-52);
+  font-weight: 600;
+  color: var(--color-white);
+  max-width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .lineParent {
+    flex-wrap: wrap;
+  }
+  .frameChild {
+    width: var(--width-100);
+    height: 0.8px;
+    border-top: 0.8px solid var(--color-black);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .lineParent {
+    gap: var(--gap-24);
+  }
+  .frameChild {
+    display: none;
+  }
+  .frameWrapper {
+    min-width: 100%;
+    background-color: var(--color-white);
+    padding: var(--padding-56) var(--padding-20) var(--padding-36) 42px;
+    box-sizing: border-box;
+    min-height: 0;
+    order: 2;
+  }
+  .growingBrillianceParent {
+    gap: var(--gap-20);
+  }
+  .fosteringGrowthThrough {
+    font-size: var(--fs-42);
+    height: auto;
+    width: 100%;
+  }
+  .rectangleParent {
+    min-width: 100%;
+    order: 1;
+    gap: var(--gap-20);
+    padding-left: 42px;
+    padding-top: var(--padding-56);
+    padding-bottom: var(--padding-36);
+    box-sizing: border-box;
+  }
+  .believingInCollaboration {
+    font-size: var(--fs-42);
+    height: auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .lineParent {
+    gap: var(--gap-24);
+  }
+  .frameWrapper {
+    padding-left: var(--padding-20);
+    padding-bottom: var(--padding-36);
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  .growingBrilliance {
+    font-size: var(--fs-23);
+  }
+  .fosteringGrowthThrough {
+    font-size: var(--fs-31);
+    height: auto;
+    flex-shrink: 1;
+  }
+  .rectangleParent {
+    padding-left: var(--padding-20);
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .strongerTogether {
+    font-size: var(--fs-23);
+  }
+  .believingInCollaboration {
+    font-size: var(--fs-31);
+    height: auto;
+    width: 100%;
+  }
+}

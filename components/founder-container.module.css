@@ -1,0 +1,220 @@
+.founderContainer {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 0 3px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 30px;
+  color: #fff;
+  font-family: "Graphik XCond Trial";
+}
+.founderContent {
+  min-height: 677px;
+  flex: 1;
+  position: relative;
+  background-color: #026e78;
+  max-width: 100%;
+}
+.founderContentChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #026e78;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.founderBlock {
+  position: absolute;
+  top: 42px;
+  left: 140px;
+  border: 4px solid #34c759;
+  box-sizing: border-box;
+  width: 1034px;
+  display: flex;
+  flex-direction: column;
+  padding: 84px 50px 120px;
+  gap: 35.7px;
+  z-index: 3;
+}
+.founderBlock,
+.founderDetails,
+.founderHeader {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.founderDetails {
+  width: 540.6px;
+  padding: 0 9px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 26px;
+  color: #34c759;
+  font-family: "Graphik XCond Trial";
+}
+.founderHeader {
+  flex-direction: column;
+  gap: 47px;
+}
+.fromASimple,
+.meetOurFounder {
+  margin: 0;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.meetOurFounder {
+  width: 184px;
+  position: relative;
+  font-size: inherit;
+  line-height: 34px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.fromASimple {
+  height: auto;
+  font-size: 44px;
+  font-weight: 600;
+  color: #fff;
+}
+.founderReadMore,
+.fromASimple,
+.readMore {
+  position: relative;
+  flex-shrink: 0;
+}
+.founderReadMore {
+  cursor: pointer;
+  border: 0;
+  text-decoration: none;
+  width: 201px;
+  height: 62px;
+  padding: 0 24px;
+  box-sizing: border-box;
+  isolation: isolate;
+  background: url("/Subtract3-green.svg") no-repeat center / 100% 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  transition: background-color 0.08s linear, background-image 0.08s linear;
+}
+.founderReadMore:hover {
+  background-image: url("/Subtract3-red.svg");
+}
+.readMore {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Graphik XCond Trial";
+  color: #fff;
+  display: inline-block;
+  z-index: 1;
+  line-height: 1;
+}
+.readMoreArrow {
+  position: relative;
+  width: 22px;
+  height: auto;
+  filter: brightness(0) invert(1) drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  z-index: 1;
+  transition: transform 0.28s ease;
+}
+.founderReadMore:hover .readMoreArrow {
+  transform: translateX(4px);
+}
+.founderBlockChild {
+  width: 1034px;
+  height: 571px;
+  position: relative;
+  border: 4px solid #34c759;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.founderBackgroundIcon {
+  position: absolute;
+  top: 113px;
+  left: 795px;
+  width: 533px;
+  height: 418px;
+  object-fit: cover;
+  z-index: 4;
+}
+@media screen and (max-width: 800px) {
+  .founderContent {
+    min-height: 0;
+    padding: 24px 20px 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .founderBlock {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    padding: 28px 20px 100px;
+    gap: 40px;
+    z-index: 2;
+  }
+  .founderBackgroundIcon {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: -15px;
+    z-index: 3;
+    display: block;
+  }
+  .founderHeader {
+    gap: 24px;
+  }
+  .founderDetails {
+    width: 100%;
+    padding: 0;
+  }
+  .fromASimple {
+    font-size: 35px;
+  }
+  .fromASimple br {
+    display: none;
+  }
+  .readMore {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .founderContent {
+    padding: 16px 12px 20px;
+  }
+  .founderBlock {
+    padding: 18px 12px 22px;
+    border-width: 2px;
+    gap: 16px;
+  }
+  .founderReadMore {
+    width: 210px;
+    height: 64px;
+    padding: 0 20px;
+    gap: 12px;
+  }
+  .meetOurFounder {
+    font-size: 21px;
+  }
+  .fromASimple {
+    font-size: 26px;
+  }
+  .readMore {
+    font-size: 18px;
+  }
+}

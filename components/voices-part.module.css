@@ -1,0 +1,290 @@
+/* Restore and correct .whatStartedAsASmallOpportWrapper block */
+.whatStartedAsASmallOpportWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  margin-top: 12px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.voicesPart {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 0 74px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 30px;
+  color: #fff;
+  font-family: "Graphik XCond Trial";
+}
+.viewsImpcat,
+.viewsImpcatChild {
+  background-color: #026e78;
+  max-width: 100%;
+}
+.viewsImpcat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 30px 112px 150px 96px;
+  box-sizing: border-box;
+  gap: 21px;
+}
+.viewsImpcatChild {
+  width: 1440px;
+  height: 677px;
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.areaVoiced,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+}
+.areaVoiced {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 100%;
+  flex-shrink: 0;
+  margin-left: 40px;
+}
+.rectangleParent {
+  height: 48px;
+  border-radius: 7px;
+  border: 1px solid #2da058;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  padding: 0 20px;
+  white-space: nowrap;
+  z-index: 1;
+  margin-top: 48px;
+}
+.frameChild,
+.voicesOfImpact {
+  position: relative;
+  flex-shrink: 0;
+}
+.frameChild {
+  height: 48px;
+  width: 192px;
+  border-radius: 7px;
+  border: 1px solid #2da058;
+  box-sizing: border-box;
+  display: none;
+}
+.voicesOfImpact {
+  margin: 0;
+  width: auto;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: inherit;
+  display: block;
+  text-align: center;
+  line-height: 1;
+  z-index: 2;
+}
+.quoteLeftRectParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 40px;
+  color: #fff;
+  font-family: "Graphik XCond Trial";
+}
+.quoteLeftRect {
+  width: 1157px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.quoteLeftIcon {
+  height: 47px;
+  width: 43px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.rectangleGroup {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: 153px;
+  max-width: 100%;
+}
+.frameItem {
+  border: 0;
+  height: 252px;
+  flex: 1;
+  position: relative;
+  border-radius: 3px;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.whatStartedAs {
+  height: 202px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.readMoreContainer,
+.readMoreLink {
+  display: flex;
+  align-items: flex-start;
+}
+.readMoreContainer {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 40px 0 0;
+  box-sizing: border-box;
+}
+.readMoreLink {
+  cursor: pointer;
+  border: 0;
+  text-decoration: none;
+  width: 201px;
+  height: 62px;
+  padding: 0 24px;
+  position: relative;
+  isolation: isolate;
+  background: url("/Subtract3-green.svg") no-repeat center / 100% 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  box-sizing: border-box;
+  transition: background-color 0.08s linear, background-image 0.08s linear;
+}
+.readMoreLink:hover {
+  background-image: url("/Subtract3-red.svg");
+}
+.readMore {
+  margin: 0;
+  position: relative;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Graphik XCond Trial";
+  color: #fff;
+  white-space: nowrap;
+  z-index: 1;
+  line-height: 1;
+}
+.readMoreArrow {
+  position: relative;
+  width: 22px;
+  height: auto;
+  filter: brightness(0) invert(1) drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  z-index: 1;
+  transition: transform 0.28s ease;
+}
+.readMoreLink:hover .readMoreArrow {
+  transform: translateX(4px);
+}
+@media screen and (max-width: 1350px) {
+  .rectangleGroup {
+    gap: 76px;
+  }
+}
+@media screen and (max-width: 1150px) {
+}
+@media screen and (max-width: 800px) {
+  .voicesPart {
+    padding-bottom: 48px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  .viewsImpcat {
+    padding: 39px 40px 61px 40px;
+    box-sizing: border-box;
+    align-items: stretch;
+    overflow-x: hidden;
+    min-width: 0;
+  }
+  .areaVoiced {
+    gap: 26px;
+    margin-left: 0;
+    width: 100%;
+    min-width: 0;
+    overflow-x: hidden;
+  }
+  .rectangleParent {
+    margin-top: 0;
+  }
+  .voicesOfImpact {
+    font-size: 24px;
+  }
+  .quoteLeftRectParent {
+    display: grid;
+    grid-template-areas: "image" "icon" "text";
+    gap: 16px;
+  }
+  .quoteLeftRect {
+    grid-area: icon;
+    width: auto;
+    justify-content: flex-start;
+    padding: 0;
+  }
+  .rectangleGroup {
+    display: contents;
+  }
+  .frameItem {
+    grid-area: image;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .whatStartedAsASmallOpportWrapper {
+    grid-area: text;
+    width: 100%;
+    min-width: 0;
+  }
+  .whatStartedAs br {
+    display: none;
+  }
+  .whatStartedAs {
+    font-size: 32px;
+    height: auto;
+  }
+  .readMore {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .viewsImpcat {
+    padding: 32px 20px 48px;
+    box-sizing: border-box;
+  }
+  .areaVoiced {
+    margin-left: 0;
+  }
+  .voicesOfImpact {
+    font-size: 22px;
+  }
+  .rectangleGroup {
+    gap: 19px;
+  }
+  .whatStartedAs {
+    font-size: 24px;
+  }
+  .readMore {
+    font-size: 18px;
+  }
+}

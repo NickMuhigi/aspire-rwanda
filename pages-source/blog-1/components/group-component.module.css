@@ -1,0 +1,587 @@
+.frameChild,
+.rectangleParent {
+  background-color: var(--color-teal);
+  flex-shrink: 0;
+}
+.rectangleParent {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 13px var(--padding-0) var(--padding-18) var(--padding-11);
+  box-sizing: border-box;
+  gap: 97px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-20);
+  color: var(--color-lightgray);
+  font-family: var(--font-neue-montreal);
+}
+.frameChild {
+  align-self: stretch;
+  height: 677px;
+  position: relative;
+  display: none;
+}
+.frameWrapper {
+  width: 1423px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-20);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.footerContainerParent {
+  width: 1225px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 49px;
+  max-width: 100%;
+}
+.footerContainer,
+.footerInfo {
+  align-self: stretch;
+  display: flex;
+}
+.footerContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-1);
+  gap: 34px;
+}
+.footerInfo {
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-20);
+}
+.footerDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-1);
+}
+.logo5Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: 1;
+}
+.socialLinks {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-2);
+}
+.socialIcons {
+  height: var(--height-40);
+  width: 35px;
+  position: relative;
+}
+.iconBackground {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 35px;
+  height: var(--height-32);
+  z-index: 1;
+}
+.linkedinIcon {
+  position: absolute;
+  top: 0;
+  left: 7px;
+  width: 23px;
+  height: var(--height-40);
+  object-fit: cover;
+  z-index: 2;
+}
+.socialIcons2,
+.socialIconsChild {
+  height: var(--height-40);
+  width: var(--width-32);
+  position: relative;
+}
+.socialIconsChild {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background-color: var(--color-white);
+  height: var(--height-32);
+  z-index: 1;
+}
+.facebookIcon {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  width: var(--width-22);
+  height: var(--height-40);
+  object-fit: cover;
+  z-index: 2;
+}
+.socialIcons3 {
+  height: var(--height-40);
+  width: 33px;
+  position: relative;
+}
+.socialIconsItem {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 33px;
+  height: var(--height-32);
+  z-index: 1;
+}
+.footerContainerChild {
+  align-self: stretch;
+  height: var(--height-1);
+  position: relative;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.subscribeInfoParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+  gap: 81px;
+  max-width: 100%;
+}
+.aspireDescription,
+.subscribeInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.subscribeInfo {
+  width: 486px;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-4);
+  box-sizing: border-box;
+}
+.aspireDescription {
+  align-self: stretch;
+  gap: 43.4px;
+}
+.aspireRwandaIsARegistered {
+  width: var(--width-439);
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.subscribeParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15.8px;
+  max-width: 100%;
+  font-size: var(--fs-26);
+  color: var(--color-white);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.subscribe {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.emailInput,
+.emailInputParent {
+  display: flex;
+  align-items: flex-start;
+}
+.emailInputParent {
+  width: var(--width-439);
+  height: 50.4px;
+  border: 1px solid var(--color-limegreen);
+  box-sizing: border-box;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-17);
+  gap: 29px;
+  max-width: 100%;
+  z-index: 3;
+  font-size: var(--fs-18);
+  color: var(--color-lightgray);
+}
+.emailInput {
+  flex-direction: column;
+  padding: 15.2px var(--padding-0) var(--padding-0);
+  flex-shrink: 0;
+}
+.pleaseEnterYour {
+  width: 200px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.subscribeGroup {
+  height: 50.4px;
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+  font-size: var(--fs-25);
+  color: var(--color-white);
+}
+.subscribe2 {
+  margin: 0;
+  position: absolute;
+  top: 11.2px;
+  left: 41px;
+  font-size: inherit;
+  line-height: var(--lh-24);
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 2;
+}
+.buttonOverlay,
+.subtractIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.subtractIcon {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+  left: 0.2px;
+  z-index: 1;
+}
+.background,
+.buttonOverlayChild {
+  position: absolute;
+  top: 26.2px;
+  left: 141px;
+  width: var(--width-20);
+  height: var(--height-14_7);
+  z-index: 2;
+}
+.background {
+  top: 0.2px;
+  left: 0;
+  background-color: var(--color-limegreen);
+  width: var(--width-32);
+  height: var(--height-19);
+}
+.frameItem {
+  align-self: stretch;
+  width: var(--width-439);
+  position: relative;
+  border: 1px solid var(--color-limegreen);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.elevate,
+.scroll {
+  display: flex;
+  align-items: flex-start;
+}
+.scroll {
+  width: 250px;
+  gap: var(--gap-18);
+}
+.elevate {
+  width: 54px;
+}
+.topAnchor {
+  height: 56px;
+  flex: 1;
+  position: relative;
+}
+.topAnchorChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: var(--shadow-drop);
+  border-radius: 50%;
+  background: #34c759, #34c759;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.bottomArea {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: var(--width-48);
+  height: 50px;
+}
+.bottomAreaChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background: #026e78, #34c759;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.chevronUpIcon {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  width: var(--width-26);
+  height: 27px;
+  object-fit: cover;
+  z-index: 3;
+}
+.buttonLabel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-14) var(--padding-0) var(--padding-0);
+}
+.backToTop,
+.bottomBar {
+  font-family: var(--font-graphik-xcond-trial);
+}
+.backToTop {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--fs-30);
+  font-weight: 500;
+  color: var(--color-lightgray);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.bottomBar {
+  height: 334px;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  gap: var(--gap-26);
+  max-width: 100%;
+  font-size: var(--fs-26);
+  color: var(--color-white);
+}
+.footerContent,
+.navigationDonate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.navigationDonate {
+  height: 318px;
+  width: 246px;
+  gap: 66px;
+}
+.footerContent {
+  align-self: stretch;
+  flex: 1;
+  gap: var(--gap-17);
+}
+.navigation {
+  margin: 0;
+  width: 95px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.homeAboutWorkBlog {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--fs-24);
+  text-decoration: underline;
+  color: var(--color-lightgray);
+  z-index: 1;
+}
+.footerContent2 {
+  align-self: stretch;
+  height: 82px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-17);
+}
+.donate,
+.helpTransformLives {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  z-index: 1;
+}
+.helpTransformLives {
+  width: 181px;
+  font-weight: 500;
+  display: inline-block;
+  white-space: nowrap;
+}
+.donate {
+  align-self: stretch;
+  text-decoration: underline;
+  font-weight: 400;
+  color: var(--color-lightgray);
+}
+.bottomBarInner {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-4);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.copyright,
+.copyrightChild {
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.copyright {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) 601px;
+  gap: var(--gap-17);
+  max-width: 100%;
+  font-size: 17px;
+  color: var(--color-white);
+}
+.copyrightChild {
+  margin-left: -612px;
+  width: 1451.3px;
+  height: 0.3px;
+  position: relative;
+  border-top: 0.3px solid var(--color-white);
+  max-width: 173%;
+  z-index: 1;
+}
+.aspireRwandaAllContainer {
+  width: 225px;
+  position: relative;
+  line-height: var(--lh-19);
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.aspireRwandaAll {
+  font-family: var(--font-graphik-xcond-trial);
+}
+@media screen and (max-width: 1050px) {
+  .subscribeInfoParent {
+    flex-wrap: wrap;
+  }
+  .subscribeInfo {
+    flex: 1;
+  }
+  .backToTop {
+    font-size: var(--fs-24);
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    gap: var(--gap-48);
+    padding-top: 33px;
+    padding-bottom: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .footerContainerParent {
+    gap: var(--gap-24);
+  }
+  .footerContainer {
+    gap: var(--gap-17);
+  }
+  .subscribeInfoParent {
+    gap: var(--gap-40);
+  }
+  .subscribeInfo {
+    min-width: 100%;
+  }
+  .aspireDescription {
+    gap: var(--gap-22);
+  }
+  .bottomBar {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .navigationDonate {
+    flex: 1;
+  }
+  .copyright {
+    padding-left: 300px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    gap: var(--gap-24);
+  }
+  .footerInfo {
+    flex-wrap: wrap;
+  }
+  .subscribeInfoParent {
+    gap: var(--gap-20);
+  }
+  .aspireRwandaIsARegistered {
+    font-size: var(--fs-16);
+  }
+  .subscribe {
+    font-size: var(--fs-21);
+  }
+  .emailInputParent {
+    flex-wrap: wrap;
+    padding-right: var(--padding-17);
+    padding-bottom: var(--padding-17);
+    box-sizing: border-box;
+  }
+  .subscribe2 {
+    font-size: var(--fs-20);
+    line-height: var(--lh-19);
+  }
+  .backToTop {
+    font-size: var(--fs-18);
+  }
+  .navigation {
+    font-size: var(--fs-21);
+  }
+  .homeAboutWorkBlog {
+    font-size: var(--fs-19);
+  }
+  .donate,
+  .helpTransformLives {
+    font-size: var(--fs-21);
+  }
+  .copyright {
+    padding-left: var(--padding-20);
+    box-sizing: border-box;
+  }
+}

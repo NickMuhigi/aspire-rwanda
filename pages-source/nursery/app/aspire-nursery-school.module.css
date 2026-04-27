@@ -1,0 +1,452 @@
+.aspireNurserySchool {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  isolation: isolate;
+  gap: 40px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.aspireNurserySchoolChild {
+  width: 100%;
+  height: 668px;
+  position: absolute;
+  margin: 0 !important;
+  top: 76px;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  filter: contrast(1.08) brightness(1.03) saturate(1.05);
+}
+.titleContentWrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-43) 188px var(--padding-20);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--fs-30);
+  color: var(--color-white);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.titleAspire,
+.titleContent,
+.titleContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.titleContent {
+  width: 1231px;
+  flex-direction: column;
+  gap: 11px;
+}
+.titleAspire {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-20);
+}
+.schoolTitle,
+.schoolTitleChild {
+  height: 48px;
+  border-radius: var(--br-7);
+  border: var(--border-1);
+  box-sizing: border-box;
+}
+.schoolTitle {
+  display: grid;
+  place-items: center;
+  padding: 0 12px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.schoolTitleChild {
+  width: 229px;
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.aspireNurserySchool2,
+.atAspireRwanda {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.aspireNurserySchool2 {
+  margin: 0;
+  width: auto;
+  font-size: 26px;
+  line-height: 1;
+  font-weight: 400;
+  font-family: inherit;
+  text-align: center;
+  z-index: 2;
+  backdrop-filter: blur(4px);
+}
+.atAspireRwanda {
+  height: 195px;
+  width: 454px;
+  font-size: 51px;
+  font-weight: 600;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
+  max-width: 100%;
+  z-index: 1;
+}
+.weAreCommittedToCreatingAWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  font-size: var(--fs-21);
+  font-family: var(--font-neue-montreal);
+}
+.weAreCommitted {
+  width: 454px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
+  max-width: 100%;
+  z-index: 1;
+}
+.challengeResponse {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) 72px var(--padding-8) var(--padding-20);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--fs-28);
+  color: var(--color-teal);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.challengeFoundedParent {
+  height: 574px;
+  width: 1174px;
+  position: relative;
+  max-width: 100%;
+}
+.challengeFounded {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 370px;
+  height: 41px;
+  display: flex;
+  align-items: flex-start;
+  gap: 158px;
+  color: var(--color-limegreen);
+}
+.founded {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 77px;
+}
+.challengeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-1) var(--padding-0) var(--padding-0);
+  font-size: 31px;
+  color: var(--color-teal);
+}
+.blankField,
+.challenge {
+  margin: 0;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.challenge {
+  width: 135px;
+  position: relative;
+  font-size: inherit;
+  line-height: var(--lh-40);
+}
+.blankField {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  font-size: var(--fs-30);
+  line-height: 39px;
+  min-width: 48px;
+}
+.programNurseryParent {
+  position: absolute;
+  top: 72px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-20);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-28);
+  color: var(--color-limegreen);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.programNursery,
+.programTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.programNursery {
+  width: 132px;
+  padding: 83px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.programTitle {
+  align-self: stretch;
+  gap: var(--gap-2);
+}
+.programFocus {
+  margin: 0;
+  align-self: stretch;
+  height: var(--height-34);
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.manyChildrenWho,
+.nursery,
+.programFocus {
+  position: relative;
+  display: inline-block;
+}
+.nursery {
+  margin: 0;
+  width: 78px;
+  font-size: var(--fs-30);
+  line-height: 39px;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--color-teal);
+}
+.manyChildrenWho {
+  height: 192px;
+  width: 939px;
+  font-size: var(--fs-20);
+  font-family: var(--font-neue-montreal);
+  color: var(--color-black);
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.responseParent {
+  position: absolute;
+  top: 311px;
+  left: 235px;
+  width: 939px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 31px;
+  max-width: 100%;
+  font-size: 31px;
+}
+.atAspireRwanda2,
+.response {
+  position: relative;
+  display: inline-block;
+}
+.response {
+  margin: 0;
+  width: 122px;
+  font-size: inherit;
+  line-height: var(--lh-40);
+  font-weight: 600;
+  font-family: inherit;
+}
+.atAspireRwanda2 {
+  height: 192px;
+  font-size: var(--fs-20);
+  font-family: var(--font-neue-montreal);
+  color: var(--color-black);
+}
+@media screen and (max-width: 1200px) {
+  .titleContentWrapper {
+    padding-right: var(--padding-21);
+    box-sizing: border-box;
+  }
+  .challengeResponse {
+    padding-right: 36px;
+    box-sizing: border-box;
+  }
+  .challengeFoundedParent {
+    height: auto;
+    min-height: 574px;
+  }
+  .programNurseryParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .aspireNurserySchool {
+    gap: var(--gap-20);
+  }
+  .titleContentWrapper {
+    padding-top: 210px;
+    padding-bottom: 200px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+  .titleAspire {
+    flex-wrap: wrap;
+  }
+  .atAspireRwanda {
+    font-size: 41px;
+    height: auto;
+  }
+  .weAreCommittedToCreatingAWrapper {
+    justify-content: flex-start;
+  }
+  .weAreCommitted {
+    width: 100%;
+  }
+  .aspireNurserySchool2 {
+    font-size: 24px;
+  }
+  .schoolTitle {
+    height: 48px;
+    padding: 0 12px;
+  }
+  .challenge {
+    font-size: var(--fs-25);
+  }
+  .blankField,
+  .nursery {
+    font-size: var(--fs-24);
+  }
+  .response {
+    font-size: var(--fs-25);
+  }
+  .challengeResponse {
+    position: relative;
+    z-index: 1;
+    background-color: var(--color-whitesmoke);
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+  .challengeFoundedParent {
+    height: auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 8px;
+    align-items: flex-start;
+  }
+  .challengeFounded {
+    display: contents;
+  }
+  .founded {
+    position: static;
+    order: 1;
+    flex: 0 0 calc(50% - 10px);
+  }
+  .challengeWrapper {
+    order: 3;
+    flex: 0 0 100%;
+    margin-top: 16px;
+  }
+  .blankField {
+    position: static;
+    order: 2;
+    flex: 0 0 calc(50% - 10px);
+  }
+  .programNurseryParent {
+    display: contents;
+  }
+  .programNursery {
+    display: contents;
+  }
+  .programTitle {
+    display: contents;
+  }
+  .programFocus {
+    order: 1;
+    flex: 0 0 calc(50% - 10px);
+    height: auto;
+    position: static;
+  }
+  .nursery {
+    order: 2;
+    flex: 0 0 calc(50% - 10px);
+  }
+  .manyChildrenWho {
+    order: 4;
+    flex: 0 0 100%;
+    width: 100%;
+    height: auto;
+  }
+  .responseParent {
+    position: static;
+    order: 5;
+    flex: 0 0 100%;
+    width: 100%;
+    margin-top: 16px;
+    gap: 8px;
+  }
+  .atAspireRwanda2 {
+    height: auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aspireNurserySchool2 {
+    font-size: 22px;
+  }
+  .atAspireRwanda {
+    font-size: 31px;
+  }
+  .weAreCommitted {
+    font-size: 17px;
+  }
+  .founded {
+    font-size: var(--fs-22);
+  }
+  .challenge {
+    font-size: var(--fs-19);
+  }
+  .blankField {
+    font-size: var(--fs-18);
+  }
+  .programFocus {
+    font-size: var(--fs-22);
+  }
+  .nursery {
+    font-size: var(--fs-18);
+  }
+  .manyChildrenWho {
+    font-size: var(--fs-16);
+  }
+  .response {
+    font-size: var(--fs-19);
+  }
+  .atAspireRwanda2 {
+    font-size: var(--fs-16);
+  }
+}

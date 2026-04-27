@@ -1,0 +1,622 @@
+.frameChild,
+.rectangleParent {
+  background-color: var(--color-teal);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 66px 76px 79px 136px;
+  box-sizing: border-box;
+  gap: var(--gap-32);
+  text-align: left;
+  font-size: var(--fs-25);
+  color: var(--color-white);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.frameChild {
+  width: var(--width-1440);
+  height: var(--height-677);
+  position: relative;
+  display: none;
+}
+.impactHeaderWrapper {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-1);
+  flex-shrink: 0;
+}
+.impactHeader {
+  height: 48px;
+  border-radius: var(--br-7);
+  border: var(--border-2);
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  padding: 0 12px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.impactHeaderChild,
+.ourImpact {
+  position: relative;
+  flex-shrink: 0;
+}
+.impactHeaderChild {
+  height: 48px;
+  width: 127px;
+  border-radius: var(--br-7);
+  border: var(--border-2);
+  box-sizing: border-box;
+  display: none;
+}
+.ourImpact {
+  margin: 0;
+  width: auto;
+  font-size: 26px;
+  line-height: 1;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  text-align: center;
+  z-index: 2;
+}
+.impactSummary {
+  width: 675px;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-1);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: var(--fs-60);
+}
+.buildingBrighterFutures {
+  margin: 0;
+  height: 151px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.frameItem,
+.rectangleGroup {
+  height: 277px;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+}
+.rectangleGroup {
+  width: 1218px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+  z-index: 1;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--fs-98);
+  color: var(--color-limegreen);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.frameItem {
+  align-self: stretch;
+  position: relative;
+  display: none;
+}
+.pupilStatistics {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameInner,
+.rectangleContainer {
+  border: var(--border-3);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-18) 93px var(--padding-30);
+  z-index: 2;
+}
+.frameInner {
+  width: 403px;
+  height: var(--height-138);
+  position: relative;
+  display: none;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.statisticsValues {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-31) var(--padding-0) var(--padding-32);
+  flex-shrink: 0;
+}
+.h1,
+.nurseryPupilsEnrolled {
+  position: relative;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.h1 {
+  margin: 0;
+  width: 152px;
+  font-size: inherit;
+  line-height: 81px;
+  font-weight: 600;
+  z-index: 3;
+}
+.nurseryPupilsEnrolled {
+  width: 206px;
+  height: var(--height-28);
+  font-size: var(--fs-22);
+  font-weight: 700;
+  color: var(--color-white);
+  z-index: 4;
+  margin: -21px 0 0;
+}
+.frameDiv,
+.rectangleDiv {
+  border: var(--border-3);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameDiv {
+  flex: 0.7558;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-18) 114px var(--padding-30) 125px;
+  z-index: 3;
+}
+.rectangleDiv {
+  width: 404px;
+  height: var(--height-138);
+  position: relative;
+  display: none;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 62px var(--padding-0) var(--padding-57);
+  flex-shrink: 0;
+}
+.h2,
+.subjectsOfferered {
+  position: relative;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.h2 {
+  margin: 0;
+  width: 44px;
+  font-size: inherit;
+  line-height: 86px;
+  font-weight: 600;
+  z-index: 4;
+}
+.subjectsOfferered {
+  width: 163px;
+  height: var(--height-28);
+  font-size: var(--fs-22);
+  font-weight: 700;
+  color: var(--color-white);
+  z-index: 5;
+  margin: -26px 0 0;
+}
+.frameChild2,
+.rectangleParent2 {
+  width: var(--width-410);
+  border: var(--border-3);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-21) var(--padding-20) var(--padding-21)
+    var(--padding-43);
+  z-index: 4;
+}
+.frameChild2 {
+  height: var(--height-138);
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.boyGirlStatistic {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 38px var(--padding-0) var(--padding-0);
+  flex-shrink: 0;
+}
+.statisticValue {
+  margin: 0;
+  width: 207px;
+  position: relative;
+  font-size: inherit;
+  line-height: 94px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 5;
+}
+.boyToGirlRatioWrapper {
+  width: 138px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-57) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  margin-left: -176px;
+  position: relative;
+  flex-shrink: 0;
+  font-size: var(--fs-22);
+  color: var(--color-white);
+}
+.boyToGirl {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  white-space: nowrap;
+  z-index: 6;
+}
+.ageRangeStatistics {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.ageRangeValues,
+.ageRangeValuesChild {
+  border: var(--border-3);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ageRangeValues {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-14) var(--padding-20) 35px 45px;
+  z-index: 4;
+}
+.ageRangeValuesChild {
+  width: 403px;
+  height: var(--height-139);
+  position: relative;
+  display: none;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.ageStats {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 70px;
+  flex-shrink: 0;
+}
+.dividerStats,
+.yearsAgeRange {
+  position: relative;
+  font-family: inherit;
+  display: inline-block;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.dividerStats {
+  margin: 0;
+  width: 137px;
+  font-size: inherit;
+  line-height: 90px;
+  font-weight: 600;
+  z-index: 5;
+}
+.yearsAgeRange {
+  width: 312px;
+  font-size: var(--fs-22);
+  font-weight: 700;
+  color: var(--color-white);
+  z-index: 6;
+  margin: -33px 0 0;
+}
+.ageRangeValues2 {
+  align-self: stretch;
+  flex: 0.9142;
+  border: var(--border-3);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-15) var(--padding-20) var(--padding-31) 74px;
+  max-width: 100%;
+  z-index: 5;
+}
+.ageRangeValuesItem,
+.container {
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.ageRangeValuesItem {
+  width: 404px;
+  height: var(--height-139);
+  position: relative;
+  border: var(--border-3);
+  display: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.container {
+  width: 256px;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 107px;
+}
+.dailyMealsProvided,
+.h22 {
+  position: relative;
+  font-family: inherit;
+  display: inline-block;
+}
+.h22 {
+  margin: 0;
+  font-size: inherit;
+  line-height: 93px;
+  font-weight: 600;
+  min-width: 42px;
+  z-index: 6;
+}
+.dailyMealsProvided {
+  width: 272px;
+  font-size: var(--fs-22);
+  font-weight: 700;
+  color: var(--color-white);
+  white-space: nowrap;
+  z-index: 7;
+  margin: -36px 0 0;
+  flex-shrink: 0;
+}
+.ageRangeValues3,
+.ageRangeValuesInner {
+  height: var(--height-139);
+  border: var(--border-3);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ageRangeValues3 {
+  flex: 0.7006;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-18) 76px 35px 92px;
+  z-index: 6;
+}
+.ageRangeValuesInner {
+  width: var(--width-410);
+  position: relative;
+  display: none;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.frame {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 53px var(--padding-0) var(--padding-57);
+  flex-shrink: 0;
+}
+.h23,
+.professionalTeachingStaff {
+  position: relative;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.h23 {
+  margin: 0;
+  width: 130px;
+  font-size: inherit;
+  line-height: 86px;
+  font-weight: 600;
+  z-index: 7;
+}
+.professionalTeachingStaff {
+  width: 240px;
+  font-size: var(--fs-22);
+  font-weight: 700;
+  color: var(--color-white);
+  white-space: nowrap;
+  z-index: 8;
+  margin: -32px 0 0;
+}
+@media screen and (max-width: 1200px) {
+  .ageRangeStatistics,
+  .pupilStatistics {
+    flex-wrap: wrap;
+  }
+  .rectangleGroup {
+    height: auto;
+  }
+  .buildingBrighterFutures {
+    height: auto;
+  }
+  .impactSummary {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ourImpact {
+    font-size: 24px;
+  }
+  .rectangleParent {
+    gap: var(--gap-16);
+    padding: var(--padding-43) 16px var(--padding-51);
+    box-sizing: border-box;
+  }
+  .buildingBrighterFutures {
+    font-size: var(--fs-48);
+  }
+  .pupilStatistics,
+  .ageRangeStatistics {
+    display: contents;
+  }
+  .rectangleGroup {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border: none;
+  }
+  .rectangleContainer,
+  .frameDiv,
+  .rectangleParent2,
+  .ageRangeValues,
+  .ageRangeValues2,
+  .ageRangeValues3 {
+    flex: 0 0 100%;
+    position: relative;
+    height: 160px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+  }
+  .statisticsValues,
+  .wrapper,
+  .ageStats,
+  .container,
+  .frame {
+    position: absolute;
+    inset: 0;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    z-index: 0;
+  }
+  .h1,
+  .h2,
+  .h22,
+  .h23 {
+    font-size: 110px;
+    line-height: 1;
+    width: auto;
+  }
+  .statisticValue,
+  .dividerStats {
+    font-size: 90px;
+    line-height: 1;
+    width: auto;
+    z-index: 0;
+  }
+  .nurseryPupilsEnrolled,
+  .subjectsOfferered,
+  .yearsAgeRange,
+  .dailyMealsProvided,
+  .professionalTeachingStaff {
+    position: absolute;
+    top: 65%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    z-index: 1;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    white-space: normal;
+    width: auto;
+  }
+  .boyGirlStatistic {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    z-index: 0;
+  }
+  .boyToGirlRatioWrapper {
+    position: absolute;
+    top: 65%;
+    left: 0;
+    right: 0;
+    width: auto;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    padding-top: 0;
+    z-index: 1;
+  }
+  .boyToGirl {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    white-space: normal;
+    width: auto;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourImpact {
+    font-size: 22px;
+  }
+  .rectangleParent {
+    padding-left: var(--padding-20);
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .buildingBrighterFutures {
+    font-size: var(--fs-36);
+  }
+  .rectangleContainer,
+  .frameDiv,
+  .rectangleParent2,
+  .ageRangeValues,
+  .ageRangeValues2,
+  .ageRangeValues3 {
+    flex: 0 0 100%;
+    height: 130px;
+  }
+  .h1,
+  .h2,
+  .h22,
+  .h23 {
+    font-size: 75px;
+    line-height: 1;
+  }
+  .statisticValue,
+  .dividerStats {
+    font-size: 65px;
+    line-height: 1;
+  }
+}

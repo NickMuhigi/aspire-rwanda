@@ -1,0 +1,82 @@
+.monthContainer,
+.monthContainerChild {
+  width: 138px;
+  height: 126px;
+  background-color: #026e78;
+}
+.monthContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 9px 19px 9px 20px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Graphik XCond Trial";
+}
+.monthContainerChild {
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.dateLabel {
+  width: 36.1px;
+  height: 21px;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 7px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.th {
+  position: relative;
+  line-height: 21px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 22px;
+  z-index: 2;
+}
+.janContainer {
+  width: 64px;
+  height: 68px;
+  display: flex;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  font-size: 54px;
+}
+.jan,
+.janSplit {
+  margin: 0;
+  position: relative;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.jan {
+  height: 79px;
+  font-size: inherit;
+  min-width: 64px;
+  z-index: 1;
+}
+.janSplit {
+  width: 35px;
+  font-size: 20px;
+  z-index: 2;
+  flex-shrink: 0;
+}
+@media screen and (max-width: 800px) {
+  .jan {
+    font-size: 43px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .jan {
+    font-size: 32px;
+  }
+  .janSplit {
+    font-size: 16px;
+  }
+}

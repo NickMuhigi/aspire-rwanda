@@ -1,0 +1,995 @@
+.homepageInner {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: 81px 0 168px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+
+.frameChild,
+.rectangleParent {
+  position: relative;
+  background-color: #fff;
+  max-width: 100%;
+}
+
+.rectangleParent {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  padding: 11px 116px 18px 93px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  isolation: isolate;
+  gap: 20px;
+  text-align: left;
+  font-size: 22px;
+  color: #000;
+  font-family: "Graphik XCond Trial";
+}
+
+.frameChild {
+  height: 81px;
+  width: 1440px;
+  display: none;
+  z-index: 0;
+  flex-shrink: 0;
+}
+
+.frameItem {
+  width: 1px;
+  height: 46px;
+  position: relative;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  transform: translateY(2px);
+  flex-shrink: 0;
+}
+
+.donate,
+.searchHere {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.donate {
+  margin: 0 !important;
+  width: 60px;
+  position: absolute;
+  right: -305px;
+  bottom: 7px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  color: #fff;
+  display: inline-block;
+  z-index: 1;
+}
+
+.searchHere {
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+  display: none;
+  min-width: 94px;
+  z-index: 3;
+}
+
+.searchIcon {
+  height: 34px;
+  width: 34px;
+  position: absolute;
+  margin: 0 !important;
+  right: -148px;
+  bottom: 3px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 1px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: 17px;
+}
+
+.logoAndNav {
+  display: flex;
+  align-items: flex-end;
+  gap: 44px;
+  flex: 1;
+  min-width: 0;
+}
+
+.logo3Parent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+  gap: 43px;
+  max-width: 100%;
+}
+
+.logo3Icon {
+  width: 118px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.logoLink {
+  display: inline-flex;
+  align-items: flex-end;
+  text-decoration: none;
+  line-height: 0;
+}
+
+.lineWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 6px 18px 2px 6px;
+}
+
+.frameInner {
+  width: 1px;
+  height: 38px;
+  position: relative;
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.frameContainer {
+  width: 396px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 7px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.mainNav {
+  display: flex;
+  align-items: flex-end;
+  gap: 32px;
+  min-width: 0;
+  padding: 0 0 14px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.navLink,
+.navTrigger {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font: inherit;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.navLink:hover,
+.navTrigger:hover {
+  color: #026e78;
+}
+
+.navTrigger {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.navDropdown {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.navDropdown::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 32px;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: calc(100% + 32px);
+  left: 0;
+  min-width: 312px;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 3px solid #026e78;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.16);
+  padding: 0;
+  display: none;
+  z-index: 140;
+}
+
+.navDropdown:hover .dropdownMenu,
+.navDropdown:focus-within .dropdownMenu {
+  display: block;
+}
+
+.dropdownItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 50px;
+  padding: 0 16px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #1b1b1b;
+  text-decoration: none;
+  white-space: nowrap;
+  text-transform: uppercase;
+  border-left: 3px solid transparent;
+  border-bottom: 1px solid #e2e8f0;
+  background-color: #fff;
+  transition: background-color 0.16s ease, color 0.16s ease,
+    border-color 0.16s ease;
+}
+
+.dropdownItem:hover {
+  background-color: #026e78;
+  color: #fff;
+  border-left-color: #026e78;
+}
+
+.navTrigger .expandArrowIcon {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+}
+
+.navCaret {
+  width: 7px;
+  height: 7px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-1px);
+  transform-origin: center;
+}
+
+.frameDiv,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+}
+
+.frameGroup {
+  width: auto;
+  gap: 6px;
+  position: relative;
+}
+
+.frameDiv {
+  flex: none;
+  flex-direction: column;
+  padding: 5px 0 0;
+}
+
+.homeParent {
+  align-self: stretch;
+  height: 18px;
+  position: relative;
+}
+
+.about2,
+.home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  width: 47px;
+  z-index: 1;
+}
+
+.about2 {
+  left: 61px;
+  width: 38px;
+  min-width: 38px;
+  cursor: pointer;
+}
+
+.expandArrowIcon {
+  height: 31px;
+  width: 21px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.frameParent2,
+.workWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.frameParent2 {
+  width: auto;
+  gap: 6px;
+  position: relative;
+}
+
+.workWrapper {
+  flex: none;
+  flex-direction: column;
+  padding: 5px 0 0;
+}
+
+.work {
+  position: relative;
+  font-weight: 500;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: calc(100% + 32px);
+  left: 0;
+  width: 312px;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 3px solid #026e78;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.16);
+  padding: 0;
+  display: none;
+  z-index: 140;
+}
+
+.aboutDropdown {
+  left: 0;
+}
+
+.workDropdown {
+  left: 0;
+}
+
+.dropdownItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 50px;
+  padding: 0 16px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: #1b1b1b;
+  text-decoration: none;
+  white-space: nowrap;
+  text-transform: uppercase;
+  border-left: 3px solid transparent;
+  border-bottom: 1px solid #e2e8f0;
+  background-color: #fff;
+  transition: background-color 0.16s ease, color 0.16s ease,
+    border-color 0.16s ease;
+}
+
+.dropdownItem:hover {
+  background-color: #026e78;
+  color: #fff;
+  border-left-color: #026e78;
+}
+
+.frameGroup:hover .dropdownMenu,
+.frameParent2:hover .dropdownMenu,
+.frameGroup:focus-within .dropdownMenu,
+.frameParent2:focus-within .dropdownMenu {
+  display: block;
+}
+
+.frameWrapper2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5px 0 0;
+  min-width: 180px;
+}
+
+.storiesParent {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  text-align: left;
+  font-size: inherit;
+  color: #000;
+  font-family: "Graphik XCond Trial";
+}
+
+.stories,
+.blog,
+.contact {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+  line-height: 1;
+}
+
+.stories {
+  min-width: 41px;
+}
+
+.blog {
+  min-width: 26px;
+}
+
+.contact {
+  min-width: 45px;
+}
+
+.frameParent3,
+.lineParent {
+  display: flex;
+  align-items: flex-start;
+}
+
+.frameParent3 {
+  width: 500px;
+  gap: 24px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+
+.lineParent {
+  height: 52px;
+  width: 320px;
+  position: relative;
+  isolation: isolate;
+}
+
+.lineParent::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: -0.5px;
+  width: 17px;
+  height: 2px;
+  background-color: #026e78;
+  transform: rotate(-45deg);
+  transform-origin: left top;
+  z-index: 6;
+  pointer-events: none;
+}
+
+.lineIcon {
+  display: none;
+}
+
+.searchBox {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #026e78;
+  border-radius: 0;
+  -webkit-clip-path: polygon(12px 0, 100% 0, 100% 100%, 0 100%, 0 12px);
+  clip-path: polygon(12px 0, 100% 0, 100% 100%, 0 100%, 0 12px);
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0 14px 0 0;
+}
+
+.searchInput {
+  flex: 1;
+  height: 100%;
+  border: 0;
+  outline: none;
+  background: transparent;
+  padding: 0 12px 0 30px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: inherit;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.searchInput::placeholder {
+  color: #000;
+  opacity: 1;
+}
+
+.searchButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 23px;
+  height: 23px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.searchIcon2 {
+  width: 23px;
+  height: 23px;
+  object-fit: cover;
+}
+
+.searchLabel {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: 600;
+  font-family: inherit;
+  text-transform: uppercase;
+  color: #000;
+  white-space: nowrap;
+  z-index: 3;
+}
+
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: 14px 54px;
+  background-color: #026e78;
+  display: flex;
+  align-items: flex-start;
+  z-index: 1;
+}
+
+.rectangleGroup:hover {
+  background-color: #34c759;
+}
+
+.donate2,
+.rectangleDiv {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.rectangleDiv {
+  height: 52px;
+  width: 160px;
+  background-color: #026e78;
+  display: none;
+}
+
+.donate2 {
+  width: 55px;
+  font-size: 20px;
+  font-family: "Graphik XCond Trial";
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+
+/* ── Hamburger button ── */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  flex-shrink: 0;
+  z-index: 200;
+}
+
+.hamburgerBar {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background-color: #000;
+  border-radius: 2px;
+  transition: transform 0.25s ease, opacity 0.2s ease;
+  transform-origin: center;
+}
+
+.hamburgerOpen .hamburgerBar:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.hamburgerOpen .hamburgerBar:nth-child(2) {
+  opacity: 0;
+}
+.hamburgerOpen .hamburgerBar:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* ── Mobile overlay menu ── */
+.mobileMenu {
+  position: fixed;
+  top: 81px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  z-index: 98;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  border-top: 1px solid #e6e6e6;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobileNav {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.mobileNavDonate {
+  display: block;
+  width: 100%;
+  padding: 18px 24px;
+  background-color: #026e78;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Graphik XCond Trial";
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-top: auto;
+}
+.mobileNavDonate:hover {
+  background-color: #34c759;
+}
+
+.mobileNavLink {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 46px;
+  padding: 13px 24px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Graphik XCond Trial";
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e6e6e6;
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+.mobileNavLink:hover {
+  color: #026e78;
+}
+
+.mobileNavSection {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.mobileNavToggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 46px;
+  padding: 13px 24px;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Graphik XCond Trial";
+  color: #000;
+  text-transform: uppercase;
+  cursor: pointer;
+  line-height: 1;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.mobileNavToggle:hover {
+  color: #026e78;
+}
+
+.mobileNavChevron {
+  width: 8px;
+  height: 8px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+
+.mobileNavChevronOpen {
+  transform: rotate(-135deg) translateY(2px);
+}
+
+.mobileSubLinks {
+  display: flex;
+  flex-direction: column;
+  background-color: #e4f4f5;
+  animation: sublinksIn 0.2s ease;
+}
+
+@keyframes sublinksIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.mobileNavSub {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 24px 10px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Graphik XCond Trial";
+  color: #026e78;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(2, 110, 120, 0.12);
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+.mobileNavSub:hover {
+  background-color: #026e78;
+  color: #fff;
+}
+
+/* ── Mobile right — DONATE + hamburger group ── */
+.mobileRight {
+  display: none;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.mobileDonateCta {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 18px;
+  background-color: #026e78;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Graphik XCond Trial";
+  text-transform: uppercase;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.mobileDonateCta:hover {
+  background-color: #34c759;
+}
+
+@media screen and (max-width: 750px) {
+  .homepageInner {
+    padding-top: 79px;
+    padding-bottom: 0;
+  }
+
+  .rectangleParent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 14px 20px;
+    box-sizing: border-box;
+  }
+
+  .mobileMenu {
+    top: 79px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mainNav,
+  .frameParent3 {
+    display: none;
+  }
+
+  .logoAndNav {
+    gap: 16px;
+    flex: 1;
+  }
+
+  .logo3Parent {
+    gap: 16px;
+  }
+
+  .lineWrapper {
+    display: none;
+  }
+
+  .mobileRight {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1050px) and (min-width: 751px) {
+  .homepageInner {
+    padding-top: 79px;
+    padding-bottom: 0;
+  }
+
+  .rectangleParent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 14px 20px;
+    box-sizing: border-box;
+  }
+
+  .mobileMenu {
+    top: 79px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mainNav,
+  .frameParent3 {
+    display: none;
+  }
+
+  .logoAndNav {
+    gap: 16px;
+    flex: 1;
+  }
+
+  .logo3Parent {
+    gap: 16px;
+  }
+
+  .lineWrapper {
+    display: none;
+  }
+
+  .mobileRight {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .homepageInner {
+    padding-top: 75px;
+    padding-bottom: 0;
+  }
+
+  .mobileMenu {
+    top: 75px;
+  }
+
+  .rectangleParent {
+    padding: 12px 16px;
+  }
+
+  .mobileDonateCta {
+    font-size: 13px;
+    padding: 9px 14px;
+  }
+}
+
+@media screen and (max-width: 1050px) and (min-width: 751px) {
+  .homepageInner {
+    padding-top: 79px;
+    padding-bottom: 0;
+  }
+
+  .rectangleParent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 14px 20px;
+    box-sizing: border-box;
+  }
+
+  .mobileMenu {
+    top: 79px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mainNav,
+  .frameParent3 {
+    display: none;
+  }
+
+  .logoAndNav {
+    gap: 16px;
+    flex: 1;
+  }
+
+  .logo3Parent {
+    gap: 16px;
+  }
+
+  .lineWrapper {
+    display: none;
+  }
+
+  .mobileRight {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .homepageInner {
+    padding-top: 75px;
+    padding-bottom: 0;
+  }
+
+  .mobileMenu {
+    top: 75px;
+  }
+
+  .rectangleParent {
+    padding: 12px 16px;
+  }
+
+  .mobileDonateCta {
+    font-size: 13px;
+    padding: 9px 14px;
+  }
+}

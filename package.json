@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@types/nodemailer": "^8.0.0",
+    "next": "^15.3.1",
+    "nodemailer": "^8.0.6",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19.2.3",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.25.1",
+    "eslint-config-next": "15.3.1",
+    "typescript": "^5.8.3"
+  },
+  "name": "aspire_rwanda",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "version": "0.1.0"
+}

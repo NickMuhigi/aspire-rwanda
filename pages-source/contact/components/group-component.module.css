@@ -1,0 +1,572 @@
+.frameChild,
+.rectangleParent {
+  background-color: var(--color-teal);
+  flex-shrink: 0;
+}
+.rectangleParent {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 13px var(--padding-0) var(--padding-18) var(--padding-11);
+  box-sizing: border-box;
+  gap: 97px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--fs-20);
+  color: var(--color-lightgray);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.frameChild {
+  align-self: stretch;
+  height: 677px;
+  position: relative;
+  display: none;
+}
+.footerColumnWrapper {
+  width: 1423px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-20);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.footerColumn {
+  width: 1225px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 49px;
+  max-width: 100%;
+}
+.footerContent,
+.footerInfo {
+  align-self: stretch;
+  display: flex;
+}
+.footerContent {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-1);
+  gap: 34px;
+}
+.footerInfo {
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-20);
+}
+.footerBranding {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-1);
+}
+.logo5Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: 1;
+}
+.footerLinks {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-2);
+}
+.socialMedia {
+  height: var(--height-40);
+  width: 35px;
+  position: relative;
+}
+.socialShapes {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 35px;
+  height: var(--height-32);
+  z-index: 1;
+}
+.linkedinIcon {
+  position: absolute;
+  top: 0;
+  left: 7px;
+  width: 23px;
+  height: var(--height-40);
+  object-fit: cover;
+  z-index: 2;
+}
+.socialMedia2,
+.socialMediaChild {
+  height: var(--height-40);
+  width: var(--width-32);
+  position: relative;
+}
+.socialMediaChild {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background-color: var(--color-white);
+  height: var(--height-32);
+  z-index: 1;
+}
+.facebookIcon {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  width: var(--width-22);
+  height: var(--height-40);
+  object-fit: cover;
+  z-index: 2;
+}
+.socialMedia3 {
+  height: var(--height-40);
+  width: 33px;
+  position: relative;
+}
+.socialMediaItem {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 33px;
+  height: var(--height-32);
+  z-index: 1;
+}
+.footerContentChild {
+  align-self: stretch;
+  height: var(--height-1);
+  position: relative;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.footerDescriptionArea {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+  gap: 81px;
+  max-width: 100%;
+}
+.footerDescription,
+.footerInfoArea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.footerDescription {
+  width: 486px;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-4);
+  box-sizing: border-box;
+}
+.footerInfoArea {
+  align-self: stretch;
+  gap: 43.4px;
+}
+.aspireRwandaIsARegistered {
+  width: var(--width-439);
+  position: relative;
+  font-weight: 500;
+  font-family: var(--font-neue-montreal);
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.subscribeArea {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15.8px;
+  max-width: 100%;
+  font-size: var(--fs-26);
+  color: var(--color-white);
+}
+.subscribe {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.inputArea,
+.subscribeForm {
+  display: flex;
+  align-items: flex-start;
+}
+.subscribeForm {
+  width: var(--width-439);
+  height: 50.4px;
+  border: 1px solid var(--color-limegreen);
+  box-sizing: border-box;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-17);
+  gap: 29px;
+  max-width: 100%;
+  z-index: 3;
+  font-size: var(--fs-18);
+  color: var(--color-lightgray);
+}
+.inputArea {
+  flex-direction: column;
+  padding: 15.2px var(--padding-0) var(--padding-0);
+  flex-shrink: 0;
+}
+.pleaseEnterYour {
+  width: 200px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.buttonArea {
+  height: 50.4px;
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+  font-size: var(--fs-25);
+  color: var(--color-white);
+}
+.subscribe2 {
+  margin: 0;
+  position: absolute;
+  top: 11.2px;
+  left: 41px;
+  font-size: inherit;
+  line-height: var(--lh-24);
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 2;
+}
+.buttonElements,
+.subtractIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.subtractIcon {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+  left: 0.2px;
+  z-index: 1;
+}
+.buttonElementsChild {
+  position: absolute;
+  top: 26.2px;
+  left: 141px;
+  width: var(--width-20);
+  height: 14.7px;
+  z-index: 2;
+}
+.buttonElementsItem {
+  position: absolute;
+  top: 0.2px;
+  left: 0;
+  background-color: var(--color-limegreen);
+  width: var(--width-32);
+  height: var(--height-19);
+  z-index: 2;
+}
+.subscribeFormChild {
+  align-self: stretch;
+  width: var(--width-439);
+  position: relative;
+  border: 1px solid var(--color-limegreen);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.backToTopContainer {
+  width: 250px;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-18);
+  font-size: var(--fs-30);
+}
+.backToTopButton {
+  width: 54px;
+  display: flex;
+  align-items: flex-start;
+}
+.topIcon {
+  height: 56px;
+  flex: 1;
+  position: relative;
+}
+.topIconChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: var(--shadow-drop);
+  border-radius: 50%;
+  background: #34c759, #34c759;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.chevronContainer {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: var(--width-48);
+  height: 50px;
+}
+.chevronContainerChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background: #026e78, #34c759;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.chevronUpIcon {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+  width: var(--width-26);
+  height: 27px;
+  object-fit: cover;
+  z-index: 3;
+}
+.topLabelArea {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-14) var(--padding-0) var(--padding-0);
+}
+.backToTop {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.footerNavigation {
+  height: 334px;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  gap: var(--gap-26);
+  max-width: 100%;
+  font-size: var(--fs-26);
+  color: var(--color-white);
+}
+.footerItems,
+.footerLinks2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footerItems {
+  height: 318px;
+  width: 246px;
+  gap: 66px;
+}
+.footerLinks2 {
+  align-self: stretch;
+  flex: 1;
+  gap: var(--gap-17);
+}
+.navigation {
+  margin: 0;
+  width: 95px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.homeAboutWorkBlog {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--fs-24);
+  text-decoration: underline;
+  color: var(--color-lightgray);
+  z-index: 1;
+}
+.footerLinks3 {
+  align-self: stretch;
+  height: 82px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-17);
+}
+.donate,
+.helpTransformLives {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  z-index: 1;
+}
+.helpTransformLives {
+  width: 181px;
+  font-weight: 500;
+  display: inline-block;
+  white-space: nowrap;
+}
+.donate {
+  align-self: stretch;
+  text-decoration: underline;
+  font-weight: 400;
+  color: var(--color-lightgray);
+}
+.footerDivider,
+.lineParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footerDivider {
+  flex: 1;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-4);
+}
+.lineParent {
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) 601px;
+  gap: var(--gap-17);
+  flex-shrink: 0;
+  font-size: 17px;
+  color: var(--color-white);
+  font-family: var(--font-neue-montreal);
+}
+.aspireRwandaAllContainer,
+.frameItem {
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.frameItem {
+  margin-left: -612px;
+  width: 1451.3px;
+  height: 0.3px;
+  border-top: 0.3px solid var(--color-white);
+  box-sizing: border-box;
+  max-width: 173%;
+}
+.aspireRwandaAllContainer {
+  width: 225px;
+  line-height: var(--lh-19);
+  display: inline-block;
+  white-space: nowrap;
+}
+.aspireRwandaAll {
+  font-family: var(--font-graphik-xcond-trial);
+}
+@media screen and (max-width: 1050px) {
+  .footerDescriptionArea {
+    flex-wrap: wrap;
+  }
+  .footerDescription {
+    flex: 1;
+  }
+  .backToTop {
+    font-size: var(--fs-24);
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    gap: var(--gap-48);
+    padding-top: 33px;
+    padding-bottom: var(--padding-20);
+    box-sizing: border-box;
+  }
+  .footerColumn {
+    gap: var(--gap-24);
+  }
+  .footerContent {
+    gap: var(--gap-17);
+  }
+  .footerDescriptionArea {
+    gap: var(--gap-40);
+  }
+  .footerDescription {
+    min-width: 100%;
+  }
+  .footerInfoArea {
+    gap: var(--gap-22);
+  }
+  .footerNavigation {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .footerItems {
+    flex: 1;
+  }
+  .lineParent {
+    padding-left: 300px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    gap: var(--gap-24);
+  }
+  .footerInfo {
+    flex-wrap: wrap;
+  }
+  .footerDescriptionArea {
+    gap: var(--gap-20);
+  }
+  .aspireRwandaIsARegistered {
+    font-size: var(--fs-16);
+  }
+  .subscribe {
+    font-size: var(--fs-21);
+  }
+  .subscribeForm {
+    flex-wrap: wrap;
+    padding-right: var(--padding-17);
+    padding-bottom: var(--padding-17);
+    box-sizing: border-box;
+  }
+  .subscribe2 {
+    font-size: var(--fs-20);
+    line-height: var(--lh-19);
+  }
+  .backToTop {
+    font-size: var(--fs-18);
+  }
+  .navigation {
+    font-size: var(--fs-21);
+  }
+  .homeAboutWorkBlog {
+    font-size: var(--fs-19);
+  }
+  .donate,
+  .helpTransformLives {
+    font-size: var(--fs-21);
+  }
+  .lineParent {
+    padding-left: var(--padding-20);
+    box-sizing: border-box;
+  }
+}

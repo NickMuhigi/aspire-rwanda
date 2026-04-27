@@ -1,0 +1,340 @@
+.header {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-0) 191px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.frameChild,
+.rectangleParent {
+  background-color: var(--color-white);
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-11) 116px var(--padding-18) 93px;
+  box-sizing: border-box;
+  position: sticky;
+  isolation: isolate;
+  gap: var(--gap-20);
+  top: 0;
+  z-index: 99;
+  text-align: left;
+  font-size: var(--fs-22);
+  color: var(--color-black);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.frameChild {
+  height: 81px;
+  width: var(--width-1440);
+  position: relative;
+  display: none;
+  z-index: 0;
+  flex-shrink: 0;
+}
+.bar {
+  height: 58px;
+  width: 143px;
+  position: absolute;
+  margin: 0 !important;
+  right: -347px;
+  bottom: -9px;
+  background-color: var(--color-teal);
+  flex-shrink: 0;
+}
+.donate,
+.searchHere {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.donate {
+  margin: 0 !important;
+  width: var(--width-60);
+  position: absolute;
+  right: -305px;
+  bottom: 7px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-white);
+  display: inline-block;
+  z-index: 1;
+}
+.searchHere {
+  position: relative;
+  font-size: var(--fs-18);
+  font-weight: 600;
+  display: none;
+  min-width: 94px;
+  z-index: 3;
+}
+.searchIcon {
+  height: var(--height-34);
+  width: 34px;
+  position: absolute;
+  margin: 0 !important;
+  right: -148px;
+  bottom: 3px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-1);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: var(--fs-15);
+}
+.logo3Parent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+  gap: 43px;
+  max-width: 100%;
+}
+.logo3Icon {
+  width: 118px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.lineWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-6) var(--padding-5) var(--padding-0);
+}
+.frameItem {
+  width: var(--width-1);
+  height: 38px;
+  position: relative;
+  border-right: 1px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.menuItemsWrapper {
+  width: 396px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-7);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.menuItems {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+  gap: var(--gap-22);
+}
+.menuHome,
+.menuOptions {
+  display: flex;
+  align-items: flex-start;
+}
+.menuHome {
+  width: 118px;
+}
+.menuOptions {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5) var(--padding-0) var(--padding-0);
+}
+.homeAbout {
+  align-self: stretch;
+  height: var(--height-18);
+  position: relative;
+}
+.about,
+.home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  width: 47px;
+  z-index: 1;
+}
+.about {
+  left: 61px;
+  width: 38px;
+  min-width: 38px;
+}
+.expandArrowIcon {
+  height: 29px;
+  width: var(--width-19);
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.workItem,
+.workItemParent {
+  display: flex;
+  align-items: flex-start;
+}
+.workItem {
+  flex-direction: column;
+  padding: var(--padding-5) var(--padding-0) var(--padding-0);
+}
+.work {
+  width: 39px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.storiesContactWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-4);
+}
+.storiesContact {
+  margin: 0;
+  align-self: stretch;
+  height: var(--height-20);
+  position: relative;
+  text-align: left;
+  font-size: var(--fs-15);
+  color: var(--color-black);
+  font-family: var(--font-graphik-xcond-trial);
+}
+.stories {
+  left: 0;
+  min-width: 41px;
+}
+.blog,
+.contact,
+.stories {
+  position: absolute;
+  top: 0;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.blog {
+  left: 73px;
+  min-width: var(--min-w-26);
+}
+.contact {
+  left: 131px;
+  min-width: 45px;
+}
+.searchDonate,
+.searchDonateParent {
+  display: flex;
+  align-items: flex-start;
+}
+.searchDonateParent {
+  width: 452px;
+  gap: 21px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.searchDonate {
+  height: 46px;
+  width: 288px;
+  position: relative;
+  isolation: isolate;
+}
+.searchDonateChild {
+  height: var(--height-16);
+  width: var(--width-18);
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+  z-index: 3;
+}
+.subtractIcon,
+.subtractParent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.subtractParent {
+  margin: 0 !important;
+}
+.subtractIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 2;
+}
+.searchIcon2 {
+  position: absolute;
+  top: 11px;
+  left: 229px;
+  width: 23px;
+  height: 23px;
+  object-fit: cover;
+  z-index: 3;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-12) 47px;
+  background-color: var(--color-teal);
+  display: flex;
+  align-items: flex-start;
+  z-index: 1;
+}
+.rectangleGroup:hover {
+  background-color: var(--color-darkcyan);
+}
+.donate2,
+.frameInner {
+  position: relative;
+  flex-shrink: 0;
+}
+.frameInner {
+  height: 46px;
+  width: 143px;
+  background-color: var(--color-teal);
+  display: none;
+}
+.donate2 {
+  width: 49px;
+  font-size: var(--fs-18);
+  display: inline-block;
+  font-family: var(--font-graphik-xcond-trial);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 2;
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    padding-left: 46px;
+    padding-right: 58px;
+    box-sizing: border-box;
+  }
+  .logo3Parent {
+    gap: 21px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    padding-left: var(--padding-20);
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+}

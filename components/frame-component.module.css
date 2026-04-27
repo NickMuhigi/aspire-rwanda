@@ -1,0 +1,112 @@
+.overAllImpactParent {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  gap: 21px;
+  min-width: 387px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 30px;
+  color: #fff;
+  font-family: "Graphik XCond Trial";
+}
+.overAllImpact,
+.overAllImpactChild {
+  height: 57px;
+  border-radius: 4px;
+  border: 1px solid #2da058;
+  box-sizing: border-box;
+}
+.overAllImpact {
+  display: flex;
+  align-items: flex-start;
+  padding: 1px 3px 4px;
+  z-index: 1;
+}
+
+.overAllImpactFixed {
+  width: 60.6px;
+  height: 55px;
+  min-width: 60.6px;
+  max-width: 60.6px;
+  min-height: 55px;
+  max-height: 55px;
+  flex: none;
+  align-self: auto;
+  align-items: center;
+  justify-content: center;
+}
+.overAllImpactChild {
+  width: 61px;
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.firstContainerIcon {
+  height: 48px;
+  width: 53px;
+  position: relative;
+  border-radius: 21.9px;
+  z-index: 2;
+  flex-shrink: 0;
+}
+
+.firstContainerIconReduced {
+  width: 27px;
+  height: 22px;
+  border-radius: 0;
+}
+.behindImpact,
+.communityArea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.communityArea {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 1px;
+  box-sizing: border-box;
+  min-width: 333px;
+}
+.behindImpact {
+  align-self: stretch;
+  gap: 1px;
+}
+.programsThatLeave {
+  margin: 0;
+  width: 346px;
+  position: relative;
+  font-size: inherit;
+  line-height: 36px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 1;
+}
+.initiativesReachVulnerable {
+  align-self: stretch;
+  position: relative;
+  font-size: 18px;
+  font-family: "Neue Montreal";
+  z-index: 1;
+}
+@media screen and (max-width: 800px) {
+  .overAllImpactParent {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .programsThatLeave {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .programsThatLeave {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}

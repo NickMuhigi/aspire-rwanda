@@ -1,0 +1,135 @@
+:root {
+  /* Common Style Variables */
+
+  /* Color */
+  --color-black: #000;
+  --color-lightgray: #d1d1d1;
+  --color-limegreen: #34c759;
+  --color-teal: #026e78;
+  --color-white: #fff;
+  --color-whitesmoke: #f3f4f2;
+
+  /* Gap */
+  --gap-2: 2px;
+  --gap-8: 8px;
+  --gap-11: 11px;
+  --gap-17: 17px;
+  --gap-18: 18px;
+  --gap-19: 19px;
+  --gap-20: 20px;
+  --gap-21: 21px;
+  --gap-22: 22px;
+  --gap-24: 24px;
+  --gap-25: 25px;
+  --gap-26: 26px;
+  --gap-48: 48px;
+
+  /* Padding */
+  --padding-0: 0px;
+  --padding-1: 1px;
+  --padding-3: 3px;
+  --padding-4: 4px;
+  --padding-5: 5px;
+  --padding-6: 6px;
+  --padding-7: 7px;
+  --padding-11: 11px;
+  --padding-12: 12px;
+  --padding-14: 14px;
+  --padding-15: 15px;
+  --padding-17: 17px;
+  --padding-18: 18px;
+  --padding-20: 20px;
+  --padding-22: 22px;
+  --padding-24: 24px;
+  --padding-28: 28px;
+  --padding-48: 48px;
+  --padding-31_3: 31.3px;
+
+  /* BorderRadius */
+  --br-5: 5px;
+
+  /* Font */
+  --font-graphik-xcond-trial: Graphik XCond Trial;
+  --font-neue-montreal: Neue Montreal;
+
+  /* FontSize */
+  --fs-15: 15px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-19: 19px;
+  --fs-20: 20px;
+  --fs-21: 21px;
+  --fs-22: 22px;
+  --fs-23: 23px;
+  --fs-24: 24px;
+  --fs-25: 25px;
+  --fs-26: 26px;
+  --fs-28: 28px;
+  --fs-30: 30px;
+
+  /* Borders */
+  --border-1: 1px solid var(--color-black);
+
+  /* Shadows */
+  --shadow-drop: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  /* WidthHeights */
+  --height-1: 1px;
+  --height-16: 16px;
+  --height-18: 18px;
+  --height-19: 19px;
+  --height-20: 20px;
+  --height-29: 29px;
+  --height-30: 30px;
+  --height-32: 32px;
+  --height-33: 33px;
+  --height-36: 36px;
+  --height-40: 40px;
+  --height-47: 47px;
+  --height-72: 72px;
+  --height-108: 108px;
+  --height-171: 171px;
+  --height-14_7: 14.7px;
+  --min-w-6: 6px;
+  --min-w-26: 26px;
+  --min-w-221: 221px;
+  --width-1: 1px;
+  --width-18: 18px;
+  --width-19: 19px;
+  --width-20: 20px;
+  --width-22: 22px;
+  --width-26: 26px;
+  --width-28: 28px;
+  --width-32: 32px;
+  --width-36: 36px;
+  --width-48: 48px;
+  --width-60: 60px;
+  --width-71: 71px;
+  --width-112: 112px;
+  --width-119: 119px;
+  --width-304: 304px;
+  --width-318: 318px;
+  --width-439: 439px;
+  --width-531: 531px;
+
+  /* LineHeights */
+  --lh-19: 19px;
+  --lh-24: 24px;
+  --lh-30: 30px;
+
+  --left-0: 0px;
+  --left-3: 3px;
+  --left-5: 5px;
+  --left-12: 12px;
+  --top-0: 0px;
+  --top-3: 3px;
+  --top-4: 4px;
+  --top-11: 11px;
+  --top-46: 46px;
+}
+
+/* Prevent horizontal overflow on all devices */
+body { overflow-x: hidden; }
+html { max-width: 100%; }
+img, svg, video, iframe { max-width: 100%; }
+
