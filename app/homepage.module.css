@@ -139,6 +139,9 @@
   .tvetSponsorship {
     width: 100%;
   }
+  .tvetInner {
+    max-width: 100%;
+  }
   .supportingYouthFrom {
     height: auto;
   }
@@ -388,6 +391,9 @@
 @media screen and (max-width: 800px) {
   .ourProjectsSection {
     padding: 0 20px 48px;
+  }
+  .ourProjectsInner {
+    max-width: 100%;
   }
   .ourProjectsTwoCol {
     flex-direction: column;

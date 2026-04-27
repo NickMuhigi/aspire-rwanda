@@ -79,6 +79,7 @@
   }
   .explorationContainer {
     gap: 29px;
+    max-width: 100%;
   }
   .explorationImageIcon {
     margin-top: 0;

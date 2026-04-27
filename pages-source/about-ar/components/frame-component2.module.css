@@ -104,11 +104,13 @@
   .aboutUsInner {
     padding-top: 0;
     padding-right: 25px;
+    padding-left: var(--padding-20);
     padding-bottom: var(--padding-55);
     box-sizing: border-box;
   }
   .frameParent {
     gap: 23px;
+    max-width: 100%;
   }
   .openingDoorsThroughEducatioParent {
     min-width: 100%;

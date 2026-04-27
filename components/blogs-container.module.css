@@ -339,6 +339,7 @@
   }
   .blogsBlock {
     gap: 18px;
+    max-width: 100%;
   }
   .blogs {
     font-size: 24px;

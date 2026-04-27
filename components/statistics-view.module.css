@@ -194,8 +194,14 @@
   }
 }
 @media screen and (max-width: 800px) {
+  .statisticsView {
+    padding-left: 20px;
+    padding-right: 35px;
+    box-sizing: border-box;
+  }
   .changeOverall {
     gap: 23px;
+    max-width: 100%;
   }
   .statistics {
     font-size: 24px;

@@ -214,6 +214,7 @@
   }
   .donateContentParent {
     flex-wrap: wrap;
+    max-width: 100%;
   }
   .aspireNurserySchoolInner {
     padding-top: 36px;

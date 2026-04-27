@@ -294,6 +294,14 @@
   .contactUs {
     gap: 29px;
   }
+  .contactDivider {
+    max-width: 100%;
+  }
+  .contactContentInner {
+    max-width: 100%;
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
   .contactHeadingContainerParent {
     gap: 32px;
     padding-left: 16px;

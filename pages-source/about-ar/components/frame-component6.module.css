@@ -157,14 +157,23 @@
   .staff {
     font-size: 24px;
   }
+  .aboutUsInner {
+    padding-top: 0;
+    padding-right: var(--padding-36);
+    padding-bottom: var(--padding-32);
+    padding-left: var(--padding-20);
+    box-sizing: border-box;
+  }
   .frameParent {
     gap: var(--gap-27);
+    max-width: 100%;
   }
   .profileImages {
     gap: var(--gap-17);
   }
   .presidentDetailsParent {
     gap: 45px;
+    max-width: 100%;
   }
   .peaceRuzage {
     line-height: var(--lh-29);

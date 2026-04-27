@@ -119,6 +119,7 @@
   }
   .frameParent {
     width: 100%;
+    max-width: 100%;
   }
   .theYouthDeserves {
     font-size: 41px;

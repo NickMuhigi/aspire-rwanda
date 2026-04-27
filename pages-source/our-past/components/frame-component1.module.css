@@ -184,6 +184,7 @@
   }
   .heroContent {
     gap: 33px;
+    max-width: 100%;
   }
   .heroContainerWrapper {
     padding-top: 0;

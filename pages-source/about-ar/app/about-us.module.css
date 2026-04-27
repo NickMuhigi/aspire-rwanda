@@ -55,6 +55,7 @@
   }
   .frameParent {
     gap: var(--gap-24);
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 450px) {

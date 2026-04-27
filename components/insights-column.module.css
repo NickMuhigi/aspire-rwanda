@@ -274,6 +274,7 @@
   }
   .keyCharacteristics {
     gap: 25px;
+    width: 100%;
   }
   .theHeartOf {
     font-size: 45px;
@@ -308,6 +309,7 @@
   }
   .frameParent {
     gap: 26px;
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 450px) {
