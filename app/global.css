@@ -1,6 +1,48 @@
-@import url("https://fonts.googleapis.com/css2?family=Graphik+XCond+Trial:ital,wght@0,400;0,500;0,600;0,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Neue+Montreal:ital,wght@0,400;0,500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue:ital,wght@0,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@font-face {
+  font-family: "Graphik XCond Trial";
+  src: url("/fonts/GraphikXCondensed-Regular-Trial.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Graphik XCond Trial";
+  src: url("/fonts/GraphikXCondensed-Medium-Trial.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Graphik XCond Trial";
+  src: url("/fonts/GraphikXCondensed-Semibold-Trial.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Graphik XCond Trial";
+  src: url("/fonts/GraphikXCondensed-Bold-Trial.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("/fonts/NeueMontreal-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("/fonts/NeueMontreal-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 
 body {
   margin: 0;
