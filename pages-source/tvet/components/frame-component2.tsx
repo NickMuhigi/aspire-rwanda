@@ -68,15 +68,6 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({ className = "" }) => {
               OF SUPPORTED YOUTH RECEIVE MENTORSHIP
             </h3>
           </div>
-          <div className={styles.rectangleParent6}>
-            <div className={styles.frameChild6} />
-            <div className={styles.emptyParent}>
-              <h2 className={styles.empty}>60:40</h2>
-              <div className={styles.boyToGirlRatioWrapper}>
-                <h3 className={styles.boyToGirl}>BOY TO GIRL RATIO</h3>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
     </section>

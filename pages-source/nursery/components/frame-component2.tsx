@@ -40,15 +40,6 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({ className = "" }) => {
             </div>
             <h3 className={styles.subjectsOfferered}>SUBJECTS OFFERERED</h3>
           </div>
-          <div className={styles.rectangleParent2}>
-            <div className={styles.frameChild2} />
-            <div className={styles.boyGirlStatistic}>
-              <h2 className={styles.statisticValue}>50:50</h2>
-              <div className={styles.boyToGirlRatioWrapper}>
-                <h3 className={styles.boyToGirl}>BOY TO GIRL RATIO</h3>
-              </div>
-            </div>
-          </div>
         </div>
         <div className={styles.ageRangeStatistics}>
           <div className={styles.ageRangeValues}>
@@ -67,15 +58,6 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({ className = "" }) => {
             </div>
             <h3 className={styles.dailyMealsProvided}>
               DAILY MEALS PROVIDED AT NURSERY
-            </h3>
-          </div>
-          <div className={styles.ageRangeValues3}>
-            <div className={styles.ageRangeValuesInner} />
-            <div className={styles.frame}>
-              <h2 className={styles.h23}>10+</h2>
-            </div>
-            <h3 className={styles.professionalTeachingStaff}>
-              PROFESSIONAL TEACHING STAFF
             </h3>
           </div>
         </div>
