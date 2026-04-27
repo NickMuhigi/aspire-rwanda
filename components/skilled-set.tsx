@@ -13,7 +13,7 @@ export type SkilledSetType = {
 };
 
 function parseStatValue(val: string) {
-  // Handle "55:45" ratio format
+  // Handle "100%" ratio format
   if (val.includes(":")) {
     const [a, b] = val.split(":");
     return { type: "ratio" as const, a: parseInt(a), b: parseInt(b) };

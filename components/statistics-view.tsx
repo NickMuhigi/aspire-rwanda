@@ -22,9 +22,9 @@ const StatisticsView: NextPage<StatisticsViewType> = ({ className = "" }) => {
     {
       skilledSetWidth: undefined,
       skilledSetPadding: undefined,
-      emptySymbol: "55:45",
+      emptySymbol: "100%",
       emptySymbolWidth: undefined,
-      womenTrainedInLifeAndVocationa: "boy to girl ratio",
+      womenTrainedInLifeAndVocationa: "Impact made",
     },
     {
       skilledSetWidth: undefined,
