@@ -477,7 +477,8 @@
 .copyright {
   display: flex;
   align-items: flex-start;
-  padding: var(--padding-0) 616px var(--padding-0) 610px;
+  justify-content: center;
+  padding: 0 20px;
   flex-shrink: 0;
   font-size: 17px;
   color: var(--color-white);
@@ -537,8 +538,8 @@
     flex: 1;
   }
   .copyright {
-    padding-left: 305px;
-    padding-right: 308px;
+    padding-left: 20px;
+    padding-right: 20px;
     box-sizing: border-box;
   }
 }

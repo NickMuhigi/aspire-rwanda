@@ -810,6 +810,13 @@
   background-color: #34c759;
 }
 
+@media screen and (max-width: 1350px) and (min-width: 1051px) {
+  .rectangleParent {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
 @media screen and (max-width: 750px) {
   .homepageInner {
     padding-top: 79px;

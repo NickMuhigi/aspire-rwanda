@@ -537,7 +537,8 @@
     flex: 1;
   }
   .copyright {
-    padding-left: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
     box-sizing: border-box;
   }
 }
