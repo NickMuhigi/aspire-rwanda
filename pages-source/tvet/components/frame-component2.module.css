@@ -279,14 +279,10 @@
   margin: 0;
   text-align: center;
 }
-.frameChild4,
 .rectangleParent4 {
-  height: var(--height-139);
   border: var(--border-3);
   box-sizing: border-box;
   max-width: 100%;
-}
-.rectangleParent4 {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -297,6 +293,10 @@
 }
 .frameChild4 {
   width: 403px;
+  height: var(--height-139);
+  border: var(--border-3);
+  box-sizing: border-box;
+  max-width: 100%;
   position: relative;
   display: none;
   z-index: 1;
@@ -425,7 +425,7 @@
   .rectangleParent3,
   .rectangleParent4,
   .rectangleParent5 {
-    flex: 0 0 50%;
+    flex: 0 0 100%;
     position: relative;
     height: 160px;
     overflow: hidden;
@@ -495,7 +495,7 @@
   .rectangleParent3,
   .rectangleParent4,
   .rectangleParent5 {
-    flex: 0 0 50%;
+    flex: 0 0 100%;
     height: 130px;
   }
   .emptyValues,
