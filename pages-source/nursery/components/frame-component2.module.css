@@ -110,8 +110,9 @@
 }
 .pupilStatistics {
   align-self: stretch;
+  flex: 1;
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   max-width: 100%;
 }
 .frameInner,
@@ -124,8 +125,9 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: var(--padding-18) 93px var(--padding-30);
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
   z-index: 2;
 }
 .frameInner {
@@ -137,10 +139,9 @@
   flex-shrink: 0;
 }
 .statisticsValues {
-  align-self: stretch;
   display: flex;
-  align-items: flex-start;
-  padding: var(--padding-0) var(--padding-31) var(--padding-0) var(--padding-32);
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
 }
 .h1,
@@ -152,20 +153,21 @@
 }
 .h1 {
   margin: 0;
-  width: 152px;
+  width: auto;
   font-size: inherit;
   line-height: 81px;
   font-weight: 600;
   z-index: 3;
 }
 .nurseryPupilsEnrolled {
-  width: 206px;
+  width: auto;
   height: var(--height-28);
   font-size: var(--fs-22);
   font-weight: 700;
   color: var(--color-white);
   z-index: 4;
-  margin: -21px 0 0;
+  margin: 0;
+  text-align: center;
 }
 .frameDiv,
 .rectangleDiv {
@@ -174,11 +176,12 @@
   max-width: 100%;
 }
 .frameDiv {
-  flex: 0.7558;
+  flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: var(--padding-18) 114px var(--padding-30) 125px;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
   z-index: 3;
 }
 .rectangleDiv {
@@ -190,10 +193,9 @@
   flex-shrink: 0;
 }
 .wrapper {
-  align-self: stretch;
   display: flex;
-  align-items: flex-start;
-  padding: var(--padding-0) 62px var(--padding-0) var(--padding-57);
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
 }
 .h2,
@@ -205,88 +207,27 @@
 }
 .h2 {
   margin: 0;
-  width: 44px;
+  width: auto;
   font-size: inherit;
   line-height: 86px;
   font-weight: 600;
   z-index: 4;
 }
 .subjectsOfferered {
-  width: 163px;
+  width: auto;
   height: var(--height-28);
   font-size: var(--fs-22);
   font-weight: 700;
   color: var(--color-white);
   z-index: 5;
-  margin: -26px 0 0;
-}
-.frameChild2,
-.rectangleParent2 {
-  width: var(--width-410);
-  border: var(--border-3);
-  box-sizing: border-box;
-  max-width: 100%;
-}
-.rectangleParent2 {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding: var(--padding-21) var(--padding-20) var(--padding-21)
-    var(--padding-43);
-  z-index: 4;
-}
-.frameChild2 {
-  height: var(--height-138);
-  position: relative;
-  display: none;
-  flex-shrink: 0;
-}
-.boyGirlStatistic {
-  display: flex;
-  align-items: flex-start;
-  padding: var(--padding-0) 38px var(--padding-0) var(--padding-0);
-  flex-shrink: 0;
-}
-.statisticValue {
   margin: 0;
-  width: 207px;
-  position: relative;
-  font-size: inherit;
-  line-height: 94px;
-  font-weight: 600;
-  font-family: inherit;
-  display: inline-block;
-  flex-shrink: 0;
-  z-index: 5;
-}
-.boyToGirlRatioWrapper {
-  width: 138px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: var(--padding-57) var(--padding-0) var(--padding-0);
-  box-sizing: border-box;
-  margin-left: -176px;
-  position: relative;
-  flex-shrink: 0;
-  font-size: var(--fs-22);
-  color: var(--color-white);
-}
-.boyToGirl {
-  margin: 0;
-  align-self: stretch;
-  position: relative;
-  font-size: inherit;
-  font-weight: 700;
-  font-family: inherit;
-  white-space: nowrap;
-  z-index: 6;
+  text-align: center;
 }
 .ageRangeStatistics {
   align-self: stretch;
   flex: 1;
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
   max-width: 100%;
 }
 .ageRangeValues,
@@ -300,8 +241,9 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: var(--padding-14) var(--padding-20) 35px 45px;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
   z-index: 4;
 }
 .ageRangeValuesChild {
@@ -314,8 +256,8 @@
 }
 .ageStats {
   display: flex;
-  align-items: flex-start;
-  padding: var(--padding-0) 70px;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
 }
 .dividerStats,
@@ -323,34 +265,37 @@
   position: relative;
   font-family: inherit;
   display: inline-block;
-  white-space: nowrap;
   flex-shrink: 0;
 }
 .dividerStats {
   margin: 0;
-  width: 137px;
+  width: auto;
   font-size: inherit;
   line-height: 90px;
   font-weight: 600;
+  white-space: nowrap;
   z-index: 5;
 }
 .yearsAgeRange {
-  width: 312px;
+  width: auto;
   font-size: var(--fs-22);
   font-weight: 700;
   color: var(--color-white);
   z-index: 6;
-  margin: -33px 0 0;
+  margin: 0;
+  text-align: center;
+  white-space: normal;
 }
 .ageRangeValues2 {
   align-self: stretch;
-  flex: 0.9142;
+  flex: 1;
   border: var(--border-3);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: var(--padding-15) var(--padding-20) var(--padding-31) 74px;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
   max-width: 100%;
   z-index: 5;
 }
@@ -369,10 +314,10 @@
   z-index: 1;
 }
 .container {
-  width: 256px;
+  width: auto;
   display: flex;
-  align-items: flex-start;
-  padding: var(--padding-0) 107px;
+  align-items: center;
+  justify-content: center;
 }
 .dailyMealsProvided,
 .h22 {
@@ -389,67 +334,15 @@
   z-index: 6;
 }
 .dailyMealsProvided {
-  width: 272px;
+  width: auto;
   font-size: var(--fs-22);
   font-weight: 700;
   color: var(--color-white);
-  white-space: nowrap;
   z-index: 7;
-  margin: -36px 0 0;
-  flex-shrink: 0;
-}
-.ageRangeValues3,
-.ageRangeValuesInner {
-  height: var(--height-139);
-  border: var(--border-3);
-  box-sizing: border-box;
-  max-width: 100%;
-}
-.ageRangeValues3 {
-  flex: 0.7006;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: var(--padding-18) 76px 35px 92px;
-  z-index: 6;
-}
-.ageRangeValuesInner {
-  width: var(--width-410);
-  position: relative;
-  display: none;
-  z-index: 1;
-  flex-shrink: 0;
-}
-.frame {
-  align-self: stretch;
-  display: flex;
-  align-items: flex-start;
-  padding: var(--padding-0) 53px var(--padding-0) var(--padding-57);
-  flex-shrink: 0;
-}
-.h23,
-.professionalTeachingStaff {
-  position: relative;
-  font-family: inherit;
-  display: inline-block;
-  flex-shrink: 0;
-}
-.h23 {
   margin: 0;
-  width: 130px;
-  font-size: inherit;
-  line-height: 86px;
-  font-weight: 600;
-  z-index: 7;
-}
-.professionalTeachingStaff {
-  width: 240px;
-  font-size: var(--fs-22);
-  font-weight: 700;
-  color: var(--color-white);
-  white-space: nowrap;
-  z-index: 8;
-  margin: -32px 0 0;
+  text-align: center;
+  white-space: normal;
+  flex-shrink: 0;
 }
 @media screen and (max-width: 1200px) {
   .ageRangeStatistics,
@@ -492,26 +385,23 @@
   }
   .rectangleContainer,
   .frameDiv,
-  .rectangleParent2,
   .ageRangeValues,
-  .ageRangeValues2,
-  .ageRangeValues3 {
-    flex: 0 0 100%;
+  .ageRangeValues2 {
+    flex: 0 0 50%;
     position: relative;
     height: 160px;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
+    padding: 8px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-sizing: border-box;
   }
   .statisticsValues,
   .wrapper,
   .ageStats,
-  .container,
-  .frame {
+  .container {
     position: absolute;
     inset: 0;
     width: auto;
@@ -523,13 +413,11 @@
   }
   .h1,
   .h2,
-  .h22,
-  .h23 {
+  .h22 {
     font-size: 110px;
     line-height: 1;
     width: auto;
   }
-  .statisticValue,
   .dividerStats {
     font-size: 90px;
     line-height: 1;
@@ -539,8 +427,7 @@
   .nurseryPupilsEnrolled,
   .subjectsOfferered,
   .yearsAgeRange,
-  .dailyMealsProvided,
-  .professionalTeachingStaff {
+  .dailyMealsProvided {
     position: absolute;
     top: 65%;
     left: 0;
@@ -553,37 +440,6 @@
     margin: 0;
     white-space: normal;
     width: auto;
-  }
-  .boyGirlStatistic {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0;
-    z-index: 0;
-  }
-  .boyToGirlRatioWrapper {
-    position: absolute;
-    top: 65%;
-    left: 0;
-    right: 0;
-    width: auto;
-    transform: translateY(-50%);
-    display: flex;
-    justify-content: center;
-    margin-left: 0;
-    padding-top: 0;
-    z-index: 1;
-  }
-  .boyToGirl {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    white-space: normal;
-    width: auto;
-    margin: 0;
   }
 }
 @media screen and (max-width: 450px) {
@@ -600,21 +456,17 @@
   }
   .rectangleContainer,
   .frameDiv,
-  .rectangleParent2,
   .ageRangeValues,
-  .ageRangeValues2,
-  .ageRangeValues3 {
-    flex: 0 0 100%;
+  .ageRangeValues2 {
+    flex: 0 0 50%;
     height: 130px;
   }
   .h1,
   .h2,
-  .h22,
-  .h23 {
+  .h22 {
     font-size: 75px;
     line-height: 1;
   }
-  .statisticValue,
   .dividerStats {
     font-size: 65px;
     line-height: 1;
