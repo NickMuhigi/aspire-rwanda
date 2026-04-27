@@ -23,7 +23,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
       event.preventDefault();
       const query = searchText.trim();
       if (!query || typeof window === "undefined") return;
-      const found = window.find(query, false, false, true, false, false, false);
+      const found = (window as any).find?.(query);
       if (!found) window.alert(`No results found for "${query}" on this page.`);
     },
     [searchText]
