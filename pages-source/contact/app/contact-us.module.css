@@ -347,7 +347,7 @@
     clip-path: polygon(18px 0%, 100% 0%, 100% 100%, 0% 100%, 0% 18px);
   }
   .donateParent:hover {
-    background: #34c759;
+    background: var(--color-teal);
     background-image: none;
   }
   .donate {

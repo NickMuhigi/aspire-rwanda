@@ -294,8 +294,10 @@
   align-items: flex-start;
   z-index: 1;
 }
-.donateAction:hover {
-  background-color: var(--color-darkcyan);
+@media (hover: hover) {
+  .donateAction:hover {
+    background-color: var(--color-darkcyan);
+  }
 }
 .donate2,
 .donateActionChild {

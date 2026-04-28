@@ -35,6 +35,15 @@
   align-items: flex-start;
   padding: var(--padding-10) var(--padding-49) var(--padding-6);
 }
+.phoneContainer:focus-within,
+.subjectMessage:focus-within {
+  border-color: var(--color-teal);
+  outline: none;
+}
+.messageTextarea:focus {
+  border-color: var(--color-teal);
+  outline: none;
+}
 .phoneContainerChild {
   width: var(--width-661);
   position: relative;

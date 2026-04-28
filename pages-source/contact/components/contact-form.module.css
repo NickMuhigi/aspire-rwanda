@@ -70,6 +70,10 @@
   padding: var(--padding-11) var(--padding-49) var(--padding-5);
   box-sizing: border-box;
 }
+.inputField:focus-within {
+  border-color: var(--color-teal);
+  outline: none;
+}
 
 .fieldInput {
   width: 100%;

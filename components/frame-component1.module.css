@@ -580,8 +580,10 @@
   z-index: 1;
 }
 
-.rectangleGroup:hover {
-  background-color: #34c759;
+@media (hover: hover) {
+  .rectangleGroup:hover {
+    background-color: #34c759;
+  }
 }
 
 .donate2,
@@ -683,8 +685,10 @@
   letter-spacing: 0.06em;
   margin-top: auto;
 }
-.mobileNavDonate:hover {
-  background-color: #34c759;
+@media (hover: hover) {
+  .mobileNavDonate:hover {
+    background-color: #34c759;
+  }
 }
 
 .mobileNavLink {
@@ -704,8 +708,10 @@
   box-sizing: border-box;
 }
 
-.mobileNavLink:hover {
-  color: #026e78;
+@media (hover: hover) {
+  .mobileNavLink:hover {
+    color: #026e78;
+  }
 }
 
 .mobileNavSection {
@@ -732,8 +738,10 @@
   box-sizing: border-box;
 }
 
-.mobileNavToggle:hover {
-  color: #026e78;
+@media (hover: hover) {
+  .mobileNavToggle:hover {
+    color: #026e78;
+  }
 }
 
 .mobileNavChevron {
@@ -779,9 +787,11 @@
   box-sizing: border-box;
 }
 
-.mobileNavSub:hover {
-  background-color: #026e78;
-  color: #fff;
+@media (hover: hover) {
+  .mobileNavSub:hover {
+    background-color: #026e78;
+    color: #fff;
+  }
 }
 
 /* ── Mobile right — DONATE + hamburger group ── */
@@ -806,8 +816,10 @@
   white-space: nowrap;
 }
 
-.mobileDonateCta:hover {
-  background-color: #34c759;
+@media (hover: hover) {
+  .mobileDonateCta:hover {
+    background-color: #34c759;
+  }
 }
 
 @media screen and (max-width: 750px) {
