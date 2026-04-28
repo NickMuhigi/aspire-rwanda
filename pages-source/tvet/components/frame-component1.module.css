@@ -113,6 +113,7 @@
     padding-right: 16px;
     padding-bottom: 38px;
     box-sizing: border-box;
+    margin-top: 50px;
   }
   .frameParent {
     gap: var(--gap-26);
