@@ -17,7 +17,7 @@ export default function OurProjectsSection() {
               <span>Pathways to Independence</span>
             </h2>
             <div className={styles.ourProjectsExplore}>
-              Explore Aspire Rwanda&apos;s focused projects that equip children and youth from poor families with practical<br />skills, and the confidence to shape their futures.
+              Explore Aspire Rwanda&apos;s focused projects that equip children and youth from poor families with practical <br />skills, and the confidence to shape their futures.
             </div>
             <Link href="/about-ar#active-projects" className={styles.ourProjectsReadMore}>
               <span className={styles.ourProjectsReadMoreText}>Read More</span>

@@ -111,13 +111,15 @@
 .photoCard:nth-child(6) { transform: rotate(3.1deg);  }
 .photoCard:nth-child(7) { transform: rotate(-1.8deg); }
 
-.photoCard:hover {
-  transform: rotate(0deg) translateY(-16px) scale(1.03) !important;
-  box-shadow:
-    0 4px 8px rgba(0,0,0,0.2),
-    0 24px 56px rgba(0,0,0,0.7),
-    0 48px 80px rgba(0,0,0,0.4);
-  z-index: 10;
+@media (hover: hover) {
+  .photoCard:hover {
+    transform: rotate(0deg) translateY(-16px) scale(1.03) !important;
+    box-shadow:
+      0 4px 8px rgba(0,0,0,0.2),
+      0 24px 56px rgba(0,0,0,0.7),
+      0 48px 80px rgba(0,0,0,0.4);
+    z-index: 10;
+  }
 }
 
 /* Center the 7th card under the middle column */
@@ -140,8 +142,10 @@
   transition: transform 0.55s ease;
 }
 
-.photoCard:hover .photoImg {
-  transform: scale(1.04);
+@media (hover: hover) {
+  .photoCard:hover .photoImg {
+    transform: scale(1.04);
+  }
 }
 
 /* Text area below the photo */

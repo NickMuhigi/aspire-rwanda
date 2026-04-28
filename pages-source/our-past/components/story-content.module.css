@@ -38,6 +38,7 @@
   height: var(--height-40);
   border-radius: var(--br-7);
   border: var(--border-1);
+  background-color: var(--color-teal);
   box-sizing: border-box;
   display: flex;
   align-items: flex-start;
@@ -45,6 +46,7 @@
   white-space: nowrap;
   z-index: 2;
   flex-shrink: 0;
+  -webkit-tap-highlight-color: transparent;
 }
 .ourStory,
 .storyTitleChild {
