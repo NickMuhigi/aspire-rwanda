@@ -18,7 +18,7 @@
 }
 .frameParent {
   width: 100%;
-  max-width: min(1207px, 83.82vw);
+  max-width: 83.82vw;
   flex-direction: column;
   gap: var(--gap-41);
 }

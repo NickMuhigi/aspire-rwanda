@@ -14,7 +14,7 @@
 }
 .blogsBlock {
   width: 100%;
-  max-width: min(1232px, 85.56vw);
+  max-width: 85.56vw;
   flex-direction: column;
   gap: 36px;
 }

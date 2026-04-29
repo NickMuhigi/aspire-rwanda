@@ -17,7 +17,7 @@
 }
 .changeOverall {
   width: 100%;
-  max-width: min(1233px, 85.63vw);
+  max-width: 85.63vw;
   flex-direction: column;
   gap: 47px;
 }

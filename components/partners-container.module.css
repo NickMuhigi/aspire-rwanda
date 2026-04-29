@@ -1,7 +1,7 @@
 .partnersContainer {
   align-self: stretch;
   justify-content: center;
-  padding: 80px 44px 80px 20px;
+  padding: 80px 3vw 80px 1.4vw;
   box-sizing: border-box;
   max-width: 100%;
   flex-shrink: 0;
@@ -17,7 +17,7 @@
   align-items: flex-start;
 }
 .partnersHeader {
-  width: min(1224px, 100%);
+  width: 100%;
   flex-direction: column;
   gap: 78px;
   max-width: 100%;

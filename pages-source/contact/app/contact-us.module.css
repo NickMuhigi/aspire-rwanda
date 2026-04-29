@@ -1,6 +1,6 @@
 .contactDivider {
   width: 100%;
-  max-width: min(1251px, 86.88vw);
+  max-width: 86.88vw;
   margin: 0;
   border: none;
   border-bottom: 1px solid #555555;
@@ -94,7 +94,7 @@
 
 .contactHeadingContainerParent {
   width: 100%;
-  max-width: 1347px;
+  max-width: 93.54vw;
   margin: 24px auto 0 auto;
   display: flex;
   flex-direction: column;
@@ -205,7 +205,7 @@
 }
 .contactContentInner {
   width: 100%;
-  max-width: min(1251px, 86.88vw);
+  max-width: 86.88vw;
   display: flex;
   align-items: flex-start;
   padding: 0 1.4vw 9px 0;

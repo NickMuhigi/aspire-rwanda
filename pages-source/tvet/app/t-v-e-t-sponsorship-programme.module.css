@@ -42,7 +42,7 @@
 .challengeFoundedParent {
   height: 574px;
   width: 100%;
-  max-width: min(1174px, 81.53vw);
+  max-width: 81.53vw;
   position: relative;
 }
 .challengeFounded {
@@ -160,8 +160,8 @@
 .responseParent {
   position: absolute;
   top: 311px;
-  left: 235px;
-  width: 939px;
+  left: 20.02%;
+  width: 79.98%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

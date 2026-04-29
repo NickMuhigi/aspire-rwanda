@@ -14,7 +14,7 @@
 }
 .frameParent {
   width: 100%;
-  max-width: min(1178px, 81.81vw);
+  max-width: 81.81vw;
   gap: 128px;
 }
 .openingDoorsThroughEducatioParent {

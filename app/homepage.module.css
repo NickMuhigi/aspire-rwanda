@@ -66,7 +66,7 @@
 }
 .tvetInner {
   width: 100%;
-  max-width: min(1219px, 84.65vw);
+  max-width: 84.65vw;
   display: flex;
   justify-content: flex-end;
 }
@@ -176,7 +176,7 @@
 }
 .ourProjectsInner {
   width: 100%;
-  max-width: min(1219px, 84.65vw);
+  max-width: 84.65vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

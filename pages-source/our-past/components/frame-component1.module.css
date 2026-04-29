@@ -15,7 +15,7 @@
 }
 .heroContent {
   width: 100%;
-  max-width: min(1231px, 85.49vw);
+  max-width: 85.49vw;
   flex-wrap: wrap;
   align-content: flex-start;
   gap: 66px;

@@ -45,7 +45,7 @@
 }
 .updatesContainerParent {
   width: 100%;
-  max-width: min(1181px, 82.01vw);
+  max-width: 82.01vw;
   flex-direction: column;
 }
 .updatesContainer {

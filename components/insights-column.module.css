@@ -29,7 +29,7 @@
   flex-shrink: 0;
 }
 .keyCharacteristics {
-  width: min(652px, 45.28vw);
+  width: 45.28vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -256,7 +256,7 @@
 }
 .frameParent {
   width: 100%;
-  max-width: min(1183px, 82.15vw);
+  max-width: 82.15vw;
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
