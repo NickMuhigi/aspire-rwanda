@@ -100,7 +100,7 @@
   gap: 8px;
   max-width: 100%;
   text-align: left;
-  font-size: 40px;
+  font-size: clamp(2rem, 2.78vw, 2.5rem);
   color: #fff;
   font-family: "Graphik XCond Trial";
 }

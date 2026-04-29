@@ -116,7 +116,7 @@
   box-sizing: border-box;
   min-width: 402px;
   text-align: left;
-  font-size: 50px;
+  font-size: clamp(2.5rem, 3.47vw, 3.125rem);
   color: var(--color-white);
   font-family: var(--font-graphik-xcond-trial);
 }

@@ -79,7 +79,7 @@
 }
 .theHeartOf {
   height: 144px;
-  font-size: 56px;
+  font-size: clamp(2.8125rem, 3.89vw, 3.5rem);
   font-weight: 600;
   z-index: 1;
 }
@@ -262,6 +262,15 @@
   flex-wrap: wrap;
   align-content: flex-start;
   gap: 52px;
+}
+@media screen and (max-width: 1200px) {
+  .keyTraits {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .keyCharacteristics {
+    width: 50%;
+  }
 }
 @media screen and (max-width: 800px) {
   .keyInsights {

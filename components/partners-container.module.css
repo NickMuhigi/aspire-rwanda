@@ -64,7 +64,7 @@
 .partnersContent {
   align-self: stretch;
   row-gap: 20px;
-  font-size: 50px;
+  font-size: clamp(2.5rem, 3.47vw, 3.125rem);
 }
 .partnersLogo {
   flex: 1;

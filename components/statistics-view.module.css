@@ -69,7 +69,7 @@
   align-items: flex-end;
   gap: 52px;
   text-align: left;
-  font-size: 56px;
+  font-size: clamp(2.8125rem, 3.89vw, 3.5rem);
   color: #000;
   font-family: "Graphik XCond Trial";
 }
@@ -167,7 +167,7 @@
   justify-content: space-between;
   max-width: 100%;
   text-align: left;
-  font-size: 66px;
+  font-size: clamp(2.8125rem, 4.58vw, 4.125rem);
   color: #000;
   font-family: "Graphik XCond Trial";
 }

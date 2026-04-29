@@ -14,7 +14,7 @@
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
-  font-size: 91px;
+  font-size: clamp(4.6875rem, 6.32vw, 5.6875rem);
   color: var(--color-white);
   font-family: var(--font-graphik-xcond-trial);
 }

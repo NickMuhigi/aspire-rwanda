@@ -45,7 +45,7 @@
   padding: 0;
   box-sizing: border-box;
   flex-shrink: 0;
-  font-size: 54px;
+  font-size: clamp(2.6875rem, 3.75vw, 3.375rem);
 }
 .jan,
 .janSplit {

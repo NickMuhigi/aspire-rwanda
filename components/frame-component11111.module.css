@@ -67,7 +67,7 @@
 .growthProject {
   justify-content: space-between;
   text-align: left;
-  font-size: 56px;
+  font-size: clamp(2.8125rem, 3.89vw, 3.5rem);
   color: #000;
   font-family: "Graphik XCond Trial";
 }

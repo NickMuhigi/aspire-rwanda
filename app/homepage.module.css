@@ -233,7 +233,7 @@
 .ourProjectsHeading {
   margin: 0;
   margin-top: 24px;
-  font-size: 46px;
+  font-size: clamp(2.375rem, 3.19vw, 2.875rem);
   font-weight: 500;
   font-family: "Graphik XCond Trial";
   color: #000;

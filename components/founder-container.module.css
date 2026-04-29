@@ -78,7 +78,7 @@
 }
 .fromASimple {
   height: auto;
-  font-size: 44px;
+  font-size: clamp(2.1875rem, 3.06vw, 2.75rem);
   font-weight: 600;
   color: #fff;
 }
@@ -146,6 +146,15 @@
   height: 29.03vw;
   object-fit: cover;
   z-index: 4;
+}
+@media screen and (max-width: 1200px) {
+  .founderBlock {
+    padding: 60px 40px 80px;
+  }
+  .founderDetails {
+    width: auto;
+    flex: 1;
+  }
 }
 @media screen and (max-width: 800px) {
   .founderContent {

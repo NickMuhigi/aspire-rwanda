@@ -70,7 +70,7 @@
 .theYouthDeserves {
   height: 195px;
   width: 454px;
-  font-size: 51px;
+  font-size: clamp(2.5625rem, 3.54vw, 3.1875rem);
   font-weight: 600;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(4px);

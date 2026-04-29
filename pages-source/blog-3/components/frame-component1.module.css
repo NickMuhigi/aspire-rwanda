@@ -68,7 +68,7 @@
 }
 .insideTheNursery {
   height: 265px;
-  font-size: 70px;
+  font-size: clamp(3.5rem, 4.86vw, 4.375rem);
   font-weight: 500;
   color: var(--color-black);
 }

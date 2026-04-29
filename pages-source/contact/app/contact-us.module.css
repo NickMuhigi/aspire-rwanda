@@ -102,7 +102,7 @@
   gap: 84px;
   flex-shrink: 0;
   text-align: left;
-  font-size: 60px;
+  font-size: clamp(3rem, 4.17vw, 3.75rem);
   color: var(--color-teal);
   font-family: var(--font-graphik-xcond-trial);
   padding-left: 2.78vw;

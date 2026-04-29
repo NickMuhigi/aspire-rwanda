@@ -69,7 +69,7 @@
 }
 .buildingSkillsConfidence {
   height: 191px;
-  font-size: 76px;
+  font-size: clamp(3.8125rem, 5.28vw, 4.75rem);
   z-index: 1;
 }
 .learnMoreParent {

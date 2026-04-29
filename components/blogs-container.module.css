@@ -71,7 +71,7 @@
 }
 .recentBlogs {
   align-self: stretch;
-  font-size: 62px;
+  font-size: clamp(3.125rem, 4.31vw, 3.875rem);
   line-height: 79px;
   font-weight: 600;
   white-space: nowrap;
