@@ -156,7 +156,7 @@ const OurPast: NextPage = () => {
               </div>
             </div>
 
-            <div className={[styles.photoCard, styles.photoCardCenter].join(" ")}>
+            <div className={styles.photoCard}>
               <div className={styles.photoFrame}>
                 <Image
                   className={styles.photoImg}
@@ -174,6 +174,106 @@ const OurPast: NextPage = () => {
                   We delivered awareness sessions on health, hygiene, and social
                   wellbeing, helping communities make informed choices and
                   improve quality of life.
+                </p>
+              </div>
+            </div>
+
+            <div className={styles.photoCard}>
+              <div className={styles.photoFrame}>
+                <Image
+                  className={styles.photoImg}
+                  src="/HT.png"
+                  width={444}
+                  height={339}
+                  loading="lazy"
+                  alt=""
+                />
+              </div>
+              <div className={styles.photoMeta}>
+                <span className={styles.photoNum}>08</span>
+                <h3 className={styles.photoTitle}>Human Trafficking & Social Awareness Training (Gisozi Sector, Kigali):</h3>
+                <p className={styles.photoDesc}>
+                  In collaboration with Gisozi Sector Police, Aspire Rwanda delivered training sessions for women and youth on human trafficking prevention, drug abuse awareness, gender-based violence, and social risks affecting young people, empowering participants to identify threats and report cases to authorities.
+                </p>
+              </div>
+            </div>
+
+            <div className={styles.photoCard}>
+              <div className={styles.photoFrame}>
+                <Image
+                  className={styles.photoImg}
+                  src="/masc.png"
+                  width={444}
+                  height={339}
+                  loading="lazy"
+                  alt=""
+                />
+              </div>
+              <div className={styles.photoMeta}>
+                <span className={styles.photoNum}>09</span>
+                <h3 className={styles.photoTitle}>RWAMREC Positive Masculinity & Gender Equality Training (Kigali):</h3>
+                <p className={styles.photoDesc}>
+                  In partnership with RWAMREC, Aspire Rwanda facilitated a two-day training for men and women focused on gender equality, positive masculinity, family dynamics, gender-based violence prevention, and reproductive health, promoting shared responsibility within households.
+                </p>
+              </div>
+            </div>
+
+            <div className={styles.photoCard}>
+              <div className={styles.photoFrame}>
+                <Image
+                  className={styles.photoImg}
+                  src="/WW.png"
+                  width={444}
+                  height={339}
+                  loading="lazy"
+                  alt=""
+                />
+              </div>
+              <div className={styles.photoMeta}>
+                <span className={styles.photoNum}>10</span>
+                <h3 className={styles.photoTitle}>Women's Rights, Family Law & Legal Awareness Training (Rutunga, Gasabo District):</h3>
+                <p className={styles.photoDesc}>
+                  In partnership with Haguruka NGO, Aspire Rwanda conducted legal education sessions for over 300 beneficiaries on women and children's rights, marriage laws, divorce procedures, inheritance, and access to justice, while also providing legal guidance to participants.
+                </p>
+              </div>
+            </div>
+
+            <div className={styles.photoCard}>
+              <div className={styles.photoFrame}>
+                <Image
+                  className={styles.photoImg}
+                  src="/pigs.png"
+                  width={444}
+                  height={339}
+                  loading="lazy"
+                  alt=""
+                />
+              </div>
+              <div className={styles.photoMeta}>
+                <span className={styles.photoNum}>11</span>
+                <h3 className={styles.photoTitle}>Youth Economic Empowerment & Livelihood Support (Bugesera District):</h3>
+                <p className={styles.photoDesc}>
+                  Aspire Rwanda implemented youth livelihood programmes including pig farming support, animal treatment, deworming, avocado tree planting, and agricultural follow-ups, benefiting over 100 households and strengthening rural economic resilience.
+                </p>
+              </div>
+            </div>
+
+            <div className={styles.photoCard}>
+              <div className={styles.photoFrame}>
+                <Image
+                  className={styles.photoImg}
+                  src="/2pigs.png"
+                  width={444}
+                  height={339}
+                  loading="lazy"
+                  alt=""
+                />
+              </div>
+              <div className={styles.photoMeta}>
+                <span className={styles.photoNum}>12</span>
+                <h3 className={styles.photoTitle}>Animal Husbandry Training & Veterinary Field Support (Bugesera District):</h3>
+                <p className={styles.photoDesc}>
+                  Through field-based interventions, Aspire Rwanda provided practical animal health services including pig treatment, disease prevention, wound care, and farmer training, improving livestock productivity and household income generation.
                 </p>
               </div>
             </div>

@@ -98,24 +98,20 @@
 }
 .dataContent {
   flex: 1;
-  flex-direction: column;
-  gap: 54px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 52px;
+  row-gap: 54px;
+  align-items: start;
+  max-width: 100%;
 }
-.dataContent,
-.detailContainer,
+.detailContainer {
+  display: contents;
+}
 .overlayContent {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
-}
-.detailContainer {
-  align-self: stretch;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  gap: 55px;
-}
-.overlayContent {
-  width: 592px;
   gap: 21px;
 }
 .overlayContentInner {
@@ -255,13 +251,7 @@
   z-index: 2;
 }
 .frameParent {
-  width: 100%;
-  max-width: 82.15vw;
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  gap: 52px;
+  display: contents;
 }
 @media screen and (max-width: 1200px) {
   .keyTraits {
@@ -288,9 +278,9 @@
   .theHeartOf {
     font-size: 45px;
   }
-  .dataContent,
-  .detailContainer {
-    gap: 27px;
+  .dataContent {
+    grid-template-columns: 1fr;
+    row-gap: 27px;
   }
   .overlayContent {
     flex-direction: column;
@@ -315,10 +305,6 @@
   .creatingChangeThat {
     font-size: 24px;
     line-height: 29px;
-  }
-  .frameParent {
-    gap: 26px;
-    max-width: 100%;
   }
 }
 @media screen and (max-width: 450px) {

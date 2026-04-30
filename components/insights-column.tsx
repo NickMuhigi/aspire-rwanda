@@ -85,10 +85,6 @@ const InsightsColumn: NextPage<InsightsColumnType> = ({ className = "" }) => {
                 initiativesReachVulnerable={`Initiatives reach vulnerable & marginalized groups, ensuring support.`}
               />
               <FrameComponent
-                frameDivFlex="unset"
-                frameDivMinWidth="unset"
-                frameDivWidth="536px"
-                communityAreaMinWidth="295px"
                 programsThatLeaveNoOneBehind="Solutions Built with Communities at the Core"
                 programsThatLeaveWidth="429px"
                 initiativesReachVulnerable="We design initiatives that are relevant to address challenges."

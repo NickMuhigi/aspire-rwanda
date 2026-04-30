@@ -110,6 +110,11 @@
 .photoCard:nth-child(5) { transform: rotate(-0.9deg); }
 .photoCard:nth-child(6) { transform: rotate(3.1deg);  }
 .photoCard:nth-child(7) { transform: rotate(-1.8deg); }
+.photoCard:nth-child(8) { transform: rotate(1.3deg);  }
+.photoCard:nth-child(9) { transform: rotate(-2.4deg); }
+.photoCard:nth-child(10) { transform: rotate(0.6deg); }
+.photoCard:nth-child(11) { transform: rotate(-1.5deg); }
+.photoCard:nth-child(12) { transform: rotate(2.1deg); }
 
 @media (hover: hover) {
   .photoCard:hover {
@@ -224,6 +229,11 @@
   .photoCard:nth-child(5) { transform: rotate(-0.4deg); }
   .photoCard:nth-child(6) { transform: rotate(1.2deg); }
   .photoCard:nth-child(7) { transform: rotate(-0.8deg); }
+  .photoCard:nth-child(8) { transform: rotate(0.5deg); }
+  .photoCard:nth-child(9) { transform: rotate(-1deg); }
+  .photoCard:nth-child(10) { transform: rotate(0.3deg); }
+  .photoCard:nth-child(11) { transform: rotate(-0.7deg); }
+  .photoCard:nth-child(12) { transform: rotate(0.9deg); }
 }
 
 @media screen and (max-width: 450px) {
