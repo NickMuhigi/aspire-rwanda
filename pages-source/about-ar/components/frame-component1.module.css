@@ -103,8 +103,8 @@
   white-space: nowrap;
 }
 .empoweringChildrenAnd {
-  width: 475px;
-  height: var(--height-263);
+  width: auto;
+  height: auto;
   font-size: var(--fs-52);
   font-weight: 600;
   color: var(--color-white);
@@ -145,7 +145,7 @@
   white-space: nowrap;
 }
 .championingEquityBy {
-  height: var(--height-263);
+  height: auto;
   font-size: var(--fs-52);
   font-weight: 600;
   color: var(--color-black);

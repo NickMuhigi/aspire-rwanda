@@ -46,7 +46,7 @@
 .aspireRwandaOpens {
   flex: 1;
   position: relative;
-  white-space: pre-wrap;
+  white-space: normal;
   display: inline-block;
   max-width: 100%;
 }

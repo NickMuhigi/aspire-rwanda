@@ -165,16 +165,16 @@
   top: 18px;
   left: 24px;
   background-color: var(--color-limegreen);
-  width: 581px;
-  height: 349px;
+  width: calc(100% - 24px);
+  height: calc(100% - 18px);
   z-index: 1;
 }
 .rectangleIcon {
   position: absolute;
   top: 0;
   left: 0;
-  width: 587px;
-  height: 352px;
+  width: calc(100% - 18px);
+  height: calc(100% - 15px);
   object-fit: cover;
   z-index: 2;
 }
