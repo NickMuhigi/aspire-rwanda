@@ -144,11 +144,10 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 370px;
+  width: 100%;
   height: 41px;
   display: flex;
   align-items: flex-start;
-  gap: 158px;
   color: var(--color-limegreen);
 }
 .founded {
@@ -161,6 +160,9 @@
   min-width: 77px;
 }
 .challengeWrapper {
+  position: absolute;
+  left: calc(100% - 939px);
+  top: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -254,8 +256,9 @@
 .responseParent {
   position: absolute;
   top: 311px;
-  left: 20.02%;
-  width: 79.98%;
+  left: calc(100% - 939px);
+  width: 939px;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -373,6 +376,7 @@
     flex: 0 0 calc(50% - 10px);
   }
   .challengeWrapper {
+    position: static;
     order: 3;
     flex: 0 0 100%;
     margin-top: 16px;
