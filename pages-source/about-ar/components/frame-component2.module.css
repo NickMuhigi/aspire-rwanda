@@ -28,7 +28,7 @@
   font-family: var(--font-graphik-xcond-trial);
 }
 .openingDoorsThrough {
-  height: 319px;
+  height: auto;
   position: relative;
   font-weight: 600;
   display: inline-block;

@@ -81,24 +81,25 @@
 .storyImages {
   height: 505px;
   position: relative;
-  min-width: 535px;
+  width: min(535px, 100%);
+  flex-shrink: 0;
   max-width: 100%;
 }
 .storyImagesChild {
   position: absolute;
-  top: 18px;
-  left: 37px;
+  top: 3.56%;
+  left: 6.92%;
   background-color: var(--color-limegreen);
-  width: 498px;
-  height: 487px;
+  width: 93.1%;
+  height: 96.4%;
   z-index: 2;
 }
 .storyImagesItem {
   position: absolute;
   top: 0;
   left: 0;
-  width: 517px;
-  height: 486px;
+  width: 96.6%;
+  height: 96.2%;
   object-fit: cover;
   z-index: 3;
 }
@@ -114,7 +115,7 @@
   justify-content: flex-end;
   padding: var(--padding-0) var(--padding-0) 33px;
   box-sizing: border-box;
-  min-width: 402px;
+  min-width: 0;
   text-align: left;
   font-size: clamp(2.5rem, 3.47vw, 3.125rem);
   color: var(--color-white);
@@ -126,14 +127,14 @@
 }
 .fromAPatio {
   margin: 0;
-  width: 617px;
+  width: auto;
   position: relative;
   font-size: inherit;
   line-height: var(--lh-64);
   font-weight: 600;
   font-family: inherit;
   display: inline-block;
-  white-space: nowrap;
+  white-space: normal;
   max-width: 100%;
   z-index: 2;
 }
@@ -148,7 +149,7 @@
   font-family: var(--font-neue-montreal);
 }
 .aspireRwandaWas {
-  height: 360px;
+  height: auto;
   flex: 1;
   position: relative;
   display: inline-block;
@@ -162,13 +163,15 @@
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1100px) {
   .storyDetails {
     flex-wrap: wrap;
   }
-  .storyImages {
-    flex: 1;
+  .storyDescription {
+    min-width: 100%;
   }
+}
+@media screen and (max-width: 1050px) {
   .fromAPatio {
     font-size: var(--fs-40);
   }
