@@ -31,7 +31,8 @@
   height: auto;
   position: relative;
   font-weight: 600;
-  display: inline-block;
+  display: block;
+  width: 100%;
 }
 .aspireRwandaOpensPathwaysFWrapper {
   align-self: stretch;
