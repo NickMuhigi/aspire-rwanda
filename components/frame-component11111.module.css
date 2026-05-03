@@ -237,7 +237,7 @@
   max-width: 100%;
   transition: color 0.2s ease;
 }
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 950px) {
   .growthProject {
     flex-wrap: wrap;
     gap: 20px;

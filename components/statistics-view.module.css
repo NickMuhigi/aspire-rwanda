@@ -175,22 +175,27 @@
   .successFactor {
     gap: 119px;
   }
-  .trainedWomenArea {
-    flex-wrap: wrap;
-  }
 }
 @media screen and (max-width: 1150px) {
   .successFactor {
-    flex-wrap: wrap;
-  }
-  .measuringChangeThe {
-    flex: 1;
+    gap: 60px;
   }
   .donationsBox {
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
     justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .successFactor {
+    flex-wrap: wrap;
+  }
+  .measuringChangeThe {
+    flex: 1;
+  }
+  .trainedWomenArea {
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 800px) {

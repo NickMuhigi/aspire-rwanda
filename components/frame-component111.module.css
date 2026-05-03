@@ -183,7 +183,7 @@
   display: inline-block;
   z-index: 1;
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1050px) {
   .empowermentCard {
     flex-wrap: wrap;
   }

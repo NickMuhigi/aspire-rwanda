@@ -139,7 +139,7 @@
   z-index: 1;
 }
 .whatStartedAs {
-  height: 202px;
+  height: auto;
   position: relative;
   font-weight: 600;
   display: inline-block;
