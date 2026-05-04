@@ -19,7 +19,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
         </div>
         <div className={styles.ourNurserySchoolProvidesChWrapper}>
           <div className={styles.ourNurserySchool}>
-            Our nursery school provides children from poor families
+            Aspire Pre-school started in 2010 and provides children from poor families
             with access to high-quality early childhood education within a safe,
             structured, and nurturing environment aligned with national
             education standards.
@@ -33,7 +33,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
             education.
             <br />
             <br />
-            Through a balanced approach that integrates guided instruction, play-based learning, and daily care, the programme enables mothers to work with peace of mind, knowing their children are studying in a safe and reliable environment where they are well cared for. In addition, children receive nutritious breakfast and lunch at school, ensuring their well-being.
+            Through a balanced approach that integrates guided instruction, play-based learning, and daily care, the programme enables parents to work with peace of mind, knowing their children are studying in a safe and reliable environment where they are well cared for. In addition, children receive nutritious breakfast and lunch at school, ensuring their well-being.
           </div>
         </div>
         <DonateButton className={styles.supportWork}>

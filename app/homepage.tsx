@@ -22,7 +22,7 @@ const Homepage: NextPage = () => {
         height={661}
         sizes="100vw"
         alt=""
-        src="/Rectangle 249 (1).png"
+        src="/602caa5a97eb4428ab65ede9ac99aaf6.png"
       />
       <FrameComponent1 />
       <FrameComponent11 />

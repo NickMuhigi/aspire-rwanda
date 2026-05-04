@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "Bash(git restore *)",
-      "Bash(git reset *)"
+      "Bash(git reset *)",
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\nicho\\\\Desktop\\\\Aspire Rwanda \\(1\\)\" -Recurse -Directory -ErrorAction SilentlyContinue)",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(xargs grep *)",
+      "Bash(Select-String -Pattern \"WhatsApp|Gemini|602caa|blog-3|Rectangle-264|Rectangle 249\")",
+      "PowerShell(Get-ChildItem \"c:\\\\Users\\\\nicho\\\\Desktop\\\\Aspire Rwanda \\(1\\)\\\\public\" | Where-Object { $_.Name -match \"WhatsApp|Gemini|602caa|Rectangle.264|Rectangle 249\" } | Select-Object Name)"
     ]
   }
 }

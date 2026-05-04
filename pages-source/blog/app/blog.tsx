@@ -14,8 +14,9 @@ const Blog: NextPage = () => {
         width={1440}
         height={424}
         sizes="100vw"
+        quality={100}
         alt=""
-        src="/Rectangle-264@2x.png"
+        src="/WhatsApp Image 2026-05-04 at 11.11.40 AM.jpg"
       />
       <div className={styles.blogInner}>
         <div className={styles.updatesContainerParent}>

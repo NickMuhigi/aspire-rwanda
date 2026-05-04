@@ -47,7 +47,7 @@ const Blog3: NextPage = () => {
                 <br />
               </span>
               <b>
-                On-Site Childcare That Enables Mothers to Work
+                On-Site Childcare That Enables Parents to Work
                 <br />
               </b>
               <span>
@@ -139,7 +139,7 @@ const Blog3: NextPage = () => {
               <span>
                 At Aspire Rwanda, we believe that early childhood education is
                 one of the most powerful tools we have for breaking cycles of
-                poverty and building more equitable futures. Our holistic
+                poverty and building more equitable future. Our holistic
                 approach, one that reaches beyond the classroom to support
                 families, health, and community, is how we ensure that our
                 impact is deep, lasting, and real.

@@ -13,7 +13,7 @@ const MORE_BLOGS = [
     category: "Education",
     src: "/Exploration-Image@2x.png",
     title: "Inside the Nursery Experience: Nurturing Curiosity, Creativity, and Confidence in Young Learners.",
-    excerpt: "At Aspire Rwanda, our nursery gives children from poor families the safe, stimulating space they need to grow, discover, and build the skills that shape their futures.",
+    excerpt: "At Aspire Rwanda, our nursery gives children from poor families the safe, stimulating space they need to grow, discover, and build the skills that shape their future.",
     href: "/blog-1",
   },
   {

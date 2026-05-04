@@ -119,7 +119,7 @@ const Blog5: NextPage = () => {
               <span>
                 Many young people who arrive at Aspire Rwanda's programme carry
                 a heavy sense of limitation, a belief, shaped by years of
-                hardship and missed opportunity, that certain futures are simply
+                hardship and missed opportunity, that certain future are simply
                 not available to them. One of the most profound aspects of our
                 life skills training is the work of dismantling those beliefs
                 and replacing them with something more expansive and more true.

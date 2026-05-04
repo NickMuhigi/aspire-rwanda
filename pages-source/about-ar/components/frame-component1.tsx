@@ -19,15 +19,14 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
             <h2 className={styles.ignitingPotential}>Igniting Potential</h2>
             <div className={styles.empoweringChildrenAnd}>
               Empowering children and youth with the skills, knowledge, and
-              confidence to shape their own futures.
+              confidence to build a better future.
             </div>
           </div>
           <section className={styles.frameWrapper}>
             <div className={styles.openingDoorsParent}>
               <h2 className={styles.openingDoors}>Opening Doors</h2>
               <div className={styles.championingEquityBy}>
-                Championing equity by ensuring every child and young person has
-                access to education and opportunities.
+                Ensuring both needy boys and girls have access to education and opportunities
               </div>
             </div>
           </section>

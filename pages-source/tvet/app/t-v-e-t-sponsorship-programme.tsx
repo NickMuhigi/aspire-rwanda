@@ -26,9 +26,9 @@ const TVETSponsorshipProgramme: NextPage = () => {
       <section className={styles.challengeResponse}>
         <div className={styles.challengeFoundedParent}>
           <div className={styles.challengeFounded}>
-            <h2 className={styles.founded}>Founded</h2>
+            <h2 className={styles.founded}>Started</h2>
             <div className={styles.challengeWrapper}>
-              <h2 className={styles.challenge}>CHALLENGE</h2>
+              <h2 className={styles.challenge}>CHALLENGES</h2>
             </div>
           </div>
           <h2 className={styles.blankField}>2010</h2>

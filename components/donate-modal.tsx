@@ -61,7 +61,7 @@ export default function DonateModal({ onClose }: Props) {
           <p className={styles.headerLabel}>Support the Mission</p>
           <h2 className={styles.headerTitle}>ASPIRE RWANDA</h2>
           <p className={styles.headerSub}>
-            Your contribution children and the youth across Rwanda.
+            Your contribution helps children and the youth across Rwanda.
           </p>
         </div>
 

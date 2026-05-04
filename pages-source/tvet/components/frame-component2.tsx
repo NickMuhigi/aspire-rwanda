@@ -18,7 +18,7 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({ className = "" }) => {
       <div className={styles.buildingBrighterFuturesThroWrapper}>
         <h1
           className={styles.buildingBrighterFutures}
-        >{`Building Brighter Futures Through Educational & Mentorship Opportunities.`}</h1>
+        >{`Building Brighter Future Through Educational & Mentorship Opportunities.`}</h1>
       </div>
       <section className={styles.rectangleContainer}>
         <div className={styles.frameInner} />

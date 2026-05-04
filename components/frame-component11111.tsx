@@ -29,7 +29,7 @@ const FrameComponent11111: NextPage<FrameComponent11111Type> = ({
                 <div className={styles.rwandaProject}>
                   <div className={styles.exploreAspireRwandas}>
                     Explore Aspire Rwanda’s focused projects that equip children and youth from poor families<br />
-                    with practical skills, and the confidence to shape their futures.
+                    with practical skills, and the confidence to shape their future.
                   </div>
                 </div>
               </div>

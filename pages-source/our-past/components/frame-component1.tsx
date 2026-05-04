@@ -51,7 +51,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
               height={439}
               sizes="100vw"
               alt=""
-              src="/Rectangle-284@2x.png"
+              src="/WhatsApp Image 2026-05-04 at 12.04.40 PM.jpg"
             />
             <Image
               className={styles.frameItem}
@@ -60,7 +60,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
               height={135}
               sizes="100vw"
               alt=""
-              src="/Rectangle-287@2x.png"
+              src="/WhatsApp Image 2026-05-04 at 12.07.37 PM.jpg"
             />
           </div>
           <div className={styles.rectangleGroup}>
@@ -71,7 +71,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
               height={263}
               sizes="100vw"
               alt=""
-              src="/Rectangle-285@2x.png"
+              src="/WhatsApp Image 2026-05-04 at 12.10.20 PM.jpg"
             />
             <div className={styles.imageOverlays}>
               <div className={styles.overlayOne} />
@@ -82,7 +82,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
                 height={320}
                 sizes="100vw"
                 alt=""
-                src="/Overlay-Two@2x.png"
+                src="/DSCN4995-1-scaled.jpg"
               />
             </div>
           </div>

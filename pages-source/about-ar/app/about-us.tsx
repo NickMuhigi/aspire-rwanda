@@ -23,8 +23,8 @@ const AboutUs: NextPage = () => {
           <FrameComponent3 />
         </div>
       </main>
-      <FrameComponent4 />
       <FrameComponent5 />
+      <FrameComponent4 />
       <GroupComponent />
     </div>
   );

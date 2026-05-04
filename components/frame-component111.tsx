@@ -16,8 +16,8 @@ const FrameComponent111: NextPage<FrameComponent111Type> = ({
           <div className={styles.missionHeader}>
             <h1 className={styles.ourMission}>Our Mission:</h1>
             <div className={styles.toCreateOpportunities}>
-              To empower children and youth from poor families through educational <br />
-              programmes needed to create lasting positive change for themselves.
+              To sponsor children and youths from poor families  <br />
+              through education to ensure a better future.
             </div>
           </div>
         </section>

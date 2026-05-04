@@ -1,6 +1,6 @@
 .rectangleParent {
   align-self: stretch;
-  background-color: var(--color-teal);
+  background-color: #f3f4f2;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -18,7 +18,7 @@
   height: 677px;
   width: var(--width-1440);
   position: relative;
-  background-color: var(--color-teal);
+  background-color: #f3f4f2;
   display: none;
 }
 .frameWrapper {
@@ -30,7 +30,7 @@
   transform: translateX(48px);
   text-align: left;
   font-size: var(--fs-25);
-  color: var(--color-white);
+  color: var(--color-black);
   font-family: var(--font-graphik-xcond-trial);
 }
 .frameParent,

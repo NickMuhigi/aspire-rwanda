@@ -51,7 +51,7 @@ const StatisticsView: NextPage<StatisticsViewType> = ({ className = "" }) => {
                 <div className={styles.eachSuccessStory}>
                   Each success story reflects tangible results of our work the
                   people empowered to create livelihoods, communities
-                  strengthened, and futures reimagined. Our impact is the
+                  strengthened, and future reimagined. Our impact is the
                   lasting change and hope we help cultivate across Rwanda.
                 </div>
               </div>

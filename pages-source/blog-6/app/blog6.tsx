@@ -129,7 +129,7 @@ const Blog6: NextPage = () => {
                 business plans, and an entirely new sense of their own
                 possibilities. Mothers who feared their children would repeat
                 their own cycle of missed opportunity have found ways to invest
-                in their families' futures while building something of their own.
+                in their families' future while building something of their own.
                 <br />
                 <br />
                 These transformations are not just personal victories, they are

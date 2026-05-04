@@ -18,8 +18,8 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({ className = "" }) => {
           </div>
           <div className={styles.aspireRwandaOpensPathwaysFWrapper}>
             <div className={styles.aspireRwandaOpens}>
-              Aspire Rwanda opens pathways for children and
-              youth from poor families through two core programs: a nursery that nurtures early
+              Aspire Rwanda welcomes children and
+              youth from poor families through two core programs: a nursery school that nurtures early
               learning and care, and a TVET sponsorship program that equips
               youth with practical skills for future employment opportunities.
             </div>
@@ -35,7 +35,7 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({ className = "" }) => {
               height={445}
               sizes="100vw"
               alt=""
-              src="/Rectangle 172 (2).png"
+              src="/Gemini_Generated_Image_nzsmhdnzsmhdnzsm (1).png"
             />
           </div>
         </section>

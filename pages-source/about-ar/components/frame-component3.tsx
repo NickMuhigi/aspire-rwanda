@@ -22,7 +22,7 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
         <div className={styles.frameItem} />
         <h2 className={styles.strongerTogether}>Stronger Together</h2>
         <div className={styles.believingInCollaboration}>
-          Believing in collaboration to work with families, communities, and
+          Believing in collaboration to work with families, communities, TVETS and
           partners for lasting impact.
         </div>
       </div>

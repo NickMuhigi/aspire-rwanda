@@ -17,7 +17,7 @@ const AspireNurserySchool: NextPage = () => {
         height={668}
         sizes="100vw"
         alt=""
-        src="/602caa5a97eb4428ab65ede9ac99aaf6.png"
+        src="/Gemini_Generated_Image_c5cydsc5cydsc5cy (1).png"
       />
       <section className={styles.titleContentWrapper}>
         <div className={styles.titleContent}>
@@ -47,9 +47,9 @@ const AspireNurserySchool: NextPage = () => {
       <section className={styles.challengeResponse}>
         <div className={styles.challengeFoundedParent}>
           <div className={styles.challengeFounded}>
-            <h2 className={styles.founded}>Founded</h2>
+            <h2 className={styles.founded}>Started</h2>
             <div className={styles.challengeWrapper}>
-              <h2 className={styles.challenge}>CHALLENGE</h2>
+              <h2 className={styles.challenge}>CHALLENGES</h2>
             </div>
           </div>
           <h2 className={styles.blankField}>2010</h2>
@@ -57,7 +57,7 @@ const AspireNurserySchool: NextPage = () => {
             <div className={styles.programNursery}>
               <div className={styles.programTitle}>
                 <h2 className={styles.programFocus}>Program Focus</h2>
-                <h2 className={styles.nursery}>Nursery</h2>
+                <h2 className={styles.nursery}>Education</h2>
               </div>
             </div>
             <div className={styles.manyChildrenWho}>
@@ -92,7 +92,7 @@ const AspireNurserySchool: NextPage = () => {
               resilience, and self-confidence, helping children learn how to
               interact positively with others and express themselves. Our
               teachers provide individualized attention to support each child’s
-              unique needs, ensuring no one is left behind.
+              unique needs, ensuring no one is left behind. We also conduct regular welfare checkups and maintain ongoing communication with parents and caregivers to support each child’s well-being.
             </div>
           </div>
         </div>
