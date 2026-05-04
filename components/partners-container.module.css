@@ -1,7 +1,7 @@
 .partnersContainer {
   align-self: stretch;
   justify-content: center;
-  padding: 80px 3vw 80px 1.4vw;
+  padding: 80px 43px 80px 20px;
   box-sizing: border-box;
   max-width: 100%;
   flex-shrink: 0;
@@ -64,7 +64,7 @@
 .partnersContent {
   align-self: stretch;
   row-gap: 20px;
-  font-size: clamp(2.5rem, 3.47vw, 3.125rem);
+  font-size: 50px;
 }
 .partnersLogo {
   flex: 1;

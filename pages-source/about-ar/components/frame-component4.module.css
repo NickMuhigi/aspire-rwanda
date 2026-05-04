@@ -4,7 +4,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  padding: 77px 7.99vw 130px 6.46vw;
+  padding: 77px 115px 130px 93px;
   box-sizing: border-box;
   gap: 101px;
 }
@@ -85,7 +85,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 53px;
-  font-size: clamp(2.5rem, 3.47vw, 3.125rem);
+  font-size: 50px;
 }
 .growingOurImpact {
   width: min(526px, 100%);

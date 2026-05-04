@@ -7,7 +7,7 @@
 .projectHolderWrapper {
   align-self: stretch;
   justify-content: center;
-  padding: 0 3.4vw 60px 1.4vw;
+  padding: 0 49px 60px 20px;
   box-sizing: border-box;
   flex-shrink: 0;
   text-align: left;
@@ -17,7 +17,7 @@
 }
 .projectHolder {
   width: 100%;
-  max-width: min(1219px, 84.65vw);
+  max-width: 1219px;
   flex-direction: column;
   gap: 23px;
 }
@@ -67,7 +67,7 @@
 .growthProject {
   justify-content: space-between;
   text-align: left;
-  font-size: clamp(2.8125rem, 3.89vw, 3.5rem);
+  font-size: 56px;
   color: #000;
   font-family: "Graphik XCond Trial";
 }

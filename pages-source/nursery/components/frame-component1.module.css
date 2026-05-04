@@ -3,12 +3,12 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 19.31vw 59px 1.4vw;
+  padding: 0 278px 59px 20px;
   box-sizing: border-box;
   max-width: 100%;
   flex-shrink: 0;
   text-align: left;
-  font-size: clamp(2.5rem, 3.47vw, 3.125rem);
+  font-size: 50px;
   color: var(--color-black);
   font-family: var(--font-graphik-xcond-trial);
 }

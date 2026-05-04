@@ -15,7 +15,7 @@
 }
 .heroContent {
   width: 100%;
-  max-width: 85.49vw;
+  max-width: 1231px;
   flex-wrap: wrap;
   align-content: flex-start;
   gap: 66px;
@@ -28,7 +28,7 @@
   box-sizing: border-box;
   min-width: 376px;
   text-align: left;
-  font-size: clamp(2.5rem, 3.47vw, 3.125rem);
+  font-size: 50px;
   color: var(--color-black);
   font-family: var(--font-graphik-xcond-trial);
 }

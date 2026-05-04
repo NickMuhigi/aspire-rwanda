@@ -9,7 +9,7 @@
   align-self: stretch;
   justify-content: center;
   margin-top: -18px;
-  padding: 0 35.7vw 143px 1.4vw;
+  padding: 0 35.7% 143px 1.4%;
   box-sizing: border-box;
   flex-shrink: 0;
   text-align: left;
@@ -69,7 +69,7 @@
 }
 .buildingSkillsConfidence {
   height: 191px;
-  font-size: clamp(3.8125rem, 5.28vw, 4.75rem);
+  font-size: 76px;
   z-index: 1;
 }
 .learnMoreParent {

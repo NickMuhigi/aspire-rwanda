@@ -1,7 +1,7 @@
 .aboutUsInner {
   align-self: stretch;
   justify-content: center;
-  padding: 12px 7.08vw 84px 1.4vw;
+  padding: 12px 102px 84px 20px;
   box-sizing: border-box;
   flex-shrink: 0;
 }
@@ -14,7 +14,7 @@
 }
 .frameParent {
   width: 100%;
-  max-width: 81.81vw;
+  max-width: 1178px;
   gap: 128px;
 }
 .openingDoorsThroughEducatioParent {
@@ -23,7 +23,7 @@
   gap: 23px;
   min-width: 367px;
   text-align: left;
-  font-size: clamp(2.5rem, 3.47vw, 3.125rem);
+  font-size: 50px;
   color: var(--color-black);
   font-family: var(--font-graphik-xcond-trial);
 }

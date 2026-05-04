@@ -117,7 +117,7 @@
   box-sizing: border-box;
   min-width: 0;
   text-align: left;
-  font-size: clamp(2.5rem, 3.47vw, 3.125rem);
+  font-size: 50px;
   color: var(--color-white);
   font-family: var(--font-graphik-xcond-trial);
 }

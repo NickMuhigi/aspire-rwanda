@@ -5,6 +5,9 @@ import type { Viewport } from "next";
 
 export const metadata = {
   title: `Aspire Rwanda: Homepage`,
+  icons: {
+    icon: "/AR-Logo.png",
+  },
 };
 
 export const viewport: Viewport = {

@@ -15,7 +15,7 @@
   background-color: #026e78;
   align-items: flex-start;
   justify-content: center;
-  padding: 54px 8.68vw 87px 6.46vw;
+  padding: 54px 125px 87px 93px;
   gap: 110px;
 }
 .locationsContainerChild {
@@ -107,7 +107,7 @@
   box-sizing: border-box;
   flex-shrink: 0;
   text-align: justify;
-  font-size: clamp(3rem, 4.17vw, 3.75rem);
+  font-size: 60px;
   color: #fff;
   font-family: "Graphik XCond Trial";
 }

@@ -21,7 +21,7 @@
   align-items: flex-end;
   justify-content: space-between;
   width: 100%;
-  padding: 11px 8.06vw 18px 6.46vw;
+  padding: 11px 116px 18px 93px;
   box-sizing: border-box;
   position: fixed;
   top: 0;
@@ -471,7 +471,7 @@
 }
 
 .frameParent3 {
-  width: 34.72vw;
+  width: 500px;
   max-width: 500px;
   gap: 24px;
   flex-shrink: 0;
@@ -479,7 +479,7 @@
 
 .lineParent {
   height: 52px;
-  width: 22.22vw;
+  width: 320px;
   max-width: 320px;
   position: relative;
   isolation: isolate;

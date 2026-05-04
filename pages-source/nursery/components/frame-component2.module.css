@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 66px 5.28vw 79px 9.44vw;
+  padding: 66px 76px 79px 136px;
   box-sizing: border-box;
   gap: var(--gap-32);
   text-align: left;
@@ -93,7 +93,7 @@
   border: 1px solid var(--color-white);
   box-sizing: border-box;
   width: 100%;
-  max-width: min(1218px, 84.58vw);
+  max-width: 1218px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

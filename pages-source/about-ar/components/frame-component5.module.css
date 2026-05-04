@@ -1,7 +1,7 @@
 .aboutUsInner {
   align-self: stretch;
   justify-content: center;
-  padding: var(--padding-0) 3.68vw 58px 1.4vw;
+  padding: var(--padding-0) 53px 58px 20px;
   box-sizing: border-box;
   max-width: 100%;
   flex-shrink: 0;
@@ -18,7 +18,7 @@
 }
 .frameParent {
   width: 100%;
-  max-width: 83.82vw;
+  max-width: 1207px;
   flex-direction: column;
   gap: var(--gap-41);
 }

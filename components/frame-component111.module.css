@@ -3,7 +3,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 3vw 44px 1.4vw;
+  padding: 0 43px 44px 20px;
   box-sizing: border-box;
   max-width: 100%;
   flex-shrink: 0;
@@ -21,10 +21,11 @@
 }
 .cardsWrapper {
   width: 1049px;
+  max-width: 100%;
   padding: 0 71px;
   box-sizing: border-box;
   text-align: left;
-  font-size: clamp(3.5rem, 4.86vw, 4.375rem);
+  font-size: 70px;
   color: #000;
   font-family: "Graphik XCond Trial";
 }
@@ -57,7 +58,7 @@
   background-color: #fff;
   display: flex;
   align-items: flex-start;
-  padding: 88px 3.4vw 87px 4.93vw;
+  padding: 88px 49px 87px 71px;
   box-sizing: border-box;
   gap: 66px;
   max-width: 100%;

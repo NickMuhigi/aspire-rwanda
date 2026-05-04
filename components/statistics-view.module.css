@@ -7,7 +7,7 @@
 .statisticsView {
   align-self: stretch;
   justify-content: center;
-  padding: 0 2.43vw 25px 1.4vw;
+  padding: 0 35px 25px 20px;
   box-sizing: border-box;
   flex-shrink: 0;
   text-align: left;
@@ -17,7 +17,7 @@
 }
 .changeOverall {
   width: 100%;
-  max-width: 85.63vw;
+  max-width: 1233px;
   flex-direction: column;
   gap: 47px;
 }
@@ -69,7 +69,7 @@
   align-items: flex-end;
   gap: 52px;
   text-align: left;
-  font-size: clamp(2.8125rem, 3.89vw, 3.5rem);
+  font-size: 56px;
   color: #000;
   font-family: "Graphik XCond Trial";
 }
@@ -167,7 +167,7 @@
   justify-content: space-between;
   max-width: 100%;
   text-align: left;
-  font-size: clamp(2.8125rem, 4.58vw, 4.125rem);
+  font-size: 66px;
   color: #000;
   font-family: "Graphik XCond Trial";
 }

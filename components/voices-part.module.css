@@ -100,12 +100,12 @@
   gap: 8px;
   max-width: 100%;
   text-align: left;
-  font-size: clamp(2rem, 2.78vw, 2.5rem);
+  font-size: 40px;
   color: #fff;
   font-family: "Graphik XCond Trial";
 }
 .quoteLeftRect {
-  width: 80.35vw;
+  width: 1157px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
