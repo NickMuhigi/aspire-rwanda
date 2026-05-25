@@ -17,7 +17,7 @@ const AspireNurserySchool: NextPage = () => {
         height={668}
         sizes="100vw"
         alt=""
-        src="/Gemini_Generated_Image_c5cydsc5cydsc5cy (1).png"
+        src="/602caa5a97eb4428ab65ede9ac99aaf6.png"
       />
       <section className={styles.titleContentWrapper}>
         <div className={styles.titleContent}>
