@@ -198,6 +198,14 @@
     flex-wrap: wrap;
   }
 }
+@media screen and (max-width: 1024px) {
+  .measuringChangeThe {
+    min-width: 100%;
+  }
+  .resultsMetric {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 800px) {
   .statisticsView {
     padding-left: 20px;

@@ -262,6 +262,39 @@
     width: 50%;
   }
 }
+@media screen and (max-width: 1024px) {
+  .keyTraits {
+    padding: 48px 40px 65px 40px;
+    gap: 40px;
+  }
+  .keyCharacteristics {
+    width: 100%;
+    gap: 20px;
+  }
+  .theHeartOf {
+    font-size: 42px;
+    height: auto;
+  }
+  .dataContent {
+    grid-template-columns: 1fr;
+    row-gap: 27px;
+  }
+  .contentSummary {
+    min-width: 0;
+  }
+  .overlayContent {
+    width: 100%;
+  }
+  .changeLayout {
+    min-width: 100%;
+  }
+  .changeArea {
+    flex-wrap: wrap;
+  }
+  .creatingChangeThatLastsParent {
+    min-width: 100%;
+  }
+}
 @media screen and (max-width: 800px) {
   .keyInsights {
     font-size: 24px;

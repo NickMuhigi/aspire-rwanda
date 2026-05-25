@@ -9,7 +9,7 @@
   align-self: stretch;
   justify-content: center;
   margin-top: -18px;
-  padding: 0 35.7% 143px 1.4%;
+  padding: 0 35.7% 260px 1.4%;
   box-sizing: border-box;
   flex-shrink: 0;
   text-align: left;
@@ -50,7 +50,6 @@
   display: none;
   flex-shrink: 0;
 }
-.buildingSkillsConfidence,
 .theYouthOf {
   margin: 0;
   position: relative;
@@ -58,8 +57,6 @@
   font-family: inherit;
   display: inline-block;
   backdrop-filter: blur(4px);
-}
-.theYouthOf {
   width: min(464px, 100%);
   font-size: inherit;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -68,8 +65,13 @@
   flex-shrink: 0;
 }
 .buildingSkillsConfidence {
-  height: 191px;
-  font-size: 76px;
+  margin: 0;
+  position: relative;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  height: auto;
+  font-size: 63px;
   z-index: 1;
 }
 .learnMoreParent {
@@ -117,6 +119,18 @@
 }
 .learnMoreButton:hover .learnMoreArrow {
   transform: translateX(4px);
+}
+@media screen and (max-width: 1024px) {
+  .mainHeroWrapper {
+    min-height: 720px;
+    align-items: center;
+    padding-bottom: 0;
+    padding-right: 10%;
+  }
+  .buildingSkillsConfidence {
+    font-size: 60px;
+    height: auto;
+  }
 }
 @media screen and (max-width: 800px) {
   .mainHeroWrapper {

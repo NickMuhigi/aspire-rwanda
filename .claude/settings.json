@@ -7,7 +7,12 @@
       "Bash(Select-Object -ExpandProperty FullName)",
       "Bash(xargs grep *)",
       "Bash(Select-String -Pattern \"WhatsApp|Gemini|602caa|blog-3|Rectangle-264|Rectangle 249\")",
-      "PowerShell(Get-ChildItem \"c:\\\\Users\\\\nicho\\\\Desktop\\\\Aspire Rwanda \\(1\\)\\\\public\" | Where-Object { $_.Name -match \"WhatsApp|Gemini|602caa|Rectangle.264|Rectangle 249\" } | Select-Object Name)"
+      "PowerShell(Get-ChildItem \"c:\\\\Users\\\\nicho\\\\Desktop\\\\Aspire Rwanda \\(1\\)\\\\public\" | Where-Object { $_.Name -match \"WhatsApp|Gemini|602caa|Rectangle.264|Rectangle 249\" } | Select-Object Name)",
+      "Bash(dir \"c:\\\\Users\\\\nicho\\\\Desktop\\\\Aspire Rwanda \\(1\\)\\\\public\" /b)",
+      "Bash(findstr /i \"gemini\")",
+      "Bash(Get-ChildItem \"c:\\\\Users\\\\nicho\\\\Desktop\\\\Aspire Rwanda \\(1\\)\\\\public\" -Filter \"*Gemini*\" -Recurse)",
+      "Bash(Select-Object Name, FullName)",
+      "Read(//c/Users/nicho/**)"
     ]
   }
 }

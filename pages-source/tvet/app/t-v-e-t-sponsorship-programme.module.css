@@ -204,6 +204,82 @@
     flex-wrap: wrap;
   }
 }
+@media screen and (max-width: 1024px) {
+  .heroBoxIcon {
+    height: 500px;
+  }
+  .challengeResponse {
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .atAspireRwanda2 {
+    height: auto;
+    width: 100%;
+  }
+  .challengeFoundedParent {
+    height: auto;
+    min-height: 0;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 8px;
+    align-items: flex-start;
+  }
+  .challengeFounded {
+    display: contents;
+  }
+  .founded {
+    position: static;
+    order: 1;
+    flex: 0 0 calc(50% - 10px);
+  }
+  .challengeWrapper {
+    position: static;
+    order: 3;
+    flex: 0 0 100%;
+    margin-top: 16px;
+  }
+  .blankField {
+    position: static;
+    order: 2;
+    flex: 0 0 calc(50% - 10px);
+  }
+  .programNurseryParent {
+    display: contents;
+  }
+  .programNursery {
+    display: contents;
+  }
+  .programTitle {
+    display: contents;
+  }
+  .programFocus {
+    order: 1;
+    flex: 0 0 calc(50% - 10px);
+    height: auto;
+    position: static;
+  }
+  .tvet {
+    order: 2;
+    flex: 0 0 calc(50% - 10px);
+  }
+  .youthWhoSeek {
+    order: 4;
+    flex: 0 0 100%;
+    width: 100%;
+    height: auto;
+  }
+  .responseParent {
+    position: static;
+    order: 5;
+    flex: 0 0 100%;
+    width: 100%;
+    margin-top: 16px;
+    gap: 8px;
+  }
+}
 @media screen and (max-width: 750px) {
   .tvetSponsorshipProgramme {
     gap: var(--gap-20);

@@ -392,6 +392,23 @@
     flex-wrap: wrap;
   }
 }
+@media screen and (max-width: 1024px) {
+  .rectangleParent {
+    padding: 48px 40px 60px 60px;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .buildingBrighterFuturesThroWrapper {
+    width: 100%;
+  }
+  .buildingBrighterFutures {
+    font-size: var(--fs-48);
+    height: auto;
+  }
+  .rectangleContainer {
+    max-width: 100%;
+  }
+}
 @media screen and (max-width: 750px) {
   .ourImpact {
     font-size: 24px;

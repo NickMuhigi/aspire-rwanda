@@ -103,6 +103,20 @@
     flex-wrap: wrap;
   }
 }
+@media screen and (max-width: 1024px) {
+  .tvetSponsorshipProgrammeInner {
+    padding-bottom: 120px;
+    box-sizing: border-box;
+  }
+  .theYouthDeserves {
+    font-size: 44px;
+    width: 100%;
+    height: auto;
+  }
+  .theTvetSponsorship {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 750px) {
   .tvetSponsorshipProgramme {
     font-size: 24px;

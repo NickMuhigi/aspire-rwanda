@@ -206,6 +206,28 @@
   height: auto;
   object-fit: cover;
 }
+@media screen and (max-width: 1024px) {
+  .aspireNurserySchoolInner {
+    padding: 48px 40px 48px 20px;
+    box-sizing: border-box;
+  }
+  .donateContentParent {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  .helpGiveEveryChildAStrongParent {
+    min-width: 100%;
+  }
+  .helpGiveEvery {
+    font-size: var(--fs-36);
+    width: 100%;
+    height: auto;
+  }
+  .donationDescription {
+    width: 100%;
+    height: auto;
+  }
+}
 @media screen and (max-width: 750px) {
   .donateContentParent {
     flex-wrap: wrap;

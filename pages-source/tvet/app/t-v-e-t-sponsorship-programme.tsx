@@ -63,7 +63,7 @@ const TVETSponsorshipProgramme: NextPage = () => {
               We work to remove these barriers by sponsoring youth through our
               TVET sponsorship program. We cover the costs that would otherwise
               prevent them from enrolling in training programs and ensure they
-              have what they need to stay and succeed. But our support goes
+              have what they need to study and succeed. But our support goes
               beyond funding. We walk alongside them through mentorship, career
               guidance, and personal development, helping them build both skills
               and confidence.

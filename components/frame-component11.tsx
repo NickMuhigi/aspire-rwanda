@@ -14,12 +14,6 @@ const FrameComponent11: NextPage<FrameComponent11Type> = ({
     <section className={[styles.mainHeroWrapper, className].join(" ")}>
       <div className={styles.mainHero}>
         <div className={styles.innerHero}>
-          <div className={styles.rectangleParent}>
-            <div className={styles.frameChild} />
-            <h2 className={styles.theYouthOf}>
-              The Youth Of Today Are The Leaders Of Tomorrow.
-            </h2>
-          </div>
           <h1 className={styles.buildingSkillsConfidence}>
             Building Skills, Confidence, & <br />
             Future for Rwanda’s Youth.

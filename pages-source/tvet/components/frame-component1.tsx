@@ -21,7 +21,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
         </div>
         <div className={styles.skillDescription}>
           <div className={styles.throughOurTvet}>
-            Through our TVET sponsorship programme, we remove financial barriers to education, enabling students to enroll in accredited training institutions where they can specialize in fields aligned with market demand.
+            Through our TVET sponsorship programme, we remove financial barriers to education, enabling students to enroll in accredited training institutions where they can specialize in fields aligned with market demands.
             <br />
             <br />
             Beyond sponsorship, we offer continuous mentorship, career guidance, and personal development support to help students navigate both their training and future career paths. We also provide education on key civic, social, and health topics, including human rights, gender-based violence, mental and reproductive health, drug abuse, and human trafficking. We focus not only on technical ability, but also on building confidence, discipline, and a strong work ethic essential qualities for long-term success.

@@ -14,7 +14,7 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
           <h2 className={styles.growingBrilliance}>Growing Brilliance</h2>
           <div className={styles.fosteringGrowthThrough}>
             Fostering growth through personal, educational, and professional
-            development at every stage of life.
+            development.
           </div>
         </div>
       </section>

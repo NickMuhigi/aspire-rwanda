@@ -302,6 +302,88 @@
     flex-wrap: wrap;
   }
 }
+@media screen and (max-width: 1024px) {
+  .titleContentWrapper {
+    padding-top: 150px;
+    padding-bottom: 0;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .atAspireRwanda {
+    font-size: 44px;
+    height: auto;
+    width: 100%;
+  }
+  .weAreCommitted {
+    width: 100%;
+  }
+  .aspireNurserySchoolChild {
+    height: 500px;
+  }
+  .challengeFoundedParent {
+    height: auto;
+    min-height: 0;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 8px;
+    align-items: flex-start;
+  }
+  .challengeFounded {
+    display: contents;
+  }
+  .founded {
+    position: static;
+    order: 1;
+    flex: 0 0 calc(50% - 10px);
+  }
+  .challengeWrapper {
+    position: static;
+    order: 3;
+    flex: 0 0 100%;
+    margin-top: 16px;
+  }
+  .blankField {
+    position: static;
+    order: 2;
+    flex: 0 0 calc(50% - 10px);
+  }
+  .programNurseryParent {
+    display: contents;
+  }
+  .programNursery {
+    display: contents;
+  }
+  .programTitle {
+    display: contents;
+  }
+  .programFocus {
+    order: 1;
+    flex: 0 0 calc(50% - 10px);
+    height: auto;
+    position: static;
+  }
+  .nursery {
+    order: 2;
+    flex: 0 0 calc(50% - 10px);
+  }
+  .manyChildrenWho {
+    order: 4;
+    flex: 0 0 100%;
+    width: 100%;
+    height: auto;
+  }
+  .responseParent {
+    position: static;
+    order: 5;
+    flex: 0 0 100%;
+    width: 100%;
+    margin-top: 16px;
+    gap: 8px;
+  }
+}
 @media screen and (max-width: 750px) {
   .aspireNurserySchool {
     gap: var(--gap-20);

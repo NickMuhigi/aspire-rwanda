@@ -26,7 +26,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
             <div className={styles.openingDoorsParent}>
               <h2 className={styles.openingDoors}>Opening Doors</h2>
               <div className={styles.championingEquityBy}>
-                Ensuring both needy boys and girls have access to education and opportunities
+                Ensuring both boys and girls from poor families have access to education and opportunities.
               </div>
             </div>
           </section>

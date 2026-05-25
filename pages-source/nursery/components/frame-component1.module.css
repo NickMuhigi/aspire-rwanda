@@ -110,6 +110,31 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 1024px) {
+  .aspireNurserySchoolInner {
+    position: relative;
+    z-index: 1;
+    background-color: var(--color-whitesmoke);
+    padding-top: 40px;
+    padding-right: 60px;
+    padding-bottom: 48px;
+    box-sizing: border-box;
+  }
+  .featureItemParent {
+    gap: 36px;
+    width: 100%;
+  }
+  .featureItem {
+    width: 100%;
+  }
+  .deliveringQualityEarly {
+    font-size: var(--fs-42);
+    height: auto;
+  }
+  .ourNurserySchool {
+    height: auto;
+  }
+}
 @media screen and (max-width: 750px) {
   .aspireNurserySchoolInner {
     position: relative;

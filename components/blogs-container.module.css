@@ -329,6 +329,51 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+@media screen and (max-width: 1024px) {
+  .recentBlogs {
+    font-size: 50px;
+    line-height: 1.2;
+    white-space: normal;
+  }
+  .blogsHeader {
+    width: 100%;
+    gap: 18px;
+  }
+  .blogsEntries {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .blogEntry {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: flex-start;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 24px;
+  }
+  .blogEntry:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  .blogImgWrap {
+    width: 139px;
+    height: 116px;
+    flex-shrink: 0;
+  }
+  .blogItemLeft,
+  .blogItemMiddle,
+  .blogItemRight {
+    flex: 1;
+    min-width: 0;
+    width: auto;
+  }
+  .moreBlogsGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
 @media screen and (max-width: 800px) {
   .blogsContainer {
     padding: 0 16px;

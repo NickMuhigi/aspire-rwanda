@@ -111,6 +111,44 @@
     box-sizing: border-box;
   }
 }
+@media screen and (max-width: 1024px) {
+  .lineParent {
+    gap: var(--gap-24);
+  }
+  .frameChild {
+    display: none;
+  }
+  .frameWrapper {
+    min-width: 100%;
+    background-color: var(--color-white);
+    padding: var(--padding-56) var(--padding-20) var(--padding-36) 42px;
+    box-sizing: border-box;
+    min-height: 0;
+    order: 2;
+  }
+  .growingBrillianceParent {
+    gap: var(--gap-20);
+  }
+  .fosteringGrowthThrough {
+    font-size: var(--fs-42);
+    height: auto;
+    width: 100%;
+  }
+  .rectangleParent {
+    min-width: 100%;
+    order: 1;
+    gap: var(--gap-20);
+    padding-left: 42px;
+    padding-top: var(--padding-56);
+    padding-bottom: var(--padding-36);
+    box-sizing: border-box;
+  }
+  .believingInCollaboration {
+    font-size: var(--fs-42);
+    height: auto;
+    width: 100%;
+  }
+}
 @media screen and (max-width: 750px) {
   .lineParent {
     gap: var(--gap-24);

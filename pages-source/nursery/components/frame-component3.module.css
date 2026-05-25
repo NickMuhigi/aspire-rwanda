@@ -151,6 +151,34 @@
   text-align: center;
   z-index: 2;
 }
+@media screen and (max-width: 1024px) {
+  .rectangleParent {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px 40px 56px;
+    gap: 28px;
+    box-sizing: border-box;
+  }
+  .rectangleGroup {
+    position: static;
+    order: -1;
+  }
+  .frameItem {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+  .testimonialInfo {
+    position: static;
+    width: 100%;
+  }
+  .asAMother {
+    font-size: 36px;
+    height: auto;
+  }
+}
 @media screen and (max-width: 750px) {
   .voicesOfImpact {
     font-size: 24px;

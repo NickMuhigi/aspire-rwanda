@@ -39,7 +39,7 @@ const FooterContainer: NextPage<FooterContainerType> = ({ className = "" }) => {
             src="/Logo-5@2x.png"
           />
           <div className={styles.socials}>
-            <a className={styles.socialLink} href="#" aria-label="LinkedIn">
+            <a className={styles.socialLink} href="https://www.linkedin.com/company/aspire-rwanda/?originalSubdomain=rw" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <Image
                 className={styles.socialIcon}
                 loading="lazy"
@@ -50,7 +50,7 @@ const FooterContainer: NextPage<FooterContainerType> = ({ className = "" }) => {
                 src="/LinkedIn@2x.png"
               />
             </a>
-            <a className={styles.socialLink} href="#" aria-label="Facebook">
+            <a className={styles.socialLink} href="https://www.facebook.com/AspireRwanda/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <Image
                 className={styles.socialIcon}
                 loading="lazy"
@@ -61,7 +61,7 @@ const FooterContainer: NextPage<FooterContainerType> = ({ className = "" }) => {
                 src="/Facebook@2x.png"
               />
             </a>
-            <a className={styles.socialLink} href="#" aria-label="Instagram">
+            <a className={styles.socialLink} href="https://www.instagram.com/aspire_rwanda/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <Image
                 className={styles.socialIcon}
                 loading="lazy"

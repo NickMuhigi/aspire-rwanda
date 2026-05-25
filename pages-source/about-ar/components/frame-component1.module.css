@@ -171,6 +171,36 @@
     flex: 1;
   }
 }
+@media screen and (max-width: 1024px) {
+  .rectangleGroup {
+    min-width: 100%;
+    gap: var(--gap-20);
+    padding-left: 42px;
+    padding-top: var(--padding-56);
+    padding-bottom: var(--padding-36);
+    box-sizing: border-box;
+  }
+  .empoweringChildrenAnd {
+    font-size: var(--fs-42);
+    height: auto;
+    width: 100%;
+  }
+  .frameWrapper {
+    min-width: 100%;
+    min-height: 0;
+    background-color: var(--color-white);
+    padding: var(--padding-56) var(--padding-20) var(--padding-36) 42px;
+    box-sizing: border-box;
+  }
+  .openingDoorsParent {
+    gap: var(--gap-20);
+  }
+  .championingEquityBy {
+    font-size: var(--fs-42);
+    height: auto;
+    width: 100%;
+  }
+}
 @media screen and (max-width: 750px) {
   .ourCoreValues {
     font-size: 24px;

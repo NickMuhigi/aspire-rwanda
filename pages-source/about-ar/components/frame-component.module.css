@@ -121,6 +121,12 @@
 .readMoreParent:hover .readMoreArrow {
   transform: translateX(4px);
 }
+@media screen and (max-width: 1024px) {
+  .aspireNurserySchool {
+    font-size: var(--fs-48);
+    height: auto;
+  }
+}
 @media screen and (max-width: 750px) {
   .rectangleParent {
     min-width: 100%;

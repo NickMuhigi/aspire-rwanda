@@ -256,6 +256,28 @@
     flex: 1;
   }
 }
+@media screen and (max-width: 1024px) {
+  .locationsContainer {
+    padding: 40px 60px 60px 46px;
+    gap: 60px;
+    box-sizing: border-box;
+  }
+  .plantingLastingChange {
+    font-size: 50px;
+  }
+  .innerChangeWrapper,
+  .locationsHeader {
+    min-width: 100%;
+    transform: none !important;
+  }
+  .headerLocation {
+    margin-left: 0;
+  }
+  .geminiGeneratedImage8jwyao8Icon {
+    width: 100%;
+    margin-left: 0;
+  }
+}
 @media screen and (max-width: 800px) {
   .locations {
     font-size: 24px;

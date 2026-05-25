@@ -289,6 +289,14 @@
   .contactHeadingContainerParent {
     padding-left: 24px;
   }
+  .submitContainer {
+    padding-left: 300px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .submitContainer {
+    padding-left: 0;
+  }
 }
 @media screen and (max-width: 750px) {
   .contactUs {

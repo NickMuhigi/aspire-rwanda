@@ -63,6 +63,12 @@
   z-index: 1;
   margin-bottom: -32px;
 }
+@media screen and (max-width: 1024px) {
+  .latestUpdates {
+    font-size: 72px;
+    white-space: normal;
+  }
+}
 @media screen and (max-width: 750px) {
   .blog {
     gap: 40px;

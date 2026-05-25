@@ -73,7 +73,7 @@ const OurPast: NextPage = () => {
               <div className={styles.photoFrame}>
                 <Image
                   className={styles.photoImg}
-                  src="/Projects-Collection2@2x.png"
+                  src="/Projects-Collection5@2x.png"
                   width={444}
                   height={339}
                   alt=""
@@ -138,7 +138,7 @@ const OurPast: NextPage = () => {
               <div className={styles.photoFrame}>
                 <Image
                   className={styles.photoImg}
-                  src="/Projects-Collection5@2x.png"
+                  src="/Projects-Collection2@2x.png"
                   width={444}
                   height={339}
                   loading="lazy"

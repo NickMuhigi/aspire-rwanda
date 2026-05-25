@@ -45,6 +45,11 @@
     box-sizing: border-box;
   }
 }
+@media screen and (max-width: 1024px) {
+  .frameParent {
+    gap: 48px;
+  }
+}
 @media screen and (max-width: 750px) {
   .aboutUs {
     gap: 0;

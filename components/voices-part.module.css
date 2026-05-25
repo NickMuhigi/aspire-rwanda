@@ -205,6 +205,59 @@
 }
 @media screen and (max-width: 1150px) {
 }
+@media screen and (max-width: 1024px) {
+  .voicesPart {
+    padding-bottom: 48px;
+    overflow-x: hidden;
+  }
+  .viewsImpcat {
+    padding: 32px 40px 60px 40px;
+    align-items: stretch;
+    overflow-x: hidden;
+    min-width: 0;
+  }
+  .areaVoiced {
+    margin-left: 0;
+    gap: 20px;
+    width: 100%;
+    min-width: 0;
+  }
+  .rectangleParent {
+    margin-top: 0;
+  }
+  .quoteLeftRectParent {
+    display: grid;
+    grid-template-areas: "image" "icon" "text";
+    gap: 16px;
+  }
+  .quoteLeftRect {
+    grid-area: icon;
+    width: auto;
+    justify-content: flex-start;
+    padding: 0;
+  }
+  .rectangleGroup {
+    display: contents;
+  }
+  .frameItem {
+    grid-area: image;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .whatStartedAsASmallOpportWrapper {
+    grid-area: text;
+    width: 100%;
+    min-width: 0;
+  }
+  .whatStartedAs br {
+    display: none;
+  }
+  .whatStartedAs {
+    font-size: 36px;
+    height: auto;
+  }
+}
 @media screen and (max-width: 800px) {
   .voicesPart {
     padding-bottom: 48px;
