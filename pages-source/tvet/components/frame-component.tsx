@@ -25,7 +25,7 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
         </div>
         <div className={styles.programmeDescription}>
           <div className={styles.theTvetSponsorship}>
-            The TVET Sponsorship Programme creates this pathway by sponsoring
+            TVET Sponsorship Programme creates this pathway by sponsoring
             youth to gain practical, in-demand skills and transition them into
             employment.
           </div>
